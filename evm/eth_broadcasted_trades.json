@@ -1,0 +1,166 @@
+{
+    "Chain": {
+        "ChainId": "0x01",
+        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)\n - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)\n - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)\n - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)\n - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)\n - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)\n - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)\n - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)\n - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)\n - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)\n - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)\n - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n\nMerge configured:\n - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n - Network known to be merged\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)\n - Cancun:                      @1710338135 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)\n - Prague:                      @1746612311\n"
+    },
+    "Header": {
+        "Hash": "0x0597489e17b7d4a5521820fe0bb3a1df52030b6053d430e6b4ab65bb589636c7",
+        "ParentHash": "0x492a06502fc7c1e86b88f06427d01a6e968331caef96c2dffc1a774f9a6bc5c2",
+        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "Root": "0x8dc6ba6227e6e32f1213276135c6fdb7dbfedce45d81a97d5476f3ab6bce5358",
+        "TxHash": "0x41ba53617f88314abea7bdf11e8c62a1ae0c549d9b64e93e0d2eabcd20e354b3",
+        "ReceiptHash": "0x3c4e0daa40f15d8490a0bc1b3687fa556ff943b7246575a18cc20da7e00d1945",
+        "MixDigest": "0x734a423b13d8bfef78ae9253ab5a40aa0abbd5a79e38cb31a1c9bf8ef9b247df",
+        "Coinbase": "0xe43cc5b6ff052f5aa931a4f9ef2bfa0c500014ca",
+        "Bloom": "0x0531060800908a8e06a5c0268c088b8112845a38300140b8a0d10418219193015c145942629d10100e97cbc81e204585861088005c4230815d920cc070b8a119a214d248b64c072868212d49a1c82030002c3092b45562bea87b4480998e06a4005c80110a688244842642d2100068c800e1a8fb00138c1932041012d6e99604603030cac88a252060588a294b3bd1aff83d9173b1101c6c03058c52ccbcc4ab8b7cca23a5d06080421406a018282850408c12d281c0160a1b0c482e4552685108a21e86d3a1adf400822210e7524941908d5852e6302d155c4160ca6144b2fa38122ca88b18050c0042907ebc03c9656e622a091d830742446291625a116c25",
+        "Extra": "0xd883010f0b846765746888676f312e32342e32856c696e7578",
+        "Nonce": 0,
+        "Difficulty": "0x",
+        "Number": "0x0167a320",
+        "GasLimit": 44912026,
+        "GasUsed": 9666531,
+        "Time": 1760363267,
+        "BaseFee": "0x55811748",
+        "BatcherAddr": "0x",
+        "L1FeeOverhead": "0x",
+        "L1FeeScalar": "0x"
+    },
+    "Trades": [
+        {
+            "TransactionIndex": 5,
+            "CallIndex": 6,
+            "LogIndex": 1,
+            "HasLog": true,
+            "Dex": {
+                "SmartContract": "0x28b1e638cf1ccb9c141274b77b6d6a092490f5a6",
+                "Delegated": false,
+                "DelegatedTo": "0x28b1e638cf1ccb9c141274b77b6d6a092490f5a6",
+                "OwnerAddress": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
+                "FeeRecipient": "0x",
+                "ProtocolName": "uniswap_v2",
+                "ProtocolFamily": "Uniswap",
+                "ProtocolVersion": "2",
+                "Pair": {
+                    "SmartContract": "0x28b1e638cf1ccb9c141274b77b6d6a092490f5a6",
+                    "Delegated": false,
+                    "DelegatedTo": "0x",
+                    "ProtocolName": "erc20",
+                    "Name": "Uniswap V2",
+                    "Symbol": "UNI-V2",
+                    "Decimals": 18,
+                    "HasURI": false,
+                    "Fungible": true,
+                    "AssetId": ""
+                },
+                "Currencies": [
+                    {
+                        "SmartContract": "0xa1d084231e7f8e7e3f0e7d91d05683f665a53f69",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "CROCODILE PEPE",
+                        "Symbol": "CROCPE",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": ""
+                    },
+                    {
+                        "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "erc20_deposable",
+                        "Name": "Wrapped Ether",
+                        "Symbol": "WETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": ""
+                    }
+                ]
+            },
+            "Buy": {
+                "Seller": "0xe53b3edb7f5d82a0848bbdb33793f3829528b65b",
+                "Buyer": "0x28b1e638cf1ccb9c141274b77b6d6a092490f5a6",
+                "OrderId": "0x",
+                "Assets": [
+                    {
+                        "Currency": {
+                            "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                            "Delegated": false,
+                            "DelegatedTo": "0x",
+                            "ProtocolName": "erc20_deposable",
+                            "Name": "Wrapped Ether",
+                            "Symbol": "WETH",
+                            "Decimals": 18,
+                            "HasURI": false,
+                            "Fungible": true,
+                            "AssetId": ""
+                        },
+                        "Amount": "0x5af3107a4000",
+                        "Id": "0x",
+                        "URI": "",
+                        "Data": "0x"
+                    }
+                ]
+            },
+            "Sell": {
+                "Seller": "0x28b1e638cf1ccb9c141274b77b6d6a092490f5a6",
+                "Buyer": "0xe53b3edb7f5d82a0848bbdb33793f3829528b65b",
+                "OrderId": "0x",
+                "Assets": [
+                    {
+                        "Currency": {
+                            "SmartContract": "0xa1d084231e7f8e7e3f0e7d91d05683f665a53f69",
+                            "Delegated": false,
+                            "DelegatedTo": "0x",
+                            "ProtocolName": "",
+                            "Name": "CROCODILE PEPE",
+                            "Symbol": "CROCPE",
+                            "Decimals": 18,
+                            "HasURI": false,
+                            "Fungible": true,
+                            "AssetId": ""
+                        },
+                        "Amount": "0x032461",
+                        "Id": "0x",
+                        "URI": "",
+                        "Data": "0x"
+                    }
+                ]
+            },
+            "Sender": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+            "Success": true,
+            "Index": 0,
+            "TransactionHeader": {
+                "Index": 28,
+                "Hash": "0x5177ee144a08b189bc61c36bfc14dc0c4439a9dac977072d70171ae0bfe74c14",
+                "Gas": 1000000,
+                "Value": "0x5af3107a4000",
+                "Data": "0xb6f9de9500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000080000000000000000000000000e53b3edb7f5d82a0848bbdb33793f3829528b65b000000000000000000000000000000000000000000000000000001894144c7fb0000000000000000000000000000000000000000000000000000000000000002000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000a1d084231e7f8e7e3f0e7d91d05683f665a53f69",
+                "Nonce": 9,
+                "ChainId": "0x01",
+                "Cost": "0x5d7912923e00",
+                "GasFeeCap": "0x2a5638",
+                "GasPrice": "0x2a5638",
+                "GasTipCap": "0x2a5638",
+                "Protected": true,
+                "Type": 2,
+                "To": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+                "From": "0x5c265a370db118d25779ef206cb3f50edf9c2990",
+                "ToCode": {
+                    "Hash": "0xa324bc7db3d091b6f1a2d526e48a9c7039e03b3cc35f7d44b15ac7a1544c11d2",
+                    "Size": 21943,
+                    "Suicided": false
+                },
+                "SourceHash": "0x",
+                "Time": 1760363276764702865
+            },
+            "TransactionSignature": {
+                "R": "0x350d3421c0008d5999c4b41bb979f9693cb0d60b4ac25950c106fcaddca8dbe6",
+                "V": "0x",
+                "S": "0x2bfee1fdbd7f892f4554052ef65990253dd75d4ee4afb7af0184f79400dbd0e1"
+            }
+        }
+    ]
+}
