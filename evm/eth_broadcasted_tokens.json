@@ -1,0 +1,84 @@
+{
+    "Chain": {
+        "ChainId": "0x01",
+        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)\n - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)\n - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)\n - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)\n - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)\n - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)\n - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)\n - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)\n - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)\n - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)\n - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)\n - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n\nMerge configured:\n - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n - Network known to be merged\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)\n - Cancun:                      @1710338135 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)\n - Prague:                      @1746612311\n"
+    },
+    "Header": {
+        "Hash": "0xe2586cf33d8359cba422956857ca6e4a192dfc8837ceba0005efcf7202a3e4ff",
+        "ParentHash": "0xa323b2d86974aca93e5cf5894e17e931c6e7d313cbfcf0c9ae5b1f4826043bd5",
+        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "Root": "0x85510dd5a42c770255853045f114d2890058d3f9c474c0040c2f44d9b9631b85",
+        "TxHash": "0x39d414714a86fae251668cf1f11c3bb34ffb0677a413e7b8d333cf76472554b9",
+        "ReceiptHash": "0x57e10da05d22554574bc6456f39d9becaff808494ddf9e4d5d4cfb09231782f2",
+        "MixDigest": "0x37896f11a7260419b1529861253b6114d4d9b213eccebbb580544f336d6b52ab",
+        "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "Bloom": "0x3fbff33ffb13fb377dddf3f6e71dfb97b344997fb4677f3cc3a52ebb6cff97eff31ddbdfe30a36e6eff7fec2ff3fcd1dd7adf7ebdd9feff8df96ffe11b7fa6eba64ddd31ddfbdeaebd17f9afb36f7dab0bb638b7bf7fed73196bffc6b9f5dee75f5ffbadbeeeef722f1f9b16f9956cd9b30ba37e2cdbbf9d53f6fad5c7fbd737ebefbfcf3fb7e3ddf34f577537bcd5e698b17fc3f3cfb4ff6e2da4f3cdffcb5ecf6b7fe3b7f66effbaf7fde6fb7fe5f786d5fd7ee6ff7f6b1ded96b86afef37ffa739d8f5bfb7e66dfce0fd6efef7aff3fede44f37e5eef27ecdd5afb19bebfbf5bdfd6d397bfdf136ddffe62be9ded5f7b4f2dedbfb34fb739ebefaed8b7eef",
+        "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
+        "Nonce": 0,
+        "Difficulty": "0x",
+        "Number": "0x0167b66e",
+        "GasLimit": 44999871,
+        "GasUsed": 28654775,
+        "Time": 1760422955,
+        "BaseFee": "0x09080f91",
+        "BatcherAddr": "0x",
+        "L1FeeOverhead": "0x",
+        "L1FeeScalar": "0x"
+    },
+    "Transfers": [
+        {
+            "TransactionIndex": 1,
+            "CallIndex": 0,
+            "LogIndex": 0,
+            "Sender": "0x0000000000000000000000000000000000000000",
+            "Receiver": "0x3352f1e43b7fd446efa56df9898abfe0b019a610",
+            "Amount": "0x057accbe04b06ef3f425",
+            "Id": "0x",
+            "URI": "",
+            "Currency": {
+                "SmartContract": "0x8447783298ac335afedcfe67978dc9e6689b28b3",
+                "Delegated": false,
+                "DelegatedTo": "0x",
+                "ProtocolName": "erc20",
+                "Name": "Teddy Bear Squad Toys",
+                "Symbol": "TOYS",
+                "Decimals": 18,
+                "HasURI": false,
+                "Fungible": true,
+                "AssetId": ""
+            },
+            "Success": true,
+            "Data": "0x",
+            "Index": 0,
+            "TransactionHeader": {
+                "Index": 12,
+                "Hash": "0x4ea2e99767d8860c458ebb44e559c4d14ab3fcf6c0c9a826b841c9f31196e052",
+                "Gas": 76026,
+                "Value": "0x",
+                "Data": "0x",
+                "Nonce": 9,
+                "ChainId": "0x01",
+                "Cost": "0x09311307eec800",
+                "GasFeeCap": "0x07ec663400",
+                "GasPrice": "0x07ec663400",
+                "GasTipCap": "0x9502f900",
+                "Protected": true,
+                "Type": 2,
+                "To": "0x8447783298ac335afedcfe67978dc9e6689b28b3",
+                "From": "0x3352f1e43b7fd446efa56df9898abfe0b019a610",
+                "ToCode": {
+                    "Hash": "0x9a8bd70a6b62b7274863aa9e8bac40b07ed363e872eb0d0890a05bf297eb6619",
+                    "Size": 6620,
+                    "Suicided": false
+                },
+                "SourceHash": "0x",
+                "Time": 1760422967603753946
+            },
+            "TransactionSignature": {
+                "R": "0xa57393207785c9e829a336f76ccba6cd3ec90482e9820025711d89d70ac50428",
+                "V": "0x",
+                "S": "0x7b3b72f5c659de4c3668f173783c521d3cd2a4eef069af828658f0cd8273fc94"
+            }
+        }
+    ]
+}
