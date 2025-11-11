@@ -1,0 +1,64 @@
+{
+    "Chain": {
+        "ChainId": "0x6d61696e6e6574"
+    },
+    "Header": {
+        "Number": 77392591,
+        "Hash": "0x00000000049ceacf48586be6ac1c636deab3f307557cf3048a81d0447b690044",
+        "Timestamp": 1762839087000,
+        "ParentHash": "0x00000000049ceacea3679fab18a9c6fe6885987bb0614c0ed5af270bcfd71e1c",
+        "ParentNumber": 77392590,
+        "Version": 32,
+        "TxTrieRoot": "0xf4b2fad136d1c78c4e4ea64c2ce31727ca13f0e701fde6fd3c4beedda7639537",
+        "AccountStateRoot": "0x",
+        "TransactionsCount": 369
+    },
+    "Transfers": [
+        {
+            "TransactionIndex": 22,
+            "CallIndex": 0,
+            "LogIndex": 0,
+            "Sender": "0xfca1fa8e276f4c93e1121404f15a5ae2270bef97",
+            "Receiver": "0xdef1665e197f20ce01080609606321a456615d9a",
+            "Amount": "0x19f0a0",
+            "Id": "0x",
+            "URI": "",
+            "Currency": {
+                "SmartContract": "0xa614f803b6fd780986a42c78ec9c7f77e6ded13c",
+                "Delegated": false,
+                "DelegatedTo": "0x",
+                "ProtocolName": "trc20",
+                "Name": "Tether USD",
+                "Symbol": "USDT",
+                "Decimals": 6,
+                "HasURI": false,
+                "Fungible": true,
+                "AssetId": ""
+            },
+            "Success": true,
+            "Data": "0x",
+            "Index": 0,
+            "TransactionHeader": {
+                "Index": 22,
+                "Hash": "0xd0999bab9b87303491f4e271b679601ca128eb26923d34b0bb0ce17ab272ca4f",
+                "Gas": 0,
+                "Value": "0x",
+                "Data": "0x",
+                "Nonce": 0,
+                "ChainId": "0x",
+                "Cost": "0x",
+                "GasFeeCap": "0x",
+                "GasPrice": "0x",
+                "GasTipCap": "0x",
+                "Protected": false,
+                "Type": 0,
+                "To": "0x",
+                "From": "0x",
+                "SourceHash": "0x",
+                "Time": 1762839087000000000
+            }
+        }
+        // ... more transfers ...
+    ]
+}
+
