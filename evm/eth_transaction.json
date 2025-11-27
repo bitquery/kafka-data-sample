@@ -1,97 +1,1990 @@
 {
     "Chain": {
-        "ChainId": "01",
+        "ChainId": "0x01",
         "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551 blob: (target: 6, max: 9, fraction: 5007716)\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
     },
     "Header": {
-        "Hash": "be7f223b54c7b5f0282a186c807f13e01c72951a98249f4e0ac72dfa5312d136",
-        "ParentHash": "08ba839c7f4da9dc91b584c192ef187a06ef4a1bf3be73877a67f291754e2637",
-        "UncleHash": "1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-        "Root": "f17462152f3f4ba595ff301f9fc58367dbedffbae710326648a1db53db210381",
-        "TxHash": "14f28a9bd67d7c40196cd2cee341663cbca447a31d017f18f46abf0e6a3ff827",
-        "ReceiptHash": "b84807091616a84025a317e65b312ebde444459ba54389d4c8948c333108b1bf",
-        "MixDigest": "ffee560f00db9b4e7c87c4222ffd23be05a2753d838df130bb1cf04c8c2ba0e6",
-        "Coinbase": "4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-        "Bloom": "debffb7d7ffffb7ffef23ffdefbeffffff7fbbf7feebfffdf6ef3fbbf6ffffff6bbdf5efffffefef7bfffff7ff77ff9f7fffdfffffefaeffbdbfffdffffffbfffefbff79ff7ffffffebffffbfffffbffffffffffffffbfff7f7fdefffe3fbff7fffdeb7fff7faefffbef6ffbfdefffbfff6f5f7b8ff6bef7fbd7febff3ff3fd7fd7bbffffff7ffffff7dff7fcfbfff2ffefffffd7fff7dfff7fffffbffffa7ffff7dfff3b7dffbffeff7dbcfbeffbdffffffffd7ffff5ffab5fbff7ffffffffffffffffffbeffffffff7ffff6ffbfff7ffff5effbfaff4fdc7fbdf3edff7ffffdbfffffefd7bf6bfabffdefffde7ffeffffffffbffff3df7fdfffffffbffffae",
-        "Extra": "546974616e2028746974616e6275696c6465722e78797a29",
+        "Hash": "0xf785958db3f7c8c046ec031e2ea60ed96cdb64eb8bb4a1acdd85afa8c8d6c63b",
+        "ParentHash": "0xced25d6dbb674fc77f51d50d30750bfa13bef11dd8c2ed39d3b746b4ef97f132",
+        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "Root": "0x6c92c8e7d7d5d90c2989173c118cf9f1b82efc3746879984e72334b2401f7870",
+        "TxHash": "0x4d2e7697230f851a92871dd4a948085353f965c3a6030ebb0508f4e3f81b68b4",
+        "ReceiptHash": "0x6ca4ecdcb4478836fdeaad8d913768e5e0528b0d7d9583bed008136b1c431b87",
+        "MixDigest": "0x1190a32333ad15db7de825f6d78c934a85d33fbee1ff460bd89944aca0a51d2f",
+        "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "Bloom": "0x8beb59bd7be7df5e7ee332f4eef05c7b9b5b9ffd57f9fba497bb999ce5be3fffbf9daffaa6ae8efeabfdfadd6dff9fbdc7ffebf6bdf9eefb5febffedd6bbb76ff53ebf5b5fedfb5be9dfbbbebbf9a5efe77bd6f7a9ffa3b69ddbbcb6be6f13eff2f3ff7bdf788fe1d39cd5beca7dbfdf6fb9cdedfedb57c6becc531ef32fda4c4bdd5e6f9f1f697f6fe37b6f3975ed6efdff78b3f3f2bbcf69b7aff7bdd6beeb7fc7f3e23ed13fcff7fff9e63b7fb7ff7dcdffecc33ec34fcdf97e6c50afbf77f2f5fbdffd7eef69ebbfcebfe7fefb7d6fefff7f65ffb3fddfcde60ffdb5ff7ff3bebc6bbb1ed4bf1effd6bebdfcb6eff5fbfeb9f5ff7ef17fc5f3afff6b7ca7",
+        "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
         "Nonce": 0,
-        "Difficulty": "",
-        "Number": 23883861,
-        "GasLimit": 59941408,
-        "GasUsed": 26974409,
-        "Time": 1764171539,
-        "BaseFee": 61048030
+        "Difficulty": "0x",
+        "Number": 23889961,
+        "GasLimit": 59999254,
+        "GasUsed": 34850700,
+        "Time": 1764245447,
+        "BaseFee": 56818743
+    },
+    "Reward": {
+        "Total": "0x3059ed51c98088",
+        "Static": "0x",
+        "Dynamic": "0x3059ed51c98088",
+        "TxFees": "0x3762e2440f2f9c",
+        "BurntFees": "0x0708f4f245af14",
+        "Uncle": "0x"
     },
     "Transactions": [
         {
             "TransactionHeader": {
-                "Index": 3,
-                "Hash": "6cf8d64704dcbb7e44e8af1cbdc81aa241bb355efb1398931fcc5959bec0bad0",
-                "Gas": 21000,
-                "Value": "6bcebbbc12e0",
-                "Data": "",
-                "Nonce": 6182859,
-                "ChainId": "01",
-                "Cost": "6cf93967f9e0",
-                "GasFeeCap": "03a384e0",
-                "GasPrice": "03a384e0",
-                "GasTipCap": "03a384e0",
+                "Index": 0,
+                "Hash": "0xba0a777441b4c5075af3a2eb94307a5203299f4811f79eecbd08ba2c1b9fea70",
+                "Gas": 363551,
+                "Value": "0x",
+                "Data": "0x09c5eabe00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000174000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000000000000000000000000000",
+                "Nonce": 98495,
+                "ChainId": "0x01",
+                "Cost": "0x24a175e52e0a",
+                "GasFeeCap": "0x069a70b6",
+                "GasPrice": "0x069a70b6",
+                "GasTipCap": "0x",
                 "Protected": true,
-                "Type": 0,
-                "To": "0c56c25476fef9b1a9e48b22e09a2d704e4af25a",
-                "From": "974caa59e49682cda0ad2bbe82983419a2ecc400",
+                "Type": 2,
+                "To": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                "From": "0xc41ae140ca9b281d8a1dc254c50e446019517d04",
                 "ToCode": {
-                    "Hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
-                    "Size": 0,
+                    "Hash": "0x528182e66a441545ea3ba1dede4e6063f23acd4ada4036c24b9fa2f254bc4ed1",
+                    "Size": 23569,
                     "Suicided": false
                 },
-                "Time": 1764171553100411033
+                "Time": 1764245447000000000
             },
             "ReceiptHeader": {
-                "Bloom": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-                "GasUsed": 21000,
-                "Type": 0,
-                "ContractAddress": "0000000000000000000000000000000000000000",
-                "CumulativeGasUsed": 217716,
-                "PostState": "",
+                "Bloom": "0x000000000000000004000000000000000000000000000000000000000000000000000000200000000010000000000000020000000c0000000000000002000002000000000000000008000108000000000000000000000020000000000000000000000000000000000000000000000000000000000000020000000010000000000000040800000000000000000000000000000000010000000000000000000000400000000000200000000000100000000000000000000000000000000000000000000802000000000000000000000000000000400000004000000000000001000000200000000000004000000000000000000000000000000000000000000000",
+                "GasUsed": 158696,
+                "Type": 2,
+                "ContractAddress": "0x0000000000000000000000000000000000000000",
+                "CumulativeGasUsed": 158696,
+                "PostState": "0x",
                 "Status": 1,
                 "ContractAddressCode": {
-                    "Hash": "c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+                    "Hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
                     "Size": 0,
                     "Suicided": false
                 }
             },
             "TransactionFee": {
-                "SenderFee": "012a7dabe700",
-                "PriorityFeePerGas": "03a384e0",
-                "EffectiveGasPrice": "03a384e0",
-                "GasRefund": 0,
-                "Burnt": "012a7dab42f0",
-                "Savings": "",
-                "MinerReward": "a410"
+                "SenderFee": "0x0833698d8ed8",
+                "PriorityFeePerGas": "0x",
+                "EffectiveGasPrice": "0x0362fc37",
+                "GasRefund": 204855,
+                "Burnt": "0x0833698d8ed8",
+                "Savings": "0x07ca00f0a818",
+                "MinerReward": "0x"
             },
             "TransactionStatus": {
                 "Success": true,
                 "EndError": "",
                 "FaultError": ""
             },
-            "Signature": {
-                "R": "9806bb939953c7a9836a01337f3c4c99543991c2d3c146be876995f12da8a765",
-                "V": "25",
-                "S": "4747ae58bd892865abaa7b3524a4f7e61a6bd5cea0e754bccaab0825b3e51286"
-            },
-            "NativeBalanceUpdates": [
+            "Calls": [
                 {
-                    "Address": "974caa59e49682cda0ad2bbe82983419a2ecc400",
-                    "PreBalance": "019e6616623751b9a20b",
-                    "PostBalance": "019e6615f66895fd8f2b",
-                    "BalanceChangeReasonCode": 10
+                    "Header": {
+                        "Index": 0,
+                        "Depth": 0,
+                        "EnterIndex": 0,
+                        "ExitIndex": 0,
+                        "CallerIndex": -1,
+                        "InternalCalls": 1,
+                        "From": "0xc41ae140ca9b281d8a1dc254c50e446019517d04",
+                        "To": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "Create": false,
+                        "Input": "0x09c5eabe00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000174000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000000000000000000000000000",
+                        "Gas": 338607,
+                        "Value": "0x",
+                        "Output": "0x",
+                        "GasUsed": 133752,
+                        "Error": "",
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "execute",
+                            "Signature": "execute(bytes)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"encoded\",\"type\":\"bytes\"}],\"name\":\"execute\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0x09c5eabe",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "encoded",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes",
+                                "IsHashed": false,
+                                "Bytes": "0x000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000"
+                            }
+                        }
+                    ],
+                    "StateChanges": [
+                        {
+                            "EnterIndex": 0,
+                            "ExitIndex": 0,
+                            "ChangeAfterCallIndex": 1,
+                            "Pc": 8445,
+                            "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                            "Location": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                            "Value": "0x00000000e40df67976149fe316ca8437300da6fec92629ea00000000016c8829"
+                        }
+                    ]
                 },
                 {
-                    "Address": "0c56c25476fef9b1a9e48b22e09a2d704e4af25a",
-                    "PreBalance": "",
-                    "PostBalance": "6bcebbbc12e0",
-                    "BalanceChangeReasonCode": 10
+                    "Header": {
+                        "Index": 1,
+                        "Depth": 1,
+                        "EnterIndex": 1,
+                        "ExitIndex": 0,
+                        "CallerIndex": 0,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x48c8949100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000174000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000000000000000000000000000",
+                        "Gas": 322585,
+                        "Value": "0x",
+                        "Output": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
+                        "GasUsed": 122381,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "unlock",
+                            "Signature": "unlock(bytes)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"unlock\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"result\",\"type\":\"bytes\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0x48c89491",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "data",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes",
+                                "IsHashed": false,
+                                "Bytes": "0x000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "result",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes",
+                                "IsHashed": false,
+                                "Bytes": "0x"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 2,
+                        "Depth": 2,
+                        "EnterIndex": 2,
+                        "ExitIndex": 0,
+                        "CallerIndex": 1,
+                        "InternalCalls": 10,
+                        "CallPath": [
+                            0,
+                            0
+                        ],
+                        "From": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "To": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "Create": false,
+                        "Input": "0x91dd734600000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000174000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000000000000000000000000000",
+                        "Gas": 316413,
+                        "Value": "0x",
+                        "Output": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
+                        "GasUsed": 120371,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "unlockCallback",
+                            "Signature": "unlockCallback(bytes)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"unlockCallback\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0x91dd7346",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "data",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes",
+                                "IsHashed": false,
+                                "Bytes": "0x000088a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000585600000000000000000000000015d0190bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000d21efd4000000000000000001ad923fcc7ec9440000000000000000000000000000000000002600000001000000000000000000000000000000000000003fa200620b1529f1e087c8868a230500003303000000000000000000000000000015cfc0b5000000000000000000000000000058560000000000000000016b47a2f709457c0000840b00000000000000000000000015d0190b000000000000000001ad923fbf5cd970000000000000000000000000000000010000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202000000"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes",
+                                "IsHashed": false,
+                                "Bytes": "0x"
+                            }
+                        }
+                    ],
+                    "Logs": [
+                        {
+                            "Header": {
+                                "Index": 0,
+                                "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                                "Data": "0xf512246dd8ced41741c5f3ef8db76a22e7a9f46f35efe69a40c0ca5b86597e65",
+                                "Removed": false,
+                                "AddressCode": {
+                                    "Hash": "0x528182e66a441545ea3ba1dede4e6063f23acd4ada4036c24b9fa2f254bc4ed1",
+                                    "Size": 23569,
+                                    "Suicided": false
+                                }
+                            },
+                            "Parsed": {
+                                "Index": 0,
+                                "EnterIndex": 20,
+                                "ExitIndex": 18,
+                                "LogAfterCallIndex": 2,
+                                "Pc": 12556,
+                                "SmartContract": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                            }
+                        }
+                    ],
+                    "StateChanges": [
+                        {
+                            "EnterIndex": 11,
+                            "ExitIndex": 9,
+                            "ChangeAfterCallIndex": 12,
+                            "Pc": 16133,
+                            "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                            "Location": "0x8f3bb53d11030b5ed3add79e5fa796a56f9e8982b095afbe5dcda3a63e708ed9",
+                            "Value": "0x0000000000000000000000000000000000001860cf65b8612566f032ef8723cd"
+                        },
+                        {
+                            "EnterIndex": 12,
+                            "ExitIndex": 10,
+                            "ChangeAfterCallIndex": 13,
+                            "Pc": 17232,
+                            "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                            "Location": "0x6ab0c28b9bf3a7ac96549e238d9cdbe7a212e214356f77b947efad88e8c6aa26",
+                            "Value": "0x00000000000000000000000000000000000000000000000000000024e5495d25"
+                        },
+                        {
+                            "EnterIndex": 12,
+                            "ExitIndex": 10,
+                            "ChangeAfterCallIndex": 13,
+                            "Pc": 17232,
+                            "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                            "Location": "0x9aab120f25a3c01dd4c932c91d476a262ed3caa443f09afcd5d93203b5f5ddcb",
+                            "Value": "0x0000000000000000000000000000000000000000000000024c7718444c80453c"
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 3,
+                        "Depth": 3,
+                        "EnterIndex": 3,
+                        "ExitIndex": 0,
+                        "CallerIndex": 2,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x0b0d9c09000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000aa232009084bd71a5797d089aa4edfad40000000000000000000000000000000000000000000000000000000000005856",
+                        "Gas": 305728,
+                        "Value": "0x",
+                        "Output": "0x",
+                        "GasUsed": 27640,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "take",
+                            "Signature": "take(address,address,uint256)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"Currency\",\"name\":\"currency\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"take\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0x0b0d9c09",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "currency",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                            }
+                        },
+                        {
+                            "Name": "to",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                            }
+                        },
+                        {
+                            "Name": "amount",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "22614"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 4,
+                        "Depth": 4,
+                        "EnterIndex": 4,
+                        "ExitIndex": 0,
+                        "CallerIndex": 3,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "From": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "To": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Create": false,
+                        "Input": "0xa9059cbb0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad40000000000000000000000000000000000000000000000000000000000005856",
+                        "Gas": 297020,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "GasUsed": 23552,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "transfer",
+                            "Signature": "transfer(address,uint256)",
+                            "Abi": "{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xa9059cbb",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "to",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                            }
+                        },
+                        {
+                            "Name": "value",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "22614"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bool",
+                                "IsHashed": false,
+                                "Bool": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 5,
+                        "Depth": 5,
+                        "EnterIndex": 5,
+                        "ExitIndex": 0,
+                        "CallerIndex": 4,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "From": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "To": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+                        "Create": false,
+                        "Input": "0xa9059cbb0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad40000000000000000000000000000000000000000000000000000000000005856",
+                        "Gas": 285248,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "GasUsed": 16263,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 244,
+                            "Name": "DELEGATECALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": true,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "transfer",
+                            "Signature": "transfer(address,uint256)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xa9059cbb",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "to",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                            }
+                        },
+                        {
+                            "Name": "value",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "22614"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bool",
+                                "IsHashed": false,
+                                "Bool": true
+                            }
+                        }
+                    ],
+                    "Logs": [
+                        {
+                            "Header": {
+                                "Index": 0,
+                                "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "Data": "0x0000000000000000000000000000000000000000000000000000000000005856",
+                                "Removed": false,
+                                "AddressCode": {
+                                    "Hash": "0xd80d4b7c890cb9d6a4893e6b52bc34b56b25335cb13716e0d1d31383e6b41505",
+                                    "Size": 2186,
+                                    "Suicided": false
+                                }
+                            },
+                            "Topics": [
+                                {
+                                    "Index": 0,
+                                    "Hash": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+                                },
+                                {
+                                    "Index": 1,
+                                    "Hash": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90"
+                                },
+                                {
+                                    "Index": 2,
+                                    "Hash": "0x0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad4"
+                                }
+                            ],
+                            "Parsed": {
+                                "Index": 0,
+                                "EnterIndex": 5,
+                                "ExitIndex": 0,
+                                "LogAfterCallIndex": 5,
+                                "Pc": 16734,
+                                "SmartContract": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+                                "Signature": {
+                                    "Parsed": true,
+                                    "Name": "Transfer",
+                                    "Signature": "Transfer(address,address,uint256)",
+                                    "Abi": "{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"}",
+                                    "SignatureHash": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                                    "Type": 4
+                                }
+                            },
+                            "Arguments": [
+                                {
+                                    "Name": "from",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                                    }
+                                },
+                                {
+                                    "Name": "to",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                                    }
+                                },
+                                {
+                                    "Name": "value",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "uint256",
+                                        "IsHashed": false,
+                                        "String": "22614"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "StateChanges": [
+                        {
+                            "EnterIndex": 5,
+                            "ExitIndex": 0,
+                            "ChangeAfterCallIndex": 5,
+                            "Pc": 17711,
+                            "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "Location": "0x3c2304a4bd8ffa93cccd3b8e4c28dbcd5c94236b1a7b40e3dc80ba6953b4cc7a",
+                            "Value": "0x000000000000000000000000000000000000000000000000000031884520c631"
+                        },
+                        {
+                            "EnterIndex": 5,
+                            "ExitIndex": 0,
+                            "ChangeAfterCallIndex": 5,
+                            "Pc": 17711,
+                            "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "Location": "0xa3f0d82a3e18be04fad576ccbf58b7e78c1fa8f1bb4b42308535b69edbc943ff",
+                            "Value": "0x00000000000000000000000000000000000000000000000000000039723f7b17"
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 6,
+                        "Depth": 3,
+                        "EnterIndex": 6,
+                        "ExitIndex": 3,
+                        "CallerIndex": 2,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x0b0d9c09000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000aa232009084bd71a5797d089aa4edfad400000000000000000000000000000000000000000000000001ad923fcc7ec944",
+                        "Gas": 277518,
+                        "Value": "0x",
+                        "Output": "0x",
+                        "GasUsed": 16950,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "take",
+                            "Signature": "take(address,address,uint256)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"Currency\",\"name\":\"currency\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"take\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0x0b0d9c09",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "currency",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                            }
+                        },
+                        {
+                            "Name": "to",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                            }
+                        },
+                        {
+                            "Name": "amount",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "120913567720327492"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 7,
+                        "Depth": 4,
+                        "EnterIndex": 7,
+                        "ExitIndex": 3,
+                        "CallerIndex": 6,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "From": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "To": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "Create": false,
+                        "Input": "0xa9059cbb0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad400000000000000000000000000000000000000000000000001ad923fcc7ec944",
+                        "Gas": 269251,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "GasUsed": 12862,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "transfer",
+                            "Signature": "transfer(address,uint256)",
+                            "Abi": "{\"constant\":false,\"inputs\":[{\"name\":\"dst\",\"type\":\"address\"},{\"name\":\"wad\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xa9059cbb",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "dst",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                            }
+                        },
+                        {
+                            "Name": "wad",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "120913567720327492"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bool",
+                                "IsHashed": false,
+                                "Bool": true
+                            }
+                        }
+                    ],
+                    "Logs": [
+                        {
+                            "Header": {
+                                "Index": 0,
+                                "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "Data": "0x00000000000000000000000000000000000000000000000001ad923fcc7ec944",
+                                "Removed": false,
+                                "AddressCode": {
+                                    "Hash": "0xd0a06b12ac47863b5c7be4185c2deaad1c61557033f56c7d4ea74429cbb25e23",
+                                    "Size": 3124,
+                                    "Suicided": false
+                                }
+                            },
+                            "Topics": [
+                                {
+                                    "Index": 0,
+                                    "Hash": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+                                },
+                                {
+                                    "Index": 1,
+                                    "Hash": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90"
+                                },
+                                {
+                                    "Index": 2,
+                                    "Hash": "0x0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad4"
+                                }
+                            ],
+                            "Parsed": {
+                                "Index": 0,
+                                "EnterIndex": 7,
+                                "ExitIndex": 3,
+                                "LogAfterCallIndex": 7,
+                                "Pc": 2510,
+                                "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                                "Signature": {
+                                    "Parsed": true,
+                                    "Name": "Transfer",
+                                    "Signature": "Transfer(address,address,uint256)",
+                                    "Abi": "{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"name\":\"src\",\"type\":\"address\"},{\"indexed\":true,\"name\":\"dst\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"wad\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"}",
+                                    "SignatureHash": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                                    "Type": 4
+                                }
+                            },
+                            "Arguments": [
+                                {
+                                    "Name": "src",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                                    }
+                                },
+                                {
+                                    "Name": "dst",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                                    }
+                                },
+                                {
+                                    "Name": "wad",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "uint256",
+                                        "IsHashed": false,
+                                        "String": "120913567720327492"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "StateChanges": [
+                        {
+                            "EnterIndex": 7,
+                            "ExitIndex": 3,
+                            "ChangeAfterCallIndex": 7,
+                            "Pc": 2331,
+                            "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                            "Location": "0x1a2d1c6ecf58e1d6eaffdb48b06f8a1a56defa61c7446d13af9bb1097cbd713a",
+                            "Value": "0x0000000000000000000000000000000000000000000000270ad576fdf16698dd"
+                        },
+                        {
+                            "EnterIndex": 7,
+                            "ExitIndex": 3,
+                            "ChangeAfterCallIndex": 7,
+                            "Pc": 2408,
+                            "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                            "Location": "0xd75c624419b5d8b745f837f127fd996004e88f4e48718081777171be8bd3eafb",
+                            "Value": "0x00000000000000000000000000000000000000000000000271840b8f68c6f4e3"
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 8,
+                        "Depth": 3,
+                        "EnterIndex": 8,
+                        "ExitIndex": 5,
+                        "CallerIndex": 2,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            2
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x1e2eaeaf9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79a",
+                        "Gas": 259139,
+                        "Value": "0x",
+                        "Output": "0x00000000000000000002fe4900000000000047021aac1b238eafb046b2d9a310",
+                        "GasUsed": 2375,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 250,
+                            "Name": "STATICCALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "extsload",
+                            "Signature": "extsload(bytes32)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"slot\",\"type\":\"bytes32\"}],\"name\":\"extsload\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x1e2eaeaf",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "slot",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes32",
+                                "IsHashed": false,
+                                "Bytes": "0x9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79a"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes32",
+                                "IsHashed": false,
+                                "Bytes": "0x00000000000000000002fe4900000000000047021aac1b238eafb046b2d9a310"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 9,
+                        "Depth": 3,
+                        "EnterIndex": 9,
+                        "ExitIndex": 6,
+                        "CallerIndex": 2,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            3
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0xf3cd914c000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad40000000000000000000000000000000000000000000000000000000000000001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffea303f4b00000000000000000000000000000000000000000000000000000001000276a400000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000000",
+                        "Gas": 256490,
+                        "Value": "0x",
+                        "Output": "0xffffffffffffffffffffffffea303f4b000000000000000001ad923fcc7ec944",
+                        "GasUsed": 24262,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "swap",
+                            "Signature": "swap((address,address,uint24,int24,address),(bool,int256,uint160),bytes)",
+                            "Abi": "{\"inputs\":[{\"components\":[{\"internalType\":\"Currency\",\"name\":\"currency0\",\"type\":\"address\"},{\"internalType\":\"Currency\",\"name\":\"currency1\",\"type\":\"address\"},{\"internalType\":\"uint24\",\"name\":\"fee\",\"type\":\"uint24\"},{\"internalType\":\"int24\",\"name\":\"tickSpacing\",\"type\":\"int24\"},{\"internalType\":\"contract IHooks\",\"name\":\"hooks\",\"type\":\"address\"}],\"internalType\":\"struct PoolKey\",\"name\":\"key\",\"type\":\"tuple\"},{\"components\":[{\"internalType\":\"bool\",\"name\":\"zeroForOne\",\"type\":\"bool\"},{\"internalType\":\"int256\",\"name\":\"amountSpecified\",\"type\":\"int256\"},{\"internalType\":\"uint160\",\"name\":\"sqrtPriceLimitX96\",\"type\":\"uint160\"}],\"internalType\":\"struct IPoolManager.SwapParams\",\"name\":\"params\",\"type\":\"tuple\"},{\"internalType\":\"bytes\",\"name\":\"hookData\",\"type\":\"bytes\"}],\"name\":\"swap\",\"outputs\":[{\"internalType\":\"BalanceDelta\",\"name\":\"swapDelta\",\"type\":\"int256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xf3cd914c",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "key",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "(address,address,uint24,int24,address)",
+                                "IsHashed": false,
+                                "Tuple": {
+                                    "Name": "PoolKey",
+                                    "Elements": [
+                                        {
+                                            "Type": "address",
+                                            "IsHashed": false,
+                                            "Bytes": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                                        },
+                                        {
+                                            "Type": "address",
+                                            "IsHashed": false,
+                                            "Bytes": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                                        },
+                                        {
+                                            "Type": "uint24",
+                                            "IsHashed": false,
+                                            "String": "8388608"
+                                        },
+                                        {
+                                            "Type": "int24",
+                                            "IsHashed": false,
+                                            "String": "10"
+                                        },
+                                        {
+                                            "Type": "address",
+                                            "IsHashed": false,
+                                            "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "Name": "params",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "(bool,int256,uint160)",
+                                "IsHashed": false,
+                                "Tuple": {
+                                    "Name": "IPoolManagerSwapParams",
+                                    "Elements": [
+                                        {
+                                            "Type": "bool",
+                                            "IsHashed": false,
+                                            "Bool": true
+                                        },
+                                        {
+                                            "Type": "int256",
+                                            "IsHashed": false,
+                                            "String": "-365936821"
+                                        },
+                                        {
+                                            "Type": "uint160",
+                                            "IsHashed": false,
+                                            "String": "4295128740"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "Name": "hookData",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes",
+                                "IsHashed": false,
+                                "Bytes": "0x"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "swapDelta",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "int256",
+                                "IsHashed": false,
+                                "String": "-124521847593403779656411953775583320141344093884"
+                            }
+                        }
+                    ],
+                    "Logs": [
+                        {
+                            "Header": {
+                                "Index": 0,
+                                "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                                "Data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffea303f4b00000000000000000000000000000000000000000000000001ad923fcc7ec9440000000000000000000000000000000000004700ebf511bca1ebc63c7aebf4e2000000000000000000000000000000000000000000000000016b47a2f709457c000000000000000000000000000000000000000000000000000000000002fe470000000000000000000000000000000000000000000000000000000000000000",
+                                "Removed": false,
+                                "AddressCode": {
+                                    "Hash": "0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293",
+                                    "Size": 24009,
+                                    "Suicided": false
+                                }
+                            },
+                            "Topics": [
+                                {
+                                    "Index": 0,
+                                    "Hash": "0x40e9cecb9f5f1f1c5b9c97dec2917b7ee92e57ba5563708daca94dd84ad7112f"
+                                },
+                                {
+                                    "Index": 1,
+                                    "Hash": "0xe500210c7ea6bfd9f69dce044b09ef384ec2b34832f132baec3b418208e3a657"
+                                },
+                                {
+                                    "Index": 2,
+                                    "Hash": "0x0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad4"
+                                }
+                            ],
+                            "Parsed": {
+                                "Index": 0,
+                                "EnterIndex": 9,
+                                "ExitIndex": 6,
+                                "LogAfterCallIndex": 9,
+                                "Pc": 1905,
+                                "SmartContract": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                                "Signature": {
+                                    "Parsed": true,
+                                    "Name": "Swap",
+                                    "Signature": "Swap(bytes32,address,int128,int128,uint160,uint128,int24,uint24)",
+                                    "Abi": "{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"PoolId\",\"name\":\"id\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"int128\",\"name\":\"amount0\",\"type\":\"int128\"},{\"indexed\":false,\"internalType\":\"int128\",\"name\":\"amount1\",\"type\":\"int128\"},{\"indexed\":false,\"internalType\":\"uint160\",\"name\":\"sqrtPriceX96\",\"type\":\"uint160\"},{\"indexed\":false,\"internalType\":\"uint128\",\"name\":\"liquidity\",\"type\":\"uint128\"},{\"indexed\":false,\"internalType\":\"int24\",\"name\":\"tick\",\"type\":\"int24\"},{\"indexed\":false,\"internalType\":\"uint24\",\"name\":\"fee\",\"type\":\"uint24\"}],\"name\":\"Swap\",\"type\":\"event\"}",
+                                    "SignatureHash": "0x40e9cecb9f5f1f1c5b9c97dec2917b7ee92e57ba5563708daca94dd84ad7112f",
+                                    "Type": 4
+                                }
+                            },
+                            "Arguments": [
+                                {
+                                    "Name": "id",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "bytes32",
+                                        "IsHashed": true,
+                                        "Bytes": "0xe500210c7ea6bfd9f69dce044b09ef384ec2b34832f132baec3b418208e3a657"
+                                    }
+                                },
+                                {
+                                    "Name": "sender",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                                    }
+                                },
+                                {
+                                    "Name": "amount0",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "int128",
+                                        "IsHashed": false,
+                                        "String": "-365936821"
+                                    }
+                                },
+                                {
+                                    "Name": "amount1",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "int128",
+                                        "IsHashed": false,
+                                        "String": "120913567720327492"
+                                    }
+                                },
+                                {
+                                    "Name": "sqrtPriceX96",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "uint160",
+                                        "IsHashed": false,
+                                        "String": "1440124107107162307507417028228322"
+                                    }
+                                },
+                                {
+                                    "Name": "liquidity",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "uint128",
+                                        "IsHashed": false,
+                                        "String": "102254181800822140"
+                                    }
+                                },
+                                {
+                                    "Name": "tick",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "int24",
+                                        "IsHashed": false,
+                                        "String": "196167"
+                                    }
+                                },
+                                {
+                                    "Name": "fee",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "uint24",
+                                        "IsHashed": false,
+                                        "String": "0"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "StateChanges": [
+                        {
+                            "EnterIndex": 9,
+                            "ExitIndex": 6,
+                            "ChangeAfterCallIndex": 9,
+                            "Pc": 21644,
+                            "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                            "Location": "0x9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79a",
+                            "Value": "0x00000000000000000002fe470000000000004700ebf511bca1ebc63c7aebf4e2"
+                        },
+                        {
+                            "EnterIndex": 9,
+                            "ExitIndex": 6,
+                            "ChangeAfterCallIndex": 9,
+                            "Pc": 21808,
+                            "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                            "Location": "0x9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79b",
+                            "Value": "0x00000000000000000000000000000000000000910b1bfefd957887ede7de10c0"
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 10,
+                        "Depth": 3,
+                        "EnterIndex": 10,
+                        "ExitIndex": 7,
+                        "CallerIndex": 2,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            4
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x1e2eaeaf9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79a",
+                        "Gas": 232296,
+                        "Value": "0x",
+                        "Output": "0x00000000000000000002fe470000000000004700ebf511bca1ebc63c7aebf4e2",
+                        "GasUsed": 375,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 250,
+                            "Name": "STATICCALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "extsload",
+                            "Signature": "extsload(bytes32)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"slot\",\"type\":\"bytes32\"}],\"name\":\"extsload\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x1e2eaeaf",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "slot",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes32",
+                                "IsHashed": false,
+                                "Bytes": "0x9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79a"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes32",
+                                "IsHashed": false,
+                                "Bytes": "0x00000000000000000002fe470000000000004700ebf511bca1ebc63c7aebf4e2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 11,
+                        "Depth": 3,
+                        "EnterIndex": 11,
+                        "ExitIndex": 8,
+                        "CallerIndex": 2,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            5
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x1e2eaeaf9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79d",
+                        "Gas": 230953,
+                        "Value": "0x",
+                        "Output": "0x000000000000000000000000000000000000000000000000016b47a2f709457c",
+                        "GasUsed": 375,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 250,
+                            "Name": "STATICCALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "extsload",
+                            "Signature": "extsload(bytes32)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"slot\",\"type\":\"bytes32\"}],\"name\":\"extsload\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x1e2eaeaf",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "slot",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes32",
+                                "IsHashed": false,
+                                "Bytes": "0x9562c77e4b5d35fd9cc398adeebe261d0a2fcaa1fb2694c99fe44c44eaa0b79d"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bytes32",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000000000000000000000000000000000000000000016b47a2f709457c"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 12,
+                        "Depth": 3,
+                        "EnterIndex": 12,
+                        "ExitIndex": 9,
+                        "CallerIndex": 2,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            6
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x0000000000000000000000000000000000000001",
+                        "Create": false,
+                        "Input": "0xdb1713680d352780780e1874b74eb9a90b0b0982165bf5cf215b500a0be318c4000000000000000000000000000000000000000000000000000000000000001b7d88d4a04ae0ac18bdef49ae5105513460972531db13a8bd123b9a7cf1982a4959165730c3ab2dc1410aa8ad56beb27ba35c89f7d579d3bf26d88295bbbab202",
+                        "Gas": 223386,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000006969de628c1fee2c34ac8e80cea725f695556b94",
+                        "GasUsed": 3000,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 250,
+                            "Name": "STATICCALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false
+                    }
+                },
+                {
+                    "Header": {
+                        "Index": 13,
+                        "Depth": 3,
+                        "EnterIndex": 13,
+                        "ExitIndex": 10,
+                        "CallerIndex": 2,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            7
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0xa5841194000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Gas": 206522,
+                        "Value": "0x",
+                        "Output": "0x",
+                        "GasUsed": 2712,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "sync",
+                            "Signature": "sync(address)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"Currency\",\"name\":\"currency\",\"type\":\"address\"}],\"name\":\"sync\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xa5841194",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "currency",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 14,
+                        "Depth": 4,
+                        "EnterIndex": 14,
+                        "ExitIndex": 10,
+                        "CallerIndex": 13,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            7,
+                            0
+                        ],
+                        "From": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "To": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Create": false,
+                        "Input": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+                        "Gas": 202360,
+                        "Value": "0x",
+                        "Output": "0x000000000000000000000000000000000000000000000000000031884520c631",
+                        "GasUsed": 1339,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 250,
+                            "Name": "STATICCALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "balanceOf",
+                            "Signature": "balanceOf(address)",
+                            "Abi": "{\"constant\":true,\"inputs\":[{\"name\":\"who\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x70a08231",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "who",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "54461345089073"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 15,
+                        "Depth": 5,
+                        "EnterIndex": 15,
+                        "ExitIndex": 10,
+                        "CallerIndex": 14,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            7,
+                            0,
+                            0
+                        ],
+                        "From": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "To": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+                        "Create": false,
+                        "Input": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+                        "Gas": 198468,
+                        "Value": "0x",
+                        "Output": "0x000000000000000000000000000000000000000000000000000031884520c631",
+                        "GasUsed": 553,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 244,
+                            "Name": "DELEGATECALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": true,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "balanceOf",
+                            "Signature": "balanceOf(address)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x70a08231",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "account",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "54461345089073"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 16,
+                        "Depth": 3,
+                        "EnterIndex": 16,
+                        "ExitIndex": 13,
+                        "CallerIndex": 2,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            8
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Create": false,
+                        "Input": "0xa9059cbb000000000000000000000000000000000004444c5dc75cb358380d2e3de08a900000000000000000000000000000000000000000000000000000000015d0190b",
+                        "Gas": 203636,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "GasUsed": 5452,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "transfer",
+                            "Signature": "transfer(address,uint256)",
+                            "Abi": "{\"constant\":false,\"inputs\":[{\"name\":\"to\",\"type\":\"address\"},{\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xa9059cbb",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "to",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                            }
+                        },
+                        {
+                            "Name": "value",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "365959435"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bool",
+                                "IsHashed": false,
+                                "Bool": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 17,
+                        "Depth": 4,
+                        "EnterIndex": 17,
+                        "ExitIndex": 13,
+                        "CallerIndex": 16,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            8,
+                            0
+                        ],
+                        "From": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "To": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+                        "Create": false,
+                        "Input": "0xa9059cbb000000000000000000000000000000000004444c5dc75cb358380d2e3de08a900000000000000000000000000000000000000000000000000000000015d0190b",
+                        "Gas": 199721,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "GasUsed": 4663,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 244,
+                            "Name": "DELEGATECALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": true,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "transfer",
+                            "Signature": "transfer(address,uint256)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"transfer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}",
+                            "SignatureHash": "0xa9059cbb",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "to",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                            }
+                        },
+                        {
+                            "Name": "value",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "365959435"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "bool",
+                                "IsHashed": false,
+                                "Bool": true
+                            }
+                        }
+                    ],
+                    "Logs": [
+                        {
+                            "Header": {
+                                "Index": 0,
+                                "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                                "Data": "0x0000000000000000000000000000000000000000000000000000000015d0190b",
+                                "Removed": false,
+                                "AddressCode": {
+                                    "Hash": "0xd80d4b7c890cb9d6a4893e6b52bc34b56b25335cb13716e0d1d31383e6b41505",
+                                    "Size": 2186,
+                                    "Suicided": false
+                                }
+                            },
+                            "Topics": [
+                                {
+                                    "Index": 0,
+                                    "Hash": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+                                },
+                                {
+                                    "Index": 1,
+                                    "Hash": "0x0000000000000000000000000000000aa232009084bd71a5797d089aa4edfad4"
+                                },
+                                {
+                                    "Index": 2,
+                                    "Hash": "0x000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90"
+                                }
+                            ],
+                            "Parsed": {
+                                "Index": 0,
+                                "EnterIndex": 17,
+                                "ExitIndex": 13,
+                                "LogAfterCallIndex": 17,
+                                "Pc": 16734,
+                                "SmartContract": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+                                "Signature": {
+                                    "Parsed": true,
+                                    "Name": "Transfer",
+                                    "Signature": "Transfer(address,address,uint256)",
+                                    "Abi": "{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"}",
+                                    "SignatureHash": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+                                    "Type": 4
+                                }
+                            },
+                            "Arguments": [
+                                {
+                                    "Name": "from",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x0000000aa232009084bd71a5797d089aa4edfad4"
+                                    }
+                                },
+                                {
+                                    "Name": "to",
+                                    "Indexed": true,
+                                    "Value": {
+                                        "Type": "address",
+                                        "IsHashed": false,
+                                        "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                                    }
+                                },
+                                {
+                                    "Name": "value",
+                                    "Indexed": false,
+                                    "Value": {
+                                        "Type": "uint256",
+                                        "IsHashed": false,
+                                        "String": "365959435"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "StateChanges": [
+                        {
+                            "EnterIndex": 17,
+                            "ExitIndex": 13,
+                            "ChangeAfterCallIndex": 17,
+                            "Pc": 17711,
+                            "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "Location": "0xa3f0d82a3e18be04fad576ccbf58b7e78c1fa8f1bb4b42308535b69edbc943ff",
+                            "Value": "0x000000000000000000000000000000000000000000000000000000395c6f620c"
+                        },
+                        {
+                            "EnterIndex": 17,
+                            "ExitIndex": 13,
+                            "ChangeAfterCallIndex": 17,
+                            "Pc": 17711,
+                            "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                            "Location": "0x3c2304a4bd8ffa93cccd3b8e4c28dbcd5c94236b1a7b40e3dc80ba6953b4cc7a",
+                            "Value": "0x000000000000000000000000000000000000000000000000000031885af0df3c"
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 18,
+                        "Depth": 3,
+                        "EnterIndex": 18,
+                        "ExitIndex": 15,
+                        "CallerIndex": 2,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            9
+                        ],
+                        "From": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                        "To": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "Create": false,
+                        "Input": "0x11da60b4",
+                        "Gas": 198032,
+                        "Value": "0x",
+                        "Output": "0x0000000000000000000000000000000000000000000000000000000015d0190b",
+                        "GasUsed": 3313,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 241,
+                            "Name": "CALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "settle",
+                            "Signature": "settle()",
+                            "Abi": "{\"inputs\":[],\"name\":\"settle\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"payable\",\"type\":\"function\"}",
+                            "SignatureHash": "0x11da60b4",
+                            "Type": 0
+                        }
+                    },
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "365959435"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 19,
+                        "Depth": 4,
+                        "EnterIndex": 19,
+                        "ExitIndex": 15,
+                        "CallerIndex": 18,
+                        "InternalCalls": 1,
+                        "CallPath": [
+                            0,
+                            0,
+                            9,
+                            0
+                        ],
+                        "From": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                        "To": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Create": false,
+                        "Input": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+                        "Gas": 194149,
+                        "Value": "0x",
+                        "Output": "0x000000000000000000000000000000000000000000000000000031885af0df3c",
+                        "GasUsed": 1339,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 250,
+                            "Name": "STATICCALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": false,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "balanceOf",
+                            "Signature": "balanceOf(address)",
+                            "Abi": "{\"constant\":true,\"inputs\":[{\"name\":\"who\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x70a08231",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "who",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "54461711048508"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Header": {
+                        "Index": 20,
+                        "Depth": 5,
+                        "EnterIndex": 20,
+                        "ExitIndex": 15,
+                        "CallerIndex": 19,
+                        "InternalCalls": 0,
+                        "CallPath": [
+                            0,
+                            0,
+                            9,
+                            0,
+                            0
+                        ],
+                        "From": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "To": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+                        "Create": false,
+                        "Input": "0x70a08231000000000000000000000000000000000004444c5dc75cb358380d2e3de08a90",
+                        "Gas": 190386,
+                        "Value": "0x",
+                        "Output": "0x000000000000000000000000000000000000000000000000000031885af0df3c",
+                        "GasUsed": 553,
+                        "Error": "",
+                        "Opcode": {
+                            "Code": 244,
+                            "Name": "DELEGATECALL"
+                        },
+                        "SelfDestruct": false,
+                        "Delegated": true,
+                        "Success": true,
+                        "Reverted": false,
+                        "Signature": {
+                            "Parsed": true,
+                            "Name": "balanceOf",
+                            "Signature": "balanceOf(address)",
+                            "Abi": "{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}",
+                            "SignatureHash": "0x70a08231",
+                            "Type": 0
+                        }
+                    },
+                    "Arguments": [
+                        {
+                            "Name": "account",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "address",
+                                "IsHashed": false,
+                                "Bytes": "0x000000000004444c5dc75cb358380d2e3de08a90"
+                            }
+                        }
+                    ],
+                    "ReturnValues": [
+                        {
+                            "Name": "",
+                            "Indexed": false,
+                            "Value": {
+                                "Type": "uint256",
+                                "IsHashed": false,
+                                "String": "54461711048508"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "Signature": {
+                "R": "0x9f324f8afb3f6e3b9730a3d206391d27e0844d090f2ca3c3eed0cccef035de0c",
+                "V": "0x01",
+                "S": "0x1f36fe729ab8ed3a0904659b777be9c468ee06e798e977192544f9b0e55404c8"
+            },
+            "TokenBalanceUpdates": [
+                {
+                    "Token": {
+                        "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Fungible": true,
+                        "Decimals": 6,
+                        "TotalSupply": "0x00000000000000000000000000000000000000000000000000bb4ddcc99255ea"
+                    },
+                    "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                    "PostBalance": "0x000000000000000000000000000000000000000000000000000031885af0df3c"
+                },
+                {
+                    "Token": {
+                        "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "Fungible": true,
+                        "Decimals": 6,
+                        "TotalSupply": "0x00000000000000000000000000000000000000000000000000bb4ddcc99255ea"
+                    },
+                    "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                    "PostBalance": "0x000000000000000000000000000000000000000000000000000000395c6f620c"
+                },
+                {
+                    "Token": {
+                        "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "Fungible": true,
+                        "Decimals": 18,
+                        "TotalSupply": "0x00000000000000000000000000000000000000000002371dc807d2cdf6c6df8c"
+                    },
+                    "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                    "PostBalance": "0x0000000000000000000000000000000000000000000000270ad576fdf16698dd"
+                },
+                {
+                    "Token": {
+                        "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                        "Fungible": true,
+                        "Decimals": 18,
+                        "TotalSupply": "0x00000000000000000000000000000000000000000002371dc807d2cdf6c6df8c"
+                    },
+                    "Address": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                    "PostBalance": "0x00000000000000000000000000000000000000000000000271840b8f68c6f4e3"
+                }
+            ],
+            "NativeBalanceUpdates": [
+                {
+                    "Address": "0xc41ae140ca9b281d8a1dc254c50e446019517d04",
+                    "PreBalance": "0x0c464960d8120d87",
+                    "PostBalance": "0x0c46369760146ede",
+                    "BalanceChangeReasonCode": 6
                 }
             ]
         }
