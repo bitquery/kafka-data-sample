@@ -1,84 +1,219 @@
 {
     "Chain": {
         "ChainId": "0x01",
-        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)\n - DAO Fork:                    #1920000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/dao-fork.md)\n - Tangerine Whistle (EIP 150): #2463000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)\n - Spurious Dragon/1 (EIP 155): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n - Spurious Dragon/2 (EIP 158): #2675000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)\n - Byzantium:                   #4370000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)\n - Constantinople:              #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)\n - Petersburg:                  #7280000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)\n - Istanbul:                    #9069000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)\n - Muir Glacier:                #9200000  (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)\n - Berlin:                      #12244000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)\n - London:                      #12965000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)\n - Arrow Glacier:               #13773000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)\n - Gray Glacier:                #15050000 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)\n\nMerge configured:\n - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md\n - Network known to be merged\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)\n - Cancun:                      @1710338135 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)\n - Prague:                      @1746612311\n"
+        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551 blob: (target: 6, max: 9, fraction: 5007716)\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
     },
     "Header": {
-        "Hash": "0xe2586cf33d8359cba422956857ca6e4a192dfc8837ceba0005efcf7202a3e4ff",
-        "ParentHash": "0xa323b2d86974aca93e5cf5894e17e931c6e7d313cbfcf0c9ae5b1f4826043bd5",
+        "Hash": "0x2888ec8816c9062e562630d0206cc7aac695f992eb5d82c226a311f88def7694",
+        "ParentHash": "0x484c388f5c0515ec3ad3fe039179e22a2814446cdc1b18e39c1c2331dedf0484",
         "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-        "Root": "0x85510dd5a42c770255853045f114d2890058d3f9c474c0040c2f44d9b9631b85",
-        "TxHash": "0x39d414714a86fae251668cf1f11c3bb34ffb0677a413e7b8d333cf76472554b9",
-        "ReceiptHash": "0x57e10da05d22554574bc6456f39d9becaff808494ddf9e4d5d4cfb09231782f2",
-        "MixDigest": "0x37896f11a7260419b1529861253b6114d4d9b213eccebbb580544f336d6b52ab",
-        "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-        "Bloom": "0x3fbff33ffb13fb377dddf3f6e71dfb97b344997fb4677f3cc3a52ebb6cff97eff31ddbdfe30a36e6eff7fec2ff3fcd1dd7adf7ebdd9feff8df96ffe11b7fa6eba64ddd31ddfbdeaebd17f9afb36f7dab0bb638b7bf7fed73196bffc6b9f5dee75f5ffbadbeeeef722f1f9b16f9956cd9b30ba37e2cdbbf9d53f6fad5c7fbd737ebefbfcf3fb7e3ddf34f577537bcd5e698b17fc3f3cfb4ff6e2da4f3cdffcb5ecf6b7fe3b7f66effbaf7fde6fb7fe5f786d5fd7ee6ff7f6b1ded96b86afef37ffa739d8f5bfb7e66dfce0fd6efef7aff3fede44f37e5eef27ecdd5afb19bebfbf5bdfd6d397bfdf136ddffe62be9ded5f7b4f2dedbfb34fb739ebefaed8b7eef",
-        "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
+        "Root": "0x0d6c311058cb6b247e4115cee9d29940a3bc32121c306006657db0721f1ee4bf",
+        "TxHash": "0x724d6ba77a9b61a2ec9475a9638e38d1955c9aa0dd04e391d07dde058c053493",
+        "ReceiptHash": "0xa28a0c124e6e2bff97bbc7ac8288c7867eff4851fe7e9ab3ea5a81d43a967270",
+        "MixDigest": "0x76376228c9dc855066776b81a30f10fe73b161989b97e29cee39c37635a62edb",
+        "Coinbase": "0xdadb0d80178819f2319190d340ce9a924f783711",
+        "Bloom": "0xdfedf77f73d9fafdf37f123efa41dfe5f75f7af3f4f67b5ef187b5977d02feb71efdfbbff6fccfbbb6dfff4dbfb6cbbfb3f79ffdffabfcf0d7bfe7d7f97fbbffffc7fcfbf7d4bffffce7ef5db95bfba6b5fffef7d0dfaff845b5fed7b1b766ff5cac7fde96feebb0bdfeffbff7b3eddab33dca3b7fdf1e6f3ca6fddffb7efef877fdaffd5f3dcb6bd4dafbeebbf77e5ffdd3dfbdffaebfdf7eadc9f7fffeb7fb97def9ff77afb6f64e7bddf6fbfdf77fbfdfdf77bafb6bbb277f7f393ffb7ffbfff3fcb7735d7ff96dff5f777e78fbfd2eedff6bdefe9cdc3d6afdefb9f6efcff7f7ffd3fff7ddc137fff2f9ededbf5ed5efdde85fffffdffefbfef777dbfffa",
+        "Extra": "0x4275696c6465724e65742028466c617368626f747329",
         "Nonce": 0,
         "Difficulty": "0x",
-        "Number": "0x0167b66e",
-        "GasLimit": 44999871,
-        "GasUsed": 28654775,
-        "Time": 1760422955,
-        "BaseFee": "0x09080f91",
-        "BatcherAddr": "0x",
-        "L1FeeOverhead": "0x",
-        "L1FeeScalar": "0x"
+        "Number": 23940041,
+        "GasLimit": 60000000,
+        "GasUsed": 32375901,
+        "Time": 1764855599,
+        "BaseFee": 41699338
     },
-    "Transfers": [
+    "TransactionBalances": [
         {
-            "TransactionIndex": 1,
-            "CallIndex": 0,
-            "LogIndex": 0,
-            "Sender": "0x0000000000000000000000000000000000000000",
-            "Receiver": "0x3352f1e43b7fd446efa56df9898abfe0b019a610",
-            "Amount": "0x057accbe04b06ef3f425",
-            "Id": "0x",
-            "URI": "",
-            "Currency": {
-                "SmartContract": "0x8447783298ac335afedcfe67978dc9e6689b28b3",
-                "Delegated": false,
-                "DelegatedTo": "0x",
-                "ProtocolName": "erc20",
-                "Name": "Teddy Bear Squad Toys",
-                "Symbol": "TOYS",
-                "Decimals": 18,
-                "HasURI": false,
-                "Fungible": true,
-                "AssetId": ""
-            },
-            "Success": true,
-            "Data": "0x",
-            "Index": 0,
+            "TransactionIndex": 0,
             "TransactionHeader": {
-                "Index": 12,
-                "Hash": "0x4ea2e99767d8860c458ebb44e559c4d14ab3fcf6c0c9a826b841c9f31196e052",
-                "Gas": 76026,
-                "Value": "0x",
-                "Data": "0x",
-                "Nonce": 9,
+                "Index": 0,
+                "Hash": "0x2ca871883fb4390107c7ea05a02ca1b9ce3fca463ab8af28f35f7f7a5005dcf8",
+                "Gas": 858144,
+                "Value": "0x26e153774000",
+                "Data": "0x7048515500000000000000000000000000000000000000000000000000000000000076800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000007595000000000000000000000000000000000000000000000000000000000079b29d00000000000000000000000000000000000000000000000000000247098a6b04",
+                "Nonce": 393164,
                 "ChainId": "0x01",
-                "Cost": "0x09311307eec800",
-                "GasFeeCap": "0x07ec663400",
-                "GasPrice": "0x07ec663400",
-                "GasTipCap": "0x9502f900",
+                "Cost": "0x72622d502220",
+                "GasFeeCap": "0x05c42251",
+                "GasPrice": "0x05c42251",
+                "GasTipCap": "0x02c109a5",
                 "Protected": true,
                 "Type": 2,
-                "To": "0x8447783298ac335afedcfe67978dc9e6689b28b3",
-                "From": "0x3352f1e43b7fd446efa56df9898abfe0b019a610",
+                "To": "0x6b8ad17795d89b283e6d0362a87a403f3544bb9d",
+                "From": "0xe37f7c80ced04c4f243c0fd04a5510d663cb88b5",
                 "ToCode": {
-                    "Hash": "0x9a8bd70a6b62b7274863aa9e8bac40b07ed363e872eb0d0890a05bf297eb6619",
-                    "Size": 6620,
+                    "Hash": "0x65051f231328d22325126b9957779ea084d21120cadaf07b6abe3a3503d9394b",
+                    "Size": 14718,
                     "Suicided": false
                 },
-                "SourceHash": "0x",
-                "Time": 1760422967603753946
+                "Time": 1764855603319468348
             },
             "TransactionSignature": {
-                "R": "0xa57393207785c9e829a336f76ccba6cd3ec90482e9820025711d89d70ac50428",
+                "R": "0x8e84c3d7e6e4b3d074afaf053cdf378bdd8a1ac6e2ef16eb465f7e1540e6ab7f",
                 "V": "0x",
-                "S": "0x7b3b72f5c659de4c3668f173783c521d3cd2a4eef069af828658f0cd8273fc94"
-            }
+                "S": "0x412fec0982444637821a41b278c59c7b5c420c4d1620e059a7aad0835c787f2b"
+            },
+            "TokenBalances": [
+                {
+                    "Address": "0xe37f7c80ced04c4f243c0fd04a5510d663cb88b5",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 7947089987077894119,
+                    "PostBalance": 7947047237868072935,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0x6b8ad17795d89b283e6d0362a87a403f3544bb9d",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 2252336302159257,
+                    "PostBalance": 2295085511980441,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0x6b8ad17795d89b283e6d0362a87a403f3544bb9d",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 2295085511980441,
+                    "PostBalance": 2252336302159257,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0x1a44076050125825900e736c501f859c50fe728c",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PostBalance": 42749209821184,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0x1a44076050125825900e736c501f859c50fe728c",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 42749209821184,
+                    "PostBalance": 9865202266427,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0xbb2ea70c9e858123480642cf96acbcce1372dce1",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 21054842939689046896,
+                    "PostBalance": 21054875823696601653,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0x1a44076050125825900e736c501f859c50fe728c",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 9865202266427,
+                    "PostBalance": "0x",
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                },
+                {
+                    "Address": "0xe37f7c80ced04c4f243c0fd04a5510d663cb88b5",
+                    "Currency": {
+                        "SmartContract": "0x",
+                        "Delegated": false,
+                        "DelegatedTo": "0x",
+                        "ProtocolName": "",
+                        "Name": "Ethereum",
+                        "Symbol": "ETH",
+                        "Decimals": 18,
+                        "HasURI": false,
+                        "Fungible": true,
+                        "AssetId": "",
+                        "BalanceSlotIndex": 0
+                    },
+                    "PreBalance": 7947047237868072935,
+                    "PostBalance": 7947057103070339362,
+                    "BalanceChangeReasonCode": 10,
+                    "TotalSupply": "0x"
+                }
+            ]
         }
     ]
 }
