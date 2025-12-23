@@ -1,0 +1,185 @@
+{
+    "Chain": {
+        "ChainId": "0x01",
+        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551 blob: (target: 6, max: 9, fraction: 5007716)\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+    },
+    "Header": {
+        "Hash": "0x4fe3dbcd1a54b57028c73adb47761fb04ca1df4579842063195b68693daedab1",
+        "ParentHash": "0x33d912a183563ed6da23740ad9568376fe448fde40cde23720484e9cfe08b0de",
+        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+        "Root": "0xece8978cfc3598b4b6b29ce29df77e77453355849250794d3c3bf5a2770fce74",
+        "TxHash": "0x4ecaa9fcd01b1325045a15eee101758d0191e0b0430c17930107ff6c6cd8a90a",
+        "ReceiptHash": "0x7db9f7d2deebbd5bac44dae972b05b5df1d88f6d7ea799ff17edc9159d2a84de",
+        "MixDigest": "0x887c93ad86e6b80cc4c8c22c04e43218ce96474c838635604e130c12807e3211",
+        "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+        "Bloom": "0xefbffffd65efbdaffecf8a7feefbf65f5fc3bffcf57fbfddabcb72ffff79fec7fcdb77f7efdd95ffcf97ffebecdfcdddbfd3df9ebf5fec7dfdff7fdffbf737fff9cefaafbff7ffffff7e73dfff7ffdf5df4f78b7f6ff7db53f7cff6ff6bfaefe5fedea7ffffeff7f7fffdff7df795ff7b7efeaffcfb7f6ee77665f5dfffbdfbbfff4afdbfffe7e3d7ffdf4fffa3cfffef97df737fddaffdfed7fbddf3f7f3efffffcfde3acffffbf23ff1ff6ffdfffbd7efffffff3ed6bffffe7ffdd75dffeff9ffffedf67f9ffdd65cffdb6ee3fffffffeef673afefeffdbffbf1f3edfdfb7f76f7fff6fff26c6fffdeb6adeffb7cdfddbffb65bffbfaffebfdfe79adfff6ef",
+        "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
+        "Nonce": 0,
+        "Difficulty": "0x",
+        "Number": 24075397,
+        "GasLimit": 60000000,
+        "GasUsed": 31806324,
+        "Time": 1766493923,
+        "BaseFee": 33950125
+    },
+    "PoolEvents": [
+        {
+            "TransactionHeader": {
+                "Index": 1,
+                "Hash": "0x4690e81c76e44a86436d8a1e03624ca5d2f68f1d75a8990fe2230c44371f57a2",
+                "Gas": 450149,
+                "Value": "0x",
+                "Data": "0x09c5eabe000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000002950000cca0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000000000015430000000000000000000000000a14cd46c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000f48e3c1000000000000000000fcc53961298d5c00000000000000000000000000000000dac17f958d2ee523a2206206994597c13d831ec70000000000000000000000000000000000000000000000000000000000000000000000000000000000000000027a966b00004c00000001000000000000000000000000000000000000004107c64f6718a58e8fc72b510fa139000100020001000000000000000000000000000000000000000000000000291dc9c4934814d80000660300000000000000000000000000000a14b8030000000000000000000000000000154300000000000000000145d9b1dc74adb3020001000000000000000000000000027a966b0000000000000000000001617e55d4d100000000000000000017d8432396a0590001080b0000000000000000000000000a14cd46000000000000000000cae51c99ef6638000000000000000000000000000000010000000000000000000000000000000000001ce0a8a23f9d63ec0a3b40826373de603e4527566f15fbc9026cca8bf99f4839040767ae5c5d824defcf8261ad7f7e88f816fc3211f53a542ad378253825872b5b09000000000000000000000000027a966b00000000000000000031debb3ba8ef26000000000000000000000000020d8094000000000000000000000000020d809400011bef6c94e72e168cfb702051ec44674c80fc14a50be10ca8e209c66452fc8b927515883840af291be442e9f957dc20edb439eec2a3849cbeaeab182530d07e3a0f0000000000000000000000000000",
+                "Nonce": 116300,
+                "ChainId": "0x01",
+                "Cost": "0x1c331286b130",
+                "GasFeeCap": "0x041b0170",
+                "GasPrice": "0x041b0170",
+                "GasTipCap": "0x",
+                "Protected": true,
+                "Type": 2,
+                "To": "0x0000000aa232009084bd71a5797d089aa4edfad4",
+                "From": "0xc41ae140ca9b281d8a1dc254c50e446019517d04",
+                "ToCode": {
+                    "Hash": "0x528182e66a441545ea3ba1dede4e6063f23acd4ada4036c24b9fa2f254bc4ed1",
+                    "Size": 23569,
+                    "Suicided": false
+                },
+                "Time": 1766493923000000000
+            },
+            "TransactionSignature": {
+                "R": "0x5e17ff1e9e506c1c2396b3ddcf1c0a69aeb3bf7d6c88e8bb67d38a8f2b10540e",
+                "V": "0x",
+                "S": "0x57e102f796516c1e39ab8965fdd402e4ef6554906c4bb04b2b77c723dde00c22"
+            },
+            "CallIndex": 9,
+            "LogIndex": 0,
+            "HasLog": true,
+            "Dex": {
+                "SmartContract": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                "Delegated": false,
+                "DelegatedTo": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                "OwnerAddress": "0x",
+                "FeeRecipient": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                "ProtocolName": "uniswap_v4",
+                "ProtocolFamily": "Uniswap",
+                "ProtocolVersion": "4"
+            },
+            "Liquidity": {
+                "AmountCurrencyA": "0x2eb00e9ef4b8",
+                "AmountCurrencyB": "0x271a88e88b742cbc57"
+            },
+            "PoolPriceTable": {
+                "AtoBPrices": [
+                    {
+                        "SlippageBasisPoints": 10,
+                        "MaxAmountIn": 2557952147,
+                        "MinAmountOut": 860478002991619427,
+                        "Price": 0.0003364734002389014
+                    },
+                    {
+                        "SlippageBasisPoints": 50,
+                        "MaxAmountIn": 12590256929,
+                        "MinAmountOut": 4214575280868805863,
+                        "Price": 0.00033482862636446953
+                    },
+                    {
+                        "SlippageBasisPoints": 100,
+                        "MaxAmountIn": 25456674083,
+                        "MinAmountOut": 8465959707294551328,
+                        "Price": 0.00033264263765886426
+                    },
+                    {
+                        "SlippageBasisPoints": 200,
+                        "MaxAmountIn": 51243091201,
+                        "MinAmountOut": 16785348552043885298,
+                        "Price": 0.00032764114439487457
+                    },
+                    {
+                        "SlippageBasisPoints": 500,
+                        "MaxAmountIn": 132363313068,
+                        "MinAmountOut": 41842903631809190719,
+                        "Price": 0.00031619687797501683
+                    },
+                    {
+                        "SlippageBasisPoints": 1000,
+                        "MaxAmountIn": 278317227427,
+                        "MinAmountOut": 83937455876428772358,
+                        "Price": 0.00030166094074957073
+                    }
+                ],
+                "BtoAPrices": [
+                    {
+                        "SlippageBasisPoints": 10,
+                        "MaxAmountIn": 824929789949801466,
+                        "MinAmountOut": 2434012699,
+                        "Price": 2951.27197265625
+                    },
+                    {
+                        "SlippageBasisPoints": 50,
+                        "MaxAmountIn": 4212275614278625770,
+                        "MinAmountOut": 12367858231,
+                        "Price": 2936.845458984375
+                    },
+                    {
+                        "SlippageBasisPoints": 100,
+                        "MaxAmountIn": 8386292063803894123,
+                        "MinAmountOut": 24465068778,
+                        "Price": 2917.96337890625
+                    },
+                    {
+                        "SlippageBasisPoints": 200,
+                        "MaxAmountIn": 16919173343179723408,
+                        "MinAmountOut": 48620512670,
+                        "Price": 2874.377197265625
+                    },
+                    {
+                        "SlippageBasisPoints": 500,
+                        "MaxAmountIn": 42449204549269771739,
+                        "MinAmountOut": 117848776578,
+                        "Price": 2776.891357421875
+                    },
+                    {
+                        "SlippageBasisPoints": 1000,
+                        "MaxAmountIn": 84714576438575032576,
+                        "MinAmountOut": 225229581267,
+                        "Price": 2659.3203125
+                    }
+                ],
+                "AtoBPrice": 2961.585205078125,
+                "BtoAPrice": 0.0003376569948159158
+            },
+            "Pool": {
+                "SmartContract": "0x000000000004444c5dc75cb358380d2e3de08a90",
+                "CurrencyA": {
+                    "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                    "Delegated": false,
+                    "DelegatedTo": "0x",
+                    "ProtocolName": "",
+                    "Name": "USD Coin",
+                    "Symbol": "USDC",
+                    "Decimals": 6,
+                    "HasURI": false,
+                    "Fungible": true,
+                    "AssetId": "",
+                    "BalanceSlotIndex": 10
+                },
+                "CurrencyB": {
+                    "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                    "Delegated": false,
+                    "DelegatedTo": "0x",
+                    "ProtocolName": "erc20_deposable",
+                    "Name": "Wrapped Ether",
+                    "Symbol": "WETH",
+                    "Decimals": 18,
+                    "HasURI": false,
+                    "Fungible": true,
+                    "AssetId": "",
+                    "BalanceSlotIndex": 4
+                },
+                "PoolId": "0xe500210c7ea6bfd9f69dce044b09ef384ec2b34832f132baec3b418208e3a657"
+            }
+        }
+    ]
+}
+
