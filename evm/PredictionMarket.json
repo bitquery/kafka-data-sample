@@ -28,16 +28,16 @@
       "V": "01"
     },
     "Event": {
-      "SmartContract": "S/tB1bNXDe/QPDmppNjea9i4mC4=",
+      "SmartContract": "4bfb41d5b3570defd03c39a9a4d8de6bd8b8982e",
       "Type": "Created"
     },
     "Prediction": {
       "Marketplace": {
-        "SmartContract": "S/tB1bNXDe/QPDmppNjea9i4mC4=",
+        "SmartContract": "4bfb41d5b3570defd03c39a9a4d8de6bd8b8982e",
         "ProtocolName": "polymarket",
         "ProtocolFamily": "Gnosis_CTF",
         "ProtocolVersion": "1",
-        "DelegatedTo": "S/tB1bNXDe/QPDmppNjea9i4mC4="
+        "DelegatedTo": "4bfb41d5b3570defd03c39a9a4d8de6bd8b8982e"
       },
       "Question": {
         "Id": "zi4L75Wr79oJ3CDpKeRbfzfEm7MxG4rPRHxohooY8Uo=",
@@ -118,17 +118,17 @@
       "V": "01"
     },
     "Event": {
-      "SmartContract": "S/tB1bNXDe/QPDmppNjea9i4mC4=",
+      "SmartContract": "4bfb41d5b3570defd03c39a9a4d8de6bd8b8982e",
       "CallIndex": 1,
       "Type": "Trade"
     },
     "Prediction": {
       "Marketplace": {
-        "SmartContract": "S/tB1bNXDe/QPDmppNjea9i4mC4=",
+        "SmartContract": "4bfb41d5b3570defd03c39a9a4d8de6bd8b8982e",
         "ProtocolName": "polymarket",
         "ProtocolFamily": "Gnosis_CTF",
         "ProtocolVersion": "1",
-        "DelegatedTo": "S/tB1bNXDe/QPDmppNjea9i4mC4="
+        "DelegatedTo": "4bfb41d5b3570defd03c39a9a4d8de6bd8b8982e"
       },
       "Question": {
         "Id": "xZXVeqK8xUFopRVWBZ8A86NhbBei14XOJgGjjGLwWcA=",
