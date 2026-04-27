@@ -1,0 +1,713 @@
+{
+    "Time": 1777295059400000000,
+    "Trades": [
+        {
+            "Pair": {
+                "Currency": {
+                    "Id": "jup",
+                    "Name": "Jupiter",
+                    "Symbol": "JUP"
+                },
+                "QuoteCurrency": {
+                    "Id": "usdc",
+                    "Name": "USDC",
+                    "Symbol": "USDC"
+                },
+                "Token": {
+                    "Id": "bid:solana:JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                    "Did": "",
+                    "Network": "Solana",
+                    "Address": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                    "IsNative": false,
+                    "Name": "Jupiter",
+                    "Symbol": "JUP",
+                    "NetworkBid": "bid:solana"
+                },
+                "QuoteToken": {
+                    "Id": "bid:solana:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                    "Did": "",
+                    "Network": "Solana",
+                    "Address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                    "IsNative": false,
+                    "Name": "USD Coin",
+                    "Symbol": "USDC",
+                    "NetworkBid": "bid:solana"
+                },
+                "Market": {
+                    "Id": "bid:solana:LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo:HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
+                    "Network": "Solana",
+                    "NetworkBid": "bid:solana",
+                    "Name": "lb_clmm",
+                    "Address": "HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
+                    "Protocol": "lb_clmm",
+                    "ProtocolFamily": "Meteora",
+                    "Program": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+                },
+                "PriceUpdate": {
+                    "Quotes": [
+                        {
+                            "QuoteCurrency": {
+                                "Id": "usdc",
+                                "Name": "USDC",
+                                "Symbol": "USDC"
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            }
+                        }
+                    ],
+                    "PriceByTimeIntervals": [
+                        {
+                            "TimeInterval": {
+                                "Duration": 1,
+                                "Start": 1777295059,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            },
+                            "MeanPrice": 0.19493182003498077,
+                            "SimpleMovingAverage": 0.19493182003498077,
+                            "WeightedSimpleMovingAverage": 0.19493182003498077,
+                            "ExponentialMovingAverage": 0.19493182003498077,
+                            "Ohlc": {
+                                "Open": 0.19493182003498077,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19493182003498077,
+                                "Low": 0.19493182003498077,
+                                "Volume": 12.05937671661377
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 3,
+                                "Start": 1777295058,
+                                "End": 1777295060
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            },
+                            "MeanPrice": 0.19493182003498077,
+                            "SimpleMovingAverage": 0.19493305683135986,
+                            "WeightedSimpleMovingAverage": 0.19493262469768524,
+                            "ExponentialMovingAverage": 0.19493284821510315,
+                            "Ohlc": {
+                                "Open": 0.19493182003498077,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19493182003498077,
+                                "Low": 0.19493182003498077,
+                                "Volume": 12.05937671661377
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 5,
+                                "Start": 1777295055,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            },
+                            "MeanPrice": 0.19493182003498077,
+                            "SimpleMovingAverage": 0.19493290781974792,
+                            "WeightedSimpleMovingAverage": 0.19493278861045837,
+                            "ExponentialMovingAverage": 0.19493328034877777,
+                            "Ohlc": {
+                                "Open": 0.19493182003498077,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19493182003498077,
+                                "Low": 0.19493182003498077,
+                                "Volume": 12.05937671661377
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 10,
+                                "Start": 1777295050,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 1343.824951171875,
+                                "Quote": 262.0074768066406,
+                                "Usd": 261.95703125,
+                                "BaseAttributedToUsd": 1343.824951171875
+                            },
+                            "MeanPrice": 0.19493389129638672,
+                            "SimpleMovingAverage": 0.19493389129638672,
+                            "WeightedSimpleMovingAverage": 0.19493389129638672,
+                            "ExponentialMovingAverage": 0.19493389129638672,
+                            "Ohlc": {
+                                "Open": 0.19493499398231506,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19493499398231506,
+                                "Low": 0.19493182003498077,
+                                "Volume": 261.95703125
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 30,
+                                "Start": 1777295040,
+                                "End": 1777295069
+                            },
+                            "Amounts": {
+                                "Base": 1343.824951171875,
+                                "Quote": 262.0074768066406,
+                                "Usd": 261.95703125,
+                                "BaseAttributedToUsd": 1343.824951171875
+                            },
+                            "MeanPrice": 0.19493389129638672,
+                            "SimpleMovingAverage": 0.19473186135292053,
+                            "WeightedSimpleMovingAverage": 0.19486655294895172,
+                            "ExponentialMovingAverage": 0.19491812586784363,
+                            "Ohlc": {
+                                "Open": 0.19493499398231506,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19493499398231506,
+                                "Low": 0.19493182003498077,
+                                "Volume": 261.95703125
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 60,
+                                "Start": 1777295040,
+                                "End": 1777295099
+                            },
+                            "Amounts": {
+                                "Base": 1343.824951171875,
+                                "Quote": 262.0074768066406,
+                                "Usd": 261.95703125,
+                                "BaseAttributedToUsd": 1343.824951171875
+                            },
+                            "MeanPrice": 0.19493389129638672,
+                            "SimpleMovingAverage": 0.19478201866149902,
+                            "WeightedSimpleMovingAverage": 0.19480296969413757,
+                            "ExponentialMovingAverage": 0.19486437737941742,
+                            "Ohlc": {
+                                "Open": 0.19493499398231506,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19493499398231506,
+                                "Low": 0.19493182003498077,
+                                "Volume": 261.95703125
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 300,
+                                "Start": 1777294800,
+                                "End": 1777295099
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19479192793369293,
+                            "SimpleMovingAverage": 0.19332271814346313,
+                            "WeightedSimpleMovingAverage": 0.19377996027469635,
+                            "ExponentialMovingAverage": 0.19358545541763306,
+                            "Ohlc": {
+                                "Open": 0.19494476914405823,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19495432078838348,
+                                "Low": 0.19423304498195648,
+                                "Volume": 730.98095703125
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 900,
+                                "Start": 1777294800,
+                                "End": 1777295699
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19479192793369293,
+                            "SimpleMovingAverage": 0.19254624843597412,
+                            "WeightedSimpleMovingAverage": 0.19320693612098694,
+                            "ExponentialMovingAverage": 0.19296550750732422,
+                            "Ohlc": {
+                                "Open": 0.19494476914405823,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19495432078838348,
+                                "Low": 0.19423304498195648,
+                                "Volume": 730.98095703125
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 1800,
+                                "Start": 1777294800,
+                                "End": 1777296599
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19479192793369293,
+                            "SimpleMovingAverage": 0.19155938923358917,
+                            "WeightedSimpleMovingAverage": 0.19238996505737305,
+                            "ExponentialMovingAverage": 0.19218407571315765,
+                            "Ohlc": {
+                                "Open": 0.19494476914405823,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19495432078838348,
+                                "Low": 0.19423304498195648,
+                                "Volume": 730.98095703125
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 3600,
+                                "Start": 1777294800,
+                                "End": 1777298399
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19479192793369293,
+                            "SimpleMovingAverage": 0.19098490476608276,
+                            "WeightedSimpleMovingAverage": 0.19189351797103882,
+                            "ExponentialMovingAverage": 0.19169218838214874,
+                            "Ohlc": {
+                                "Open": 0.19494476914405823,
+                                "Close": 0.19493182003498077,
+                                "High": 0.19495432078838348,
+                                "Low": 0.19423304498195648,
+                                "Volume": 730.98095703125
+                            }
+                        }
+                    ],
+                    "PriceByVolumes": [
+                        {
+                            "TargetVolume": 1000.0,
+                            "TimeInterval": {
+                                "Duration": 908,
+                                "Start": 1777294152,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 6503.40234375,
+                                "Quote": 1263.4482421875,
+                                "Usd": 1263.2081298828125,
+                                "BaseAttributedToUsd": 6503.40234375
+                            },
+                            "MeanPrice": 0.19423803687095642
+                        },
+                        {
+                            "TargetVolume": 10000.0,
+                            "TimeInterval": {
+                                "Duration": 4948,
+                                "Start": 1777290112,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 57670.40234375,
+                                "Quote": 11055.6220703125,
+                                "Usd": 11053.509765625,
+                                "BaseAttributedToUsd": 57670.40234375
+                            },
+                            "MeanPrice": 0.19166694581508636
+                        },
+                        {
+                            "TargetVolume": 100000.0,
+                            "TimeInterval": {
+                                "Duration": 26836,
+                                "Start": 1777268224,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 553446.375,
+                                "Quote": 104491.546875,
+                                "Usd": 104471.6640625,
+                                "BaseAttributedToUsd": 553446.375
+                            },
+                            "MeanPrice": 0.18876564502716064
+                        }
+                    ],
+                    "Estimates": {
+                        "AdaptivePrice": 0.19493182003498077
+                    }
+                },
+                "PriceUpdateInQuoteTokens": {
+                    "Quotes": [
+                        {
+                            "QuoteCurrency": {
+                                "Id": "usdc",
+                                "Name": "USDC",
+                                "Symbol": "USDC"
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            }
+                        }
+                    ],
+                    "PriceByTimeIntervals": [
+                        {
+                            "TimeInterval": {
+                                "Duration": 1,
+                                "Start": 1777295059,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            },
+                            "MeanPrice": 0.19496935606002808,
+                            "SimpleMovingAverage": 0.19496935606002808,
+                            "WeightedSimpleMovingAverage": 0.19496935606002808,
+                            "ExponentialMovingAverage": 0.19496935606002808,
+                            "Ohlc": {
+                                "Open": 0.19496935606002808,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19496935606002808,
+                                "Low": 0.19496935606002808,
+                                "Volume": 12.061698913574219
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 3,
+                                "Start": 1777295058,
+                                "End": 1777295060
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            },
+                            "MeanPrice": 0.19496935606002808,
+                            "SimpleMovingAverage": 0.19497059285640717,
+                            "WeightedSimpleMovingAverage": 0.19497016072273254,
+                            "ExponentialMovingAverage": 0.19497038424015045,
+                            "Ohlc": {
+                                "Open": 0.19496935606002808,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19496935606002808,
+                                "Low": 0.19496935606002808,
+                                "Volume": 12.061698913574219
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 5,
+                                "Start": 1777295055,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 61.864585876464844,
+                                "Quote": 12.061698913574219,
+                                "Usd": 12.05937671661377,
+                                "BaseAttributedToUsd": 61.864585876464844
+                            },
+                            "MeanPrice": 0.19496935606002808,
+                            "SimpleMovingAverage": 0.19497045874595642,
+                            "WeightedSimpleMovingAverage": 0.19497032463550568,
+                            "ExponentialMovingAverage": 0.19497081637382507,
+                            "Ohlc": {
+                                "Open": 0.19496935606002808,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19496935606002808,
+                                "Low": 0.19496935606002808,
+                                "Volume": 12.061698913574219
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 10,
+                                "Start": 1777295050,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 1343.824951171875,
+                                "Quote": 262.0074768066406,
+                                "Usd": 261.95703125,
+                                "BaseAttributedToUsd": 1343.824951171875
+                            },
+                            "MeanPrice": 0.19497142732143402,
+                            "SimpleMovingAverage": 0.19497142732143402,
+                            "WeightedSimpleMovingAverage": 0.19497142732143402,
+                            "ExponentialMovingAverage": 0.19497142732143402,
+                            "Ohlc": {
+                                "Open": 0.19497253000736237,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19497253000736237,
+                                "Low": 0.19496935606002808,
+                                "Volume": 262.0074768066406
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 30,
+                                "Start": 1777295040,
+                                "End": 1777295069
+                            },
+                            "Amounts": {
+                                "Base": 1343.824951171875,
+                                "Quote": 262.0074768066406,
+                                "Usd": 261.95703125,
+                                "BaseAttributedToUsd": 1343.824951171875
+                            },
+                            "MeanPrice": 0.19497142732143402,
+                            "SimpleMovingAverage": 0.19476905465126038,
+                            "WeightedSimpleMovingAverage": 0.19490396976470947,
+                            "ExponentialMovingAverage": 0.19495563209056854,
+                            "Ohlc": {
+                                "Open": 0.19497253000736237,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19497253000736237,
+                                "Low": 0.19496935606002808,
+                                "Volume": 262.0074768066406
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 60,
+                                "Start": 1777295040,
+                                "End": 1777295099
+                            },
+                            "Amounts": {
+                                "Base": 1343.824951171875,
+                                "Quote": 262.0074768066406,
+                                "Usd": 261.95703125,
+                                "BaseAttributedToUsd": 1343.824951171875
+                            },
+                            "MeanPrice": 0.19497142732143402,
+                            "SimpleMovingAverage": 0.19481921195983887,
+                            "WeightedSimpleMovingAverage": 0.1948402225971222,
+                            "ExponentialMovingAverage": 0.1949017494916916,
+                            "Ohlc": {
+                                "Open": 0.19497253000736237,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19497253000736237,
+                                "Low": 0.19496935606002808,
+                                "Volume": 262.0074768066406
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 300,
+                                "Start": 1777294800,
+                                "End": 1777295099
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19482915103435516,
+                            "SimpleMovingAverage": 0.19335898756980896,
+                            "WeightedSimpleMovingAverage": 0.1938166469335556,
+                            "ExponentialMovingAverage": 0.19362206757068634,
+                            "Ohlc": {
+                                "Open": 0.19498218595981598,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19499139487743378,
+                                "Low": 0.19426998496055603,
+                                "Volume": 731.1206665039062
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 900,
+                                "Start": 1777294800,
+                                "End": 1777295699
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19482915103435516,
+                            "SimpleMovingAverage": 0.19258280098438263,
+                            "WeightedSimpleMovingAverage": 0.1932436227798462,
+                            "ExponentialMovingAverage": 0.19300217926502228,
+                            "Ohlc": {
+                                "Open": 0.19498218595981598,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19499139487743378,
+                                "Low": 0.19426998496055603,
+                                "Volume": 731.1206665039062
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 1800,
+                                "Start": 1777294800,
+                                "End": 1777296599
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19482915103435516,
+                            "SimpleMovingAverage": 0.19159512221813202,
+                            "WeightedSimpleMovingAverage": 0.19242636859416962,
+                            "ExponentialMovingAverage": 0.19221989810466766,
+                            "Ohlc": {
+                                "Open": 0.19498218595981598,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19499139487743378,
+                                "Low": 0.19426998496055603,
+                                "Volume": 731.1206665039062
+                            }
+                        },
+                        {
+                            "TimeInterval": {
+                                "Duration": 3600,
+                                "Start": 1777294800,
+                                "End": 1777298399
+                            },
+                            "Amounts": {
+                                "Base": 3752.62451171875,
+                                "Quote": 731.1206665039062,
+                                "Usd": 730.98095703125,
+                                "BaseAttributedToUsd": 3752.62451171875
+                            },
+                            "MeanPrice": 0.19482915103435516,
+                            "SimpleMovingAverage": 0.19101865589618683,
+                            "WeightedSimpleMovingAverage": 0.19192864000797272,
+                            "ExponentialMovingAverage": 0.19172680377960205,
+                            "Ohlc": {
+                                "Open": 0.19498218595981598,
+                                "Close": 0.19496935606002808,
+                                "High": 0.19499139487743378,
+                                "Low": 0.19426998496055603,
+                                "Volume": 731.1206665039062
+                            }
+                        }
+                    ],
+                    "PriceByVolumes": [
+                        {
+                            "TargetVolume": 1000.0,
+                            "TimeInterval": {
+                                "Duration": 908,
+                                "Start": 1777294152,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 6503.40234375,
+                                "Quote": 1263.4482421875,
+                                "Usd": 1263.2081298828125,
+                                "BaseAttributedToUsd": 6503.40234375
+                            },
+                            "MeanPrice": 0.19427496194839478
+                        },
+                        {
+                            "TargetVolume": 10000.0,
+                            "TimeInterval": {
+                                "Duration": 4948,
+                                "Start": 1777290112,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 57670.40234375,
+                                "Quote": 11055.6220703125,
+                                "Usd": 11053.509765625,
+                                "BaseAttributedToUsd": 57670.40234375
+                            },
+                            "MeanPrice": 0.19170357286930084
+                        },
+                        {
+                            "TargetVolume": 100000.0,
+                            "TimeInterval": {
+                                "Duration": 26836,
+                                "Start": 1777268224,
+                                "End": 1777295059
+                            },
+                            "Amounts": {
+                                "Base": 553446.375,
+                                "Quote": 104491.546875,
+                                "Usd": 104471.6640625,
+                                "BaseAttributedToUsd": 553446.375
+                            },
+                            "MeanPrice": 0.188801571726799
+                        }
+                    ],
+                    "Estimates": {
+                        "AdaptivePrice": 0.19496935606002808
+                    }
+                },
+                "MarketCapUpdate": {
+                    "TotalSupply": 6863982207.0,
+                    "MarketCap": 699410854.356992,
+                    "FullyDilutedValuationUsd": 1331946024.4892933,
+                    "CirculatingSupply": 3604307961.0,
+                    "MaxSupply": 10000000000.0
+                },
+                "Ranking": {
+                    "Position": 4,
+                    "Weight": 0.03249461203813553
+                }
+            },
+            "Amounts": {
+                "Base": 61.864585876464844,
+                "Quote": 12.061698913574219
+            },
+            "AmountsInUsd": {
+                "Base": 12.05937671661377,
+                "Quote": 12.061698913574219
+            },
+            "Price": 0.19496935606002808,
+            "PriceInUsd": 0.19493182003498077,
+            "Trader": {
+                "Address": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq"
+            },
+            "Transaction": {
+                "Chain": {
+                    "Name": "Solana",
+                    "Type": "solana",
+                    "Id": "bid:solana"
+                },
+                "Block": {
+                    "Height": 0,
+                    "Slot": 416007174,
+                    "Timestamp": 0,
+                    "Hash": ""
+                },
+                "TransactionHeader": {
+                    "Index": 896,
+                    "Hash": "2ohJDvpxfZuuax9oS18jJ9MWBvVEhq22gGhxGztB6RCpJmQufYepYXkGabvZGEFrc1g3AjuKHcVDgK4PLvUnN63d",
+                    "Sender": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
+                    "To": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+                    "FeePayer": "GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq",
+                    "Fee": 5e-06
+                }
+            },
+            "Side": 0
+        }
+    ]
+}
