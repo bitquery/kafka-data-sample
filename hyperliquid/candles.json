@@ -1,0 +1,26 @@
+{
+  "BlockNumber": "1115768966",
+  "BlockTime": "1787137963117732385",
+  "Candles": [
+    {
+      "Market": {
+        "Symbol": "SNDK",
+        "Kind": "hip3",
+        "CoinRaw": "xyz:SNDK",
+        "IsPerp": true
+      },
+      "Interval": {
+        "Duration": 60,
+        "Start": 1787137920,
+        "End": 1787137980
+      },
+      "Ohlc": {
+        "Open": 1629.7,
+        "High": 1630.4,
+        "Low": 1624.7,
+        "Close": 1625.4,
+        "Volume": 237.16999999999996
+      }
+    }
+  ]
+}
