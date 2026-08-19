@@ -1,0 +1,177 @@
+[
+  {
+    "BlockNumber": "1115768482",
+    "BlockTime": "1787137929002574687",
+    "Trades": [
+      {
+        "Trader": {
+          "Address": "0x1dc67adaf9f163c5b1a95043addbdfa1af58e512",
+          "Signer": "0x9783d615363743a4755f8a7ab5f6effbddfb76ff",
+          "Broadcaster": "0xc9ba414780c1b75e9806e3469300993fd2bfa883",
+          "SignedAt": "1787137848172"
+        },
+        "Market": {
+          "Symbol": "BTC",
+          "Kind": "perp",
+          "Protocol": "hypercore",
+          "CoinRaw": "BTC",
+          "IsPerp": true,
+          "MaxLeverage": 40
+        },
+        "Execution": {
+          "Side": "Buy",
+          "Direction": "Close Short",
+          "Price": "64482.0",
+          "Size": "0.00035",
+          "Oid": "519684544161",
+          "Cloid": "0x0000b05006448200000001a019901e0a",
+          "Tid": "217195352410970",
+          "Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "EventTime": "1787137929002"
+        },
+        "Fees": {
+          "Fee": "0.002166",
+          "FeeToken": "USDC"
+        },
+        "Position": {
+          "Side": "Short",
+          "SizeBefore": "-0.02177",
+          "RealizedPnl": "-0.001435",
+          "Leverage": 40,
+          "IsCross": true
+        },
+        "IsTwap": true
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1115768487",
+    "BlockTime": "1787137929339232951",
+    "BookUpdates": [
+      {
+        "Trader": {
+          "Address": "0xa382fa9f4bb1dd4e3120cf0507a67384ad1ef1f7"
+        },
+        "Market": {
+          "Symbol": "HYPE",
+          "Kind": "perp",
+          "Protocol": "hypercore",
+          "CoinRaw": "HYPE",
+          "IsPerp": true,
+          "MaxLeverage": 10
+        },
+        "Oid": "519685244341",
+        "Side": "Buy",
+        "Px": "58.709",
+        "Kind": "new",
+        "Size": "30.36",
+        "Position": {
+          "Leverage": 10,
+          "IsCross": true
+        }
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1115768487",
+    "BlockTime": "1787137929339232951",
+    "Orders": [
+      {
+        "Trader": {
+          "Address": "0x78dce96236804d6958bf3c4598cf5efbc371629c"
+        },
+        "Market": {
+          "Symbol": "BTC",
+          "Kind": "perp",
+          "Protocol": "hypercore",
+          "CoinRaw": "BTC",
+          "IsPerp": true,
+          "MaxLeverage": 40
+        },
+        "Side": "Sell",
+        "Status": "badAloPxRejected",
+        "IsReject": true,
+        "OrderType": "Limit",
+        "Tif": "Alo",
+        "LimitPx": "64471.0",
+        "Size": "0.25841",
+        "OrigSz": "0.25841",
+        "TriggerPx": "0.0",
+        "TriggerCondition": "N/A",
+        "Position": {
+          "Leverage": 23,
+          "IsCross": true
+        },
+        "Oid": "519685244329",
+        "Cloid": "0xac9cacb38678bd699886abbad9da1509",
+        "PlacedTime": "1787137929339",
+        "EventTime": "1787137929339232951"
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1115768483",
+    "BlockTime": "1787137929061042959",
+    "SignedActions": [
+      {
+        "Consensus": {
+          "Round": "1414949973",
+          "ParentRound": "1414949972",
+          "Proposer": "SpAOkmawDj1TEOCbtJUguA8r1Bc=",
+          "HardforkVersion": 100
+        },
+        "Bundle": {
+          "Hash": "E/1vxLIObhe+JrQ5ub4DwzIARlzL3udjWnTW0HlON0g=",
+          "Broadcaster": "ybpBR4DBt16YBuNGkwCZP9K/qIM=",
+          "BroadcasterNonce": "1787137907988"
+        },
+        "User": "Ajo9BYAg+3bMqY8Bs8SMiTiiI1U=",
+        "Signer": "SfVKsXI8ruvzmtR28wrC+5lU3aM=",
+        "ActionType": "cancel",
+        "Nonce": "1787137928803",
+        "Status": "ok",
+        "Action": "eyJ0eXBlIjoiY2FuY2VsIiwiY2FuY2VscyI6W3siYSI6MjAzLCJvIjo1MTk2ODUyMTU3MDJ9XSwiZiI6dHJ1ZX0=",
+        "Response": "eyJ0eXBlIjoiY2FuY2VsIiwiZGF0YSI6eyJzdGF0dXNlcyI6WyJzdWNjZXNzIl19fQ=="
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1115768487",
+    "BlockTime": "1787137929339232951",
+    "LeverageChanges": [
+      {
+        "Trader": {
+          "Address": "0x2ca784d169a88c6ef0e2cbcce1ed28712ad53561"
+        },
+        "Market": {
+          "Symbol": "ETH",
+          "Kind": "perp",
+          "Protocol": "hypercore",
+          "CoinRaw": "ETH",
+          "IsPerp": true,
+          "MaxLeverage": 25
+        },
+        "Leverage": 7,
+        "IsCross": true
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1115768480",
+    "BlockTime": "1787137928872081556",
+    "Prices": [
+      {
+        "Market": {
+          "Symbol": "AAOI",
+          "Kind": "hip3",
+          "Protocol": "xyz",
+          "CoinRaw": "xyz:AAOI",
+          "IsPerp": true
+        },
+        "Price": "132.45",
+        "Kind": "markInput",
+        "UpdateClass": "Normal"
+      }
+    ]
+  }
+]
