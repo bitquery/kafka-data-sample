@@ -1,212 +1,507 @@
 {
-    "Chain": {
-        "ChainId": "0x01",
-        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551 blob: (target: 6, max: 9, fraction: 5007716)\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ "Chain": {
+  "ChainId": "0x01",
+  "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ },
+ "Header": {
+  "Hash": "0x808902535f4ff50b9bfe7cb85a1d50304a360df083b3fb05db7eaaae80b4f1ce",
+  "ParentHash": "0x7fd676702288f42863872f64758e41f00f45e5fb5417d2d900f5a304cafe987d",
+  "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  "Root": "0xa7a5e157f836b94462c356b244142d3480348af111fb7d9412134f9b10c53081",
+  "TxHash": "0x5cd6d330fcedea1da5e2a401efeff8fcaa382d0bec3830684ec330cfa40f043b",
+  "ReceiptHash": "0xe19cdb6b29f5a524865130325d52370122a6b7000b6692d3eac7989f475691d5",
+  "MixDigest": "0xd35c766f3212f892bf6ddf62849ab3f319453830876d73a30ea09e741f219492",
+  "Coinbase": "0xfb74767c1ce1aada0a0e114441173b57f8c1571b",
+  "Bloom": "0xbffffffbffed9fffffdfbfffff5f7fffffffebfff7fefdfcfffffffffffffffbbcbfffffbaffbfdffffffefdffefdffffffffffffeffadffffffffffbfffdfefffdfdfffffff7ffffffffffb3fffeffdfffffffffffffdfdffffbf7ffefffffffffffddffffbffffafaffffffffffffaeffffe7effffeffffcfffffffffffefffffffefffbefff7ffffbbf7f6fff7dffdff9fff7ffdfbffffdfffdff7df7fffabfff7bf7ffbbfffff7ffffffbfd7fdffffdfddff77ffffaeff7fff7f3ffffffffdfffffffffffffffbff7ffffffffffff37fffffeffb6f7fffff7f5effbfffefb6ffeffffffe7cfcffdffffdffffffffbf7fffffffffff77fbfff77f7ffffff7",
+  "Extra": "0x457572656b612028657572656b616275696c6465722e78797a29",
+  "Nonce": 0,
+  "Difficulty": "0x",
+  "Number": "0x018a3f3b",
+  "GasLimit": 60000000,
+  "GasUsed": 52471705,
+  "Time": 1787723027,
+  "BaseFee": "0x0269bd48"
+ },
+ "PoolEvents": [
+  {
+   "TransactionHeader": {
+    "Index": 0,
+    "Hash": "0xbf36fc975a088022f576297069d1897db81f7a05ac43077467362852b3c8e6f4",
+    "Gas": 3277730,
+    "Value": "0x",
+    "Data": "0x",
+    "Nonce": 17109,
+    "ChainId": "0x01",
+    "Cost": "0x0485428bad76c0",
+    "GasFeeCap": "0x17237d60",
+    "GasPrice": "0x17237d60",
+    "GasTipCap": "0x1399867f",
+    "Protected": true,
+    "Type": 2,
+    "To": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
+    "From": "0x7b49bc3ebbdf7322f31c6449320382bbec3be1b6",
+    "ToCode": {
+     "Hash": "0xdf1d0ff23dd9793d6213c249881a34ee97250f30310494acf5dbd74e1bcfd9d4",
+     "Size": 1167,
+     "Suicided": false
     },
-    "Header": {
-        "Hash": "0x5ae0c9ba45d54e63742a95b4c7c610c1158a54979709126a9060cf3d89cf9133",
-        "ParentHash": "0x00b2fcd27e730b439411c1a8063086d8e87b9bb3c4a91584e19d3ed5a6bdc5bc",
-        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-        "Root": "0x91e6daa14ec93bd4c716b6d7fdb31cfbb8854a2babec37cdf3a94a3530389fe8",
-        "TxHash": "0x6b96bcc5739c4fb306f9851e73a09f681c03aa89ba21a79ca9bfb3b703ecc64a",
-        "ReceiptHash": "0x9d738380641ebeff74d45481d7654c0afa886d1a1671c2d01d21545213123cd6",
-        "MixDigest": "0x85398c6a9affe8959455dff40a4bb2605c03da0699fec7bedc0795aaa5eca17f",
-        "Coinbase": "0x396343362be2a4da1ce0c1c210945346fb82aa49",
-        "Bloom": "0x3bfb5f35cdee9ee7feeaebfef55fbcb4ff5f8767fc8fd7d78695afd677048fbbeedfd1e7fff8d9ddcf7ffb65cde7f3fb27fddf55fef77f3979d807ed85ff7fabcf9f173f9877dd8ae813ff8f93fefdfdc47ffefff5ffadee3bd39f5ee26e97d43dcf76278e7e3cd53fb7afbf5d672e5fef337462d7eda7a32f6facfe4d7f79fb63efff7f3951f73ec2dd53a639d50fbefd9c97a3b32d3e8edcffa5fe73feefd92fcbdf93f67f2bf5f7f13cef9fefdfebf7beeeffa9f9fadeade767dffad7fffedb75fe3fd8a49bff9cc35dff6ffbfd5d9fdff277771ef3dfe5df23d6d76dfaeecabbb77f6f09f157b2db899bf73b76c3e7efba8239edb7cede6cf7fffd6977f5",
-        "Extra": "0xe29ca82051756173617220287175617361722e77696e2920e29ca8",
-        "Nonce": 0,
-        "Difficulty": "0x",
-        "Number": 24218172,
-        "GasLimit": 60000000,
-        "GasUsed": 28871387,
-        "Time": 1768215335,
-        "BaseFee": 51817818
+    "AccessList": [
+     {
+      "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000001",
+       "0x020db26ec5f81c0c42c81f65b3b6ba2c4021b28d83d3f52053fe8ff895379e85",
+       "0x02bada52e28a59de95abc5668022f6bf5b56f474238f10b2ab7fc4dc104092e1",
+       "0x07cbd1fc337514a732f966ada734ca796ce81a174990e0c35174c98d2fd69009",
+       "0x0e596812d2cb47dc402063df723ce8ac50cf69a11aecf531529020937e672137",
+       "0x10d6a54a4754c8869d6886b5f5d7fbfa5b4522237ea5c60d11bc4e7a1ff9390b",
+       "0x320833d96333723d882be488e36939ebd401f849ff2220ff98a5a681be8504b4",
+       "0x34df282327fbd6a33d53471b5f5fe94cde4cdf58b1a8737bc6f1bcddc0bb0907",
+       "0x6cb643f88537a603a84f4e30a2a58ddac041362c6b712bd5300b067246886052",
+       "0x6cf8a714b2c659c3358c340b5cd52e9fce0ea1256aec175e50a52319c686730f",
+       "0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3",
+       "0x7156fb3b7762e8e94e56716a3dfbaa7bb38acdf1134fc7c1eb508ad7abac3361",
+       "0x76ed0dcbc5b179450d8b14c02150f3422a233155189814e1606157feee0b198f",
+       "0x8fcc9ea1593d07db8953cc3f84496b48d03bdc5ee0ff7779bb0119d42a88a321",
+       "0xa4f8736fae0470b497ff68ed39776a6a8945832a7068dd17106135cf81649f72",
+       "0xbac8df4a857484aeb45778efb371a2dac77a6e5a37246502449c02bccbe23eb7",
+       "0xca650bcd08c753b4601f7d8d4931a2c429adcf1530e9e3acf004f83d00557b70",
+       "0xd608799fc526d4035454abb7a89d5eb3a9c0cb8bd0ef4dcea8115300f6351959",
+       "0xe02a3b5cdb575959db637e70e9deba6be682a40d9870af3d7bb36065e9725a46",
+       "0xeb590aea9635da9a5b70a4df1335424290d02c858457ffc5a2ecf157858c92bc",
+       "0xf821316dc826fadff51ed99f8fb2d180c5a177d3f6515ebf5974d3c704f0bd74",
+       "0xfd9d93795b14d080b5f1e8638a914df7eb3b41643cc843e551b98de994389cf2"
+      ]
+     },
+     {
+      "Address": "0x6546055f46e866a4b9a4a13e81273e3152bae5da",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000000",
+       "0x0000000000000000000000000000000000000000000000000000000000000002",
+       "0x0000000000000000000000000000000000000000000000000000000000000003",
+       "0x0000000000000000000000000000000000000000000000000000000000000004",
+       "0x8962290a7218a9ad62224806fc2c8bf61f46f0c0289c25ddd8bb0f483a960032"
+      ]
+     },
+     {
+      "Address": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
+      "StorageKeys": [
+       "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc"
+      ]
+     },
+     {
+      "Address": "0x4c0d2c74a8d26f1e4f5653021c521f5471f9e566",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x1111113ccf1426a8e30e2bff5e005d929bf6a90a",
+      "StorageKeys": [
+       "0x2c92b570ff0d4dae74337eaa8840e304915662e18760e0046d9ee16a07e437ae",
+       "0x30a77ac1a42e20560358a06da9b5ef044d3228b3779cff10804862cb0b586fff",
+       "0x43d633462eed6d0d9b373b2c222d575b63ed43c19f744acde93835fd9c5ecd70",
+       "0x4a7649736dd99d3a61c77d76b5193a74c3b9ce066013ebf36b32f746a2275106",
+       "0x4ff9d87fb33e888aedfa60f4a7009eef19493ecc2bfc5abfc688a566affb97d9",
+       "0x5bcc2d734c5ba4983e92587c987d73fc9b6c940b9dec8e9a2ef9d0c8f3c1c098",
+       "0x6a2b0bf4ccd619b73d610fd2b9401f5de4fb49fd56d792e7ab0480a6c44848e8",
+       "0x6b991c32ffce57b889148a9550f82e56a3564b54d42c6a8eba2ef24c6294eeb1",
+       "0x6ba36f45a2084b02aaca1743521e83973da6336d447535f9ad5d824e1ae64cbe",
+       "0x6d692d7d129fa30dc10f00ab931f6748594fcd4748d2b0f97499a5cfa7bc060c",
+       "0xa65c0b0303a4faae206c46d14ab930b5405db40782318feb53563fab0f04598e",
+       "0xb3ce9696f4f8bd8c70e20f34419c2b23971e7975b983bc0b135ee26f72a521c5",
+       "0xb5ed7889c4fc7b7fb49ef36c2f588ec2fb02ba983e667cad74c918b8986cc5b9",
+       "0xc0162382b72a4f6eab3e141a0b0e29e7a776250afa1056f172c49c523f36eca6",
+       "0xc6791eab46b8ba44f7bc998b3048ed77bd2fad444fbdbc7cad1ea6ec16fa5270",
+       "0xca7d6b3c07a5cba5136b6cfd242ffc6fc882298c173f7bda56c2b3746d3180da",
+       "0xda79dbaaca09d2424a6791991683081c694a240e84f888f2abe89cebdf27073a",
+       "0xde2603f7524ff3391b001e9168d1969cdf59c2600ab51d7cfffa8cdd1a1d6243",
+       "0xe098209e2ee3518e721e1e4d594b1f383abeb5db7bc6ac796e6a4d825c972a69",
+       "0xe50dbe65691be8c78e070c186963758e07e00be348e1e9e8ab6f8be17c07cc20",
+       "0xedeadc2952ded16daea584b9d2f03ec2460d7e545b46fa29339b12fd93bfe962",
+       "0xf1ee20e1382497b1a04ad84c671786902cbfeb31c1be1b5948daf3c866fae314"
+      ]
+     },
+     {
+      "Address": "0xc4ad29ba4b3c580e6d59105fff484999997675ff",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000004"
+      ]
+     },
+     {
+      "Address": "0x111111125421ca6dc452d289314280a0f8842a65",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000003",
+       "0x2172b78bc65cb1a1d0f88fe97b9cf50740d252b84b7d4880b546653598282e53"
+      ]
+     },
+     {
+      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000005",
+       "0x0346d90b79f634e6853c8da758a245ac7bbe36598d462b7d6bb69115fc440c9c",
+       "0x041fb92791af656a5970d946eab0726fa7cc29ad5366ae52491c17c2fe5efcb1",
+       "0x146567ab7803e8e1dc15349d4dd71e0bf4bc08bf1796ac5a019f3b9530847113",
+       "0x2f251e7f966f93b42789ddfec93f5f155d7fe98756a946d39275288125cd94e7",
+       "0x4fdc1e1349c024ec6b115e02dd96597e5e69a86b7ce61ff8bc71da1d04ade736",
+       "0xe2a8baf12dac688d78b6c2138bc9a9b9acd671249af93440081fa34a7e49511d"
+      ]
+     },
+     {
+      "Address": "0xd51a44d3fae010294c616388b506acda1bfaae46",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000000",
+       "0x0000000000000000000000000000000000000000000000000000000000000001",
+       "0x0000000000000000000000000000000000000000000000000000000000000002",
+       "0x0000000000000000000000000000000000000000000000000000000000000003",
+       "0x0000000000000000000000000000000000000000000000000000000000000005",
+       "0x0000000000000000000000000000000000000000000000000000000000000007",
+       "0x0000000000000000000000000000000000000000000000000000000000000008",
+       "0x000000000000000000000000000000000000000000000000000000000000000a",
+       "0x000000000000000000000000000000000000000000000000000000000000000e",
+       "0x0000000000000000000000000000000000000000000000000000000000000010",
+       "0x0000000000000000000000000000000000000000000000000000000000000011",
+       "0x0000000000000000000000000000000000000000000000000000000000000017",
+       "0x000000000000000000000000000000000000000000000000000000000000001a",
+       "0x000000000000000000000000000000000000000000000000000000000000001c",
+       "0x000000000000000000000000000000000000000000000000000000000000001d",
+       "0x000000000000000000000000000000000000000000000000000000000000001e",
+       "0x0000000000000000000000000000000000000000000000000000000000000023",
+       "0xd833147d7dc355ba459fc788f669e58cfaf9dc25ddcd0702e87d69c7b5124289",
+       "0xd833147d7dc355ba459fc788f669e58cfaf9dc25ddcd0702e87d69c7b512428a",
+       "0xd833147d7dc355ba459fc788f669e58cfaf9dc25ddcd0702e87d69c7b512428b"
+      ]
+     },
+     {
+      "Address": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+      "StorageKeys": [
+       "0x13ed89aeb521b29bd75de4c35fcb35b9583be8dd4aaf1af4481d08e431e16120",
+       "0x14a5da8e139c4f5de5deffce2e3bc09614818a6db070c649c6c204de56f67f62",
+       "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+       "0x4b620acd6723e310b77a3b8ff11e2626e31dc52726888fe8fbc2c6436bfdf3c0",
+       "0x6e7e578814dadb44b74ac8b503aa58d69fc96cbeeb825df0d8e5a7a87281c475",
+       "0x8116a796f811674fcbea272b166aa34034bd845b97652d3f604b6136486fa555",
+       "0x841c7a1755586f0221361df5d5c83d558c4ff88fb7e9b2ed00fbcd51685c84c1",
+       "0xa721152faa566ebc5448a12a222a1d04ff0d1687224c33857b887cdc8ef8f83d",
+       "0xad4a4d88ffb01bf0efb35c7927d7c98744df8479653bf7a8625e7214cb9f47ae",
+       "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103"
+      ]
+     },
+     {
+      "Address": "0x8f68f4810cce3194b6cb6f3d50fa58c2c9bdd1d5",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x399740157391a9f1bf4e9921a8834f9bc8f2678e",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x78345110084ba6c1892b0f7e90da75a6184ae1de",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000000",
+       "0x0000000000000000000000000000000000000000000000000000000000000003",
+       "0x0000000000000000000000000000000000000000000000000000000000000004",
+       "0x000000000000000000000000000000000000000000000000000000000000000a",
+       "0x27e01d31e3e7e3e116ecac0c8e6c4e7f779b197c159befacf24f5afd5fb5c3a0",
+       "0x53eabd10037ca352bcf773e59554a65b47d97079b518a606e3e9a403f1b936ef",
+       "0x5ee57ab803ec47fc82d82c3252cf2b9f901b419ec78d52b72e1ebed72cfb564f",
+       "0x8bf86e2c4bd31dc24031fd9828201d8c3019170d1ea649ee64879450a5a8d5be",
+       "0x97af150d2c0a0927f8d506c7cf1b1d28e62ba66c13adabdb3e706f193ef82449",
+       "0x9d62eaaad6718f2b246f2730ecc36f1c0e60b904a4dce1d7be0391a84e595458",
+       "0x9fcc440c83075ba1e002d50eab2906c3883e147c4373806c55a232c4d0f23ea2",
+       "0xa83aebbc2e5a0682c913bfa1bc7a19e195d4ac982b7a6d3759980759b4f169e7",
+       "0xcfd96e20a104c25a2ae58031d0908a750d65233d6f6a9a080ec999dadb2b5185",
+       "0xeb449bc003e7395128833de1fb3384246962a9d4d29c66083486accd9139c704"
+      ]
+     },
+     {
+      "Address": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "StorageKeys": [
+       "0x0346d90b79f634e6853c8da758a245ac7bbe36598d462b7d6bb69115fc440c9c",
+       "0x12839045e9d4c1cf832cdb05dd470b8593ee30491a053efede220e6b03432240",
+       "0x146567ab7803e8e1dc15349d4dd71e0bf4bc08bf1796ac5a019f3b9530847113",
+       "0x17a727486e4456e3396d979e739de3e907b936bad6043d62caada588c4390095",
+       "0x1e4d04d2a395c1a04a119b361beb844288ccb6597333f72e0b965381d5d8a08b",
+       "0x1fb32b61d8613c4b6d3cf6f501fe0957f252075ba43d22ed438ed465f3c8e26d",
+       "0x294df2b8e26b49f13a9c233582a9d57584261446144c50675a49a00d49cd0052",
+       "0x32e75af747cc593dbe76f01c687c7f89d960e607b530a0292170f4399bd60662",
+       "0x387f1ab3008c52a7b8f446a171402c98ec314c355ff7f2abd3ed8a9a4ee1a94d",
+       "0x4fc85092c2b6ccda064b18230b839c012681ba13c99f1a78979d092c81e6aa74",
+       "0x4fdc1e1349c024ec6b115e02dd96597e5e69a86b7ce61ff8bc71da1d04ade736",
+       "0x506240ff111c2d81f945fca170c2b9852006de95815bcf82fb1d4d9cbe0d0ca3",
+       "0x5dd7b5fdfa3cab9b6b9f2435106e26c8eb58b2740917bff74bdc21dcae2be32c",
+       "0x627168c4f2fd7cf81804f8983fbf3771bbfa960e02379e78c34c0f16aaa66423",
+       "0x6a85a5081c8e55d55576007d30607559a2e49814ef80bdd8f14ae2a0dd954325",
+       "0x780efd0f06ca461755cfc936ae692a236ca2658b8a2981ef695470c4a268d04b",
+       "0x796bb2b4343b560594da4ed56346abd583a8a21c086a451ab237a24c02a1d613",
+       "0x84ebdc86208bb232f3e50b2e8a1f944e451598e84dbf6500eb48700e812b3643",
+       "0x9113f7932d06faa0be037bc51683348e324d0c3ce814b99c58e318ddeb9e21bf",
+       "0x96118cff11b47206b9dc0969c91e071c33c590dd27528484962fbf7bcf04bf4b",
+       "0xa4c7767d75d8b43be62cf87c3c1b757c52fbaf65181d0df3a71b373d5ef39035",
+       "0xcf542c83ab8c50aaa852fb0ec068eb9804a92b2514f24c7e3412c976768eab37"
+      ]
+     },
+     {
+      "Address": "0x26ffc7d378e8e49be2c483295a3e3e511f96a468",
+      "StorageKeys": [
+       "0xf8eb14c19d744fc38afaa3622bfbf01e175e40b55dfd15c5eac8993a7aa3a514"
+      ]
+     },
+     {
+      "Address": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x111111338c5091e8440b67b168bae16a668ac0de",
+      "StorageKeys": []
+     }
+    ],
+    "Time": 1787723027000000000
+   },
+   "TransactionSignature": {
+    "R": "0x37566ca0eb3c1d8bd5cabe4beebbc966fddc0a42c86d603ffda33b6a60265586",
+    "V": "0x",
+    "S": "0x769582dffce17a4fee6ce957d2e106eadfaed0169c62e2bc3056fb9f789388a7"
+   },
+   "CallIndex": 15,
+   "LogIndex": 0,
+   "HasLog": true,
+   "Dex": {
+    "SmartContract": "0x6546055f46e866a4b9a4a13e81273e3152bae5da",
+    "Delegated": false,
+    "DelegatedTo": "0x6546055f46e866a4b9a4a13e81273e3152bae5da",
+    "OwnerAddress": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
+    "FeeRecipient": "0x",
+    "ProtocolName": "uniswap_v3",
+    "ProtocolFamily": "Uniswap",
+    "ProtocolVersion": "3",
+    "Pair": {
+     "SmartContract": "0x",
+     "Delegated": false,
+     "DelegatedTo": "0x",
+     "ProtocolName": "",
+     "Name": "",
+     "Symbol": "",
+     "Decimals": 0,
+     "HasURI": false,
+     "Fungible": false,
+     "AssetId": "",
+     "BalanceSlotIndex": 0,
+     "TotalSupply": "0x"
     },
-    "PoolEvents": [
-        {
-            "TransactionHeader": {
-                "Index": 4,
-                "Hash": "0x4bfd00947f72bbb7b7d06c173b30167bdddc47aeec670c5b6e1f9858ae2b6660",
-                "Gas": 400000,
-                "Value": "0xb1a2bc2ec50000",
-                "Data": "0xe21fd0e9000000000000000000000000000000000000000000000000000000000000002000000000000000000000000063242a4ea82847b20e506b63b0e2e2eff0cc6cb0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000000009000000000000000000000000000000000000000000000000000000000000000640000000000000000000b1a2bc2ec50000000000000000000000b1a2bc2ec50000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000004124e2ace53c609b2833d44a8e13f3df0b9dd5dd5fcabac1a9e68917e001ebd3f26ef0250cfc1235fff2235451743c477500e11c9a7d71f74081cf038abdb4f28a1c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000540000000000000000000000000d137469da61b84aa489058229dfe54c63a30faa000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000180000000000000000000a8c0ff92d4c000000000000000000000ba8478cab54000000000000000000000b1a2bc2ec50000000000000000000f6a904cd6a8d3efd4000000000000000000000000000000000102a459e7a18d0000000f42400000000000000000000000000000004f82e73edb06d29ff62c91ec8f5ff06571bdeb290000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006964d7d00000000000000000000000000000000000000000000000000000000000000520000000000000000000000000000000000000000000000000000000000000000161f598cd000000000000000020f91ab108962d7e3c7dbf97b9179592855ab3d70000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000300000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee80000000000000000000000ba43b7400000000000000000000b1a2bc2ec5000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000b1a2bc2ec500000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc280000000000000000000000ba43b7400000000000000000000b1a2bc2ec5000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000b1a2bc2ec50000567e636a00000000000200025455c918e405a2831fbff8595c0aae35ee3db9d10000000000000000000000000000000000000000000000000000000000000080000000000000000000000000d137469da61b84aa489058229dfe54c63a30faa000000000000000000000000000000000000000000000000000000000000000200000000300000000000003e8d03adbb21e4fcb43bb44da8f763e08d08ddd42f800000000000000000000000077f6e975aa520601236f61c81ca8a88e2c3cc1a98000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee00000000000000000000000077f6e975aa520601236f61c81ca8a88e2c3cc1a90000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000018000000000000000000000000000000000000000000000000000000000000001a000000000000000000000000000000000000000000000000000000000000001c0000000000000000000000000d137469da61b84aa489058229dfe54c63a30faa000000000000000000000000000000000000000000000000000b1a2bc2ec5000000000000000000000000000000000000000000000000000ea53c48ff2062f0a3000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000028b7b22536f75726365223a224449505465726d696e616c222c22416d6f756e74496e555344223a223135352e323035363039313131353731222c22416d6f756e744f7574555344223a223135372e3233323437333737363635373537222c22526566657272616c223a22222c22466c616773223a302c22416d6f756e744f7574223a22323834333739383832393535313439313434303230222c2254696d657374616d70223a313736383231353332382c22526f7574654944223a2263313237306533312d646234622d343231312d393637322d3532633934653639373836653a39356431656637322d313662302d346637342d383431622d636631656633646436623931222c22496e74656772697479496e666f223a7b224b65794944223a2231222c225369676e6174757265223a2254486c69785659334a524f632f72364d6c37355a616a522f4454523536665a36454f6375744e663264674e7a445459782f68465746366b354443506c7373376c2f47566d4156726e3769737963616b2b734649385077304737653168464e34473162657a62454e465a59794f6d454931585a4e417650417235685948784c304f306659354d4f2f4646666c426a4a4b5a78324b7356617037316b654a30674e544779566f683979504e627a5079306c7536484c3462576273434449706f6d744c2f6f45747668715879674f78624b62447a556e4d4a4962414a36466f343644496d33577372596456522f666952336e557a507063394139343539566652726c66746c547131667475686562494775324c6e55656a6f4366306a33415a6f4e556f475668726253596e7556554a6e4b67346a7831496a2f524a2b5152784266345336427a5a63795155625570514a777759766f36446b513d3d227d7d000000000000000000000000000000000000000000",
-                "Nonce": 1290,
-                "ChainId": "0x01",
-                "Cost": "0xb4ea5cb416c500",
-                "GasFeeCap": "0x899082a2",
-                "GasPrice": "0x899082a2",
-                "GasTipCap": "0x83215600",
-                "Protected": true,
-                "Type": 2,
-                "To": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5",
-                "From": "0xd137469da61b84aa489058229dfe54c63a30faa0",
-                "ToCode": {
-                    "Hash": "0x06468e29bde518202bb725caad5eaaf8184c1b5338d8228e7c779248dbc9e2a3",
-                    "Size": 18652,
-                    "Suicided": false
-                },
-                "Time": 1768215335000000000
-            },
-            "TransactionSignature": {
-                "R": "0xd4f3dd2fc641b65d29fb3db43a742d8faeae487a3b2d3caab4a2f75e1ca8d9dd",
-                "V": "0x01",
-                "S": "0x462f9a33a702f4d5903bd8328975449d737c7464e2d050d5f4ba681d3cd6abbc"
-            },
-            "CallIndex": 11,
-            "LogIndex": 1,
-            "HasLog": true,
-            "Dex": {
-                "SmartContract": "0xd03adbb21e4fcb43bb44da8f763e08d08ddd42f8",
-                "Delegated": false,
-                "DelegatedTo": "0xd03adbb21e4fcb43bb44da8f763e08d08ddd42f8",
-                "OwnerAddress": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
-                "FeeRecipient": "0x",
-                "ProtocolName": "uniswap_v2",
-                "ProtocolFamily": "Uniswap",
-                "ProtocolVersion": "2",
-                "Currencies": [
-                    {
-                        "SmartContract": "0x77f6e975aa520601236f61c81ca8a88e2c3cc1a9",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Shrek",
-                        "Symbol": "SHREK",
-                        "Decimals": 9,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 2
-                    },
-                    {
-                        "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "erc20_deposable",
-                        "Name": "Wrapped Ether",
-                        "Symbol": "WETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 4
-                    }
-                ]
-            },
-            "Liquidity": {
-                "AmountCurrencyA": 48092103573504.0,
-                "AmountCurrencyB": 8.480242729187012
-            },
-            "PoolPriceTable": {
-                "AtoBPrices": [
-                    {
-                        "SlippageBasisPoints": 10,
-                        "MaxAmountIn": 24196853760.0,
-                        "MinAmountOut": 0.004226337652653456,
-                        "Price": 1.7519034725514693e-13
-                    },
-                    {
-                        "SlippageBasisPoints": 50,
-                        "MaxAmountIn": 121348767744.0,
-                        "MinAmountOut": 0.021067969501018524,
-                        "Price": 1.7413745142039194e-13
-                    },
-                    {
-                        "SlippageBasisPoints": 100,
-                        "MaxAmountIn": 243712884736.0,
-                        "MinAmountOut": 0.04195515066385269,
-                        "Price": 1.7266789669075078e-13
-                    },
-                    {
-                        "SlippageBasisPoints": 200,
-                        "MaxAmountIn": 491146641408.0,
-                        "MinAmountOut": 0.08327042311429977,
-                        "Price": 1.7005307210125886e-13
-                    },
-                    {
-                        "SlippageBasisPoints": 500,
-                        "MaxAmountIn": 1257498869760.0,
-                        "MinAmountOut": 0.20323677361011505,
-                        "Price": 1.6210616833253755e-13
-                    },
-                    {
-                        "SlippageBasisPoints": 1000,
-                        "MaxAmountIn": 2618384973824.0,
-                        "MinAmountOut": 0.3901371657848358,
-                        "Price": 1.4944749810504726e-13
-                    }
-                ],
-                "BtoAPrices": [
-                    {
-                        "SlippageBasisPoints": 10,
-                        "MaxAmountIn": 0.004262446891516447,
-                        "MinAmountOut": 23943936000.0,
-                        "Price": 5634318663680.0
-                    },
-                    {
-                        "SlippageBasisPoints": 50,
-                        "MaxAmountIn": 0.021290980279445648,
-                        "MinAmountOut": 118882910208.0,
-                        "Price": 5600523059200.0
-                    },
-                    {
-                        "SlippageBasisPoints": 100,
-                        "MaxAmountIn": 0.04254603385925293,
-                        "MinAmountOut": 235569233920.0,
-                        "Price": 5553468735488.0
-                    },
-                    {
-                        "SlippageBasisPoints": 200,
-                        "MaxAmountIn": 0.08488196134567261,
-                        "MinAmountOut": 462927429632.0,
-                        "Price": 5470189256704.0
-                    },
-                    {
-                        "SlippageBasisPoints": 500,
-                        "MaxAmountIn": 0.21078556776046753,
-                        "MinAmountOut": 1097008873472.0,
-                        "Price": 5220043063296.0
-                    },
-                    {
-                        "SlippageBasisPoints": 1000,
-                        "MaxAmountIn": 0.41660940647125244,
-                        "MinAmountOut": 2006440607744.0,
-                        "Price": 4830611374080.0
-                    }
-                ],
-                "AtoBPrice": 5671076495360.0,
-                "BtoAPrice": 1.7633336739548977e-13
-            },
-            "Pool": {
-                "SmartContract": "0xd03adbb21e4fcb43bb44da8f763e08d08ddd42f8",
-                "CurrencyA": {
-                    "SmartContract": "0x77f6e975aa520601236f61c81ca8a88e2c3cc1a9",
-                    "Delegated": false,
-                    "DelegatedTo": "0x",
-                    "ProtocolName": "",
-                    "Name": "Shrek",
-                    "Symbol": "SHREK",
-                    "Decimals": 9,
-                    "HasURI": false,
-                    "Fungible": true,
-                    "AssetId": "",
-                    "BalanceSlotIndex": 2
-                },
-                "CurrencyB": {
-                    "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-                    "Delegated": false,
-                    "DelegatedTo": "0x",
-                    "ProtocolName": "erc20_deposable",
-                    "Name": "Wrapped Ether",
-                    "Symbol": "WETH",
-                    "Decimals": 18,
-                    "HasURI": false,
-                    "Fungible": true,
-                    "AssetId": "",
-                    "BalanceSlotIndex": 4
-                },
-                "PoolId": "0x"
-            }
-        }
-    ]
+    "Currencies": [
+     {
+      "SmartContract": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+      "Delegated": true,
+      "DelegatedTo": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+      "ProtocolName": "erc20",
+      "Name": "Tether Gold",
+      "Symbol": "XAUt",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 0,
+      "TotalSupply": "0x000000000000000000000000000000000000000000000000000000a4c9038a68"
+     },
+     {
+      "SmartContract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "Delegated": false,
+      "DelegatedTo": "0x",
+      "ProtocolName": "erc20",
+      "Name": "Tether USD",
+      "Symbol": "USDT",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 3,
+      "TotalSupply": "0x0000000000000000000000000000000000000000000000000158dd3f231502e3"
+     }
+    ],
+    "UnderlyingCurrencies": []
+   },
+   "Liquidity": {
+    "AmountCurrencyA": 344.9847412109375,
+    "AmountCurrencyB": 916905.8125,
+    "AmountCurrencyAInUSD": 1596141.5,
+    "AmountCurrencyBInUSD": 916645.375
+   },
+   "PoolPriceTable": {
+    "AtoBPrices": [
+     {
+      "SlippageBasisPoints": 0,
+      "MaxAmountIn": 0.0,
+      "MinAmountOut": 0.0,
+      "Price": 4627.38134765625,
+      "MaxAmountInInUSD": 0.0,
+      "MinAmountOutInUSD": 0.0
+     },
+     {
+      "SlippageBasisPoints": 10,
+      "MaxAmountIn": 2.389185905456543,
+      "MinAmountOut": 11011.150390625,
+      "Price": 4611.0517578125,
+      "MaxAmountInInUSD": 11054.05078125,
+      "MinAmountOutInUSD": 11008.0234375
+     },
+     {
+      "SlippageBasisPoints": 50,
+      "MaxAmountIn": 11.10653018951416,
+      "MinAmountOut": 50938.546875,
+      "Price": 4588.65478515625,
+      "MaxAmountInInUSD": 51386.6015625,
+      "MinAmountOutInUSD": 50924.078125
+     },
+     {
+      "SlippageBasisPoints": 100,
+      "MaxAmountIn": 21.744871139526367,
+      "MinAmountOut": 99087.0390625,
+      "Price": 4559.080078125,
+      "MaxAmountInInUSD": 100607.03125,
+      "MinAmountOutInUSD": 99058.8984375
+     },
+     {
+      "SlippageBasisPoints": 200,
+      "MaxAmountIn": 43.63924026489258,
+      "MinAmountOut": 193936.40625,
+      "Price": 4446.30615234375,
+      "MaxAmountInInUSD": 201905.75,
+      "MinAmountOutInUSD": 193881.328125
+     },
+     {
+      "SlippageBasisPoints": 500,
+      "MaxAmountIn": 97.06969451904297,
+      "MinAmountOut": 417170.3125,
+      "Price": 4299.78662109375,
+      "MaxAmountInInUSD": 449112.53125,
+      "MinAmountOutInUSD": 417051.84375
+     },
+     {
+      "SlippageBasisPoints": 1000,
+      "MaxAmountIn": 155.76425170898438,
+      "MinAmountOut": 624678.875,
+      "Price": 4012.418212890625,
+      "MaxAmountInInUSD": 720674.75,
+      "MinAmountOutInUSD": 624501.4375
+     }
+    ],
+    "BtoAPrices": [
+     {
+      "SlippageBasisPoints": 0,
+      "MaxAmountIn": 0.0,
+      "MinAmountOut": 0.0,
+      "Price": 0.0002161049487767741,
+      "MaxAmountInInUSD": 0.0,
+      "MinAmountOutInUSD": 0.0
+     },
+     {
+      "SlippageBasisPoints": 10,
+      "MaxAmountIn": 9512.4462890625,
+      "MinAmountOut": 2.0475449562072754,
+      "Price": 0.00021535673295147717,
+      "MaxAmountInInUSD": 9509.744140625,
+      "MinAmountOutInUSD": 9473.3798828125
+     },
+     {
+      "SlippageBasisPoints": 50,
+      "MaxAmountIn": 50444.484375,
+      "MinAmountOut": 10.805635452270508,
+      "Price": 0.00021431561617646366,
+      "MaxAmountInInUSD": 50430.15625,
+      "MinAmountOutInUSD": 49994.453125
+     },
+     {
+      "SlippageBasisPoints": 100,
+      "MaxAmountIn": 98719.8828125,
+      "MinAmountOut": 21.01026153564453,
+      "Price": 0.0002129335334757343,
+      "MaxAmountInInUSD": 98691.84375,
+      "MinAmountOutInUSD": 97208.2109375
+     },
+     {
+      "SlippageBasisPoints": 200,
+      "MaxAmountIn": 200587.421875,
+      "MinAmountOut": 41.63716125488281,
+      "Price": 0.00020767997193615884,
+      "MaxAmountInInUSD": 200530.453125,
+      "MinAmountOutInUSD": 192642.71875
+     },
+     {
+      "SlippageBasisPoints": 500,
+      "MaxAmountIn": 489750.8125,
+      "MinAmountOut": 98.2296371459961,
+      "Price": 0.00020067098375875503,
+      "MaxAmountInInUSD": 489611.71875,
+      "MinAmountOutInUSD": 454479.21875
+     },
+     {
+      "SlippageBasisPoints": 1000,
+      "MaxAmountIn": 1050162.75,
+      "MinAmountOut": 195.50341796875,
+      "Price": 0.00018625801021698862,
+      "MaxAmountInInUSD": 1049864.5,
+      "MinAmountOutInUSD": 904536.0
+     }
+    ],
+    "AtoBPrice": 4627.38134765625,
+    "BtoAPrice": 0.0002161049487767741,
+    "AtoBPriceInUSD": 4626.06689453125,
+    "BtoAPriceInUSD": 0.9998531341552734
+   },
+   "Pool": {
+    "SmartContract": "0x6546055f46e866a4b9a4a13e81273e3152bae5da",
+    "CurrencyA": {
+     "SmartContract": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+     "Delegated": true,
+     "DelegatedTo": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+     "ProtocolName": "erc20",
+     "Name": "Tether Gold",
+     "Symbol": "XAUt",
+     "Decimals": 6,
+     "HasURI": false,
+     "Fungible": true,
+     "AssetId": "",
+     "BalanceSlotIndex": 0,
+     "TotalSupply": "0x000000000000000000000000000000000000000000000000000000a4c9038a68"
+    },
+    "CurrencyB": {
+     "SmartContract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+     "Delegated": false,
+     "DelegatedTo": "0x",
+     "ProtocolName": "erc20",
+     "Name": "Tether USD",
+     "Symbol": "USDT",
+     "Decimals": 6,
+     "HasURI": false,
+     "Fungible": true,
+     "AssetId": "",
+     "BalanceSlotIndex": 3,
+     "TotalSupply": "0x0000000000000000000000000000000000000000000000000139ba31cb3cb614"
+    },
+    "Pair": {
+     "SmartContract": "0x",
+     "Delegated": false,
+     "DelegatedTo": "0x",
+     "ProtocolName": "",
+     "Name": "",
+     "Symbol": "",
+     "Decimals": 0,
+     "HasURI": false,
+     "Fungible": false,
+     "AssetId": "",
+     "BalanceSlotIndex": 0,
+     "TotalSupply": "0x"
+    },
+    "PoolId": "0x"
+   },
+   "TransactionIndex": 0
+  }
+ ]
 }

@@ -1,219 +1,178 @@
 {
-    "Chain": {
-        "ChainId": "0x01",
-        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551 blob: (target: 6, max: 9, fraction: 5007716)\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ "Chain": {
+  "ChainId": "0x01",
+  "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ },
+ "Header": {
+  "Hash": "0x156dc125b499def1dd46769654fc80451a4b4c05a6afa75ca80cbd9fb8699a85",
+  "ParentHash": "0xfc6830fcb925b66d8408dc5b37c4db97c87a2e3eb2983e184fa58ad80bd54b08",
+  "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  "Root": "0xc7d524826e32ae59d98152b5993273c0975149940ef624e02ef0088fb4138c88",
+  "TxHash": "0xb783133e1723ccfcfc51b4de2349e65ccc8381a696e61641dbf7f57e08203042",
+  "ReceiptHash": "0x676b7016ec6fec350658fcac7fde19383a67a656663a2d9303a5285a01b6779b",
+  "MixDigest": "0xafbec063dc9b98ff481c22be6b6754df7bc86d74fa88a0cfef721ee5fda46b36",
+  "Coinbase": "0x4297cc867b85b63297c34af4268ced9cafc66f5a",
+  "Bloom": "0x90400800260100010810000014010488044000180200895000004440561101a088170102a3580003003002ba00a28b26073856444e02a60451910114c06400000000040d0030028c4800811f84ea00020cb06402014020301dc0008480047800080380481a408d14858048102c112bc40011402480110c000008251000992c0001610a2a10222068c20006a000604412108824c37340048a80023080381005059218000654403800780001d01400a4420052140a4080200002e07200010000c1804c28a247802080000441900018430011050242280008040029120a4020a828041221804a4c800086c0081282010c4044050008712040502204810108c84014",
+  "Extra": "0xd983011103846765746889676f312e32352e3130856c696e7578",
+  "Nonce": 0,
+  "Difficulty": "0x",
+  "Number": "0x018a3f49",
+  "GasLimit": 60000000,
+  "GasUsed": 5342844,
+  "Time": 1787723195,
+  "BaseFee": "0x028a50c7"
+ },
+ "Transfers": [
+  {
+   "TransactionIndex": 1,
+   "CallIndex": 2,
+   "LogIndex": 0,
+   "Sender": "0x2e0bacc6e11ab86ce3e810187a822acdad985187",
+   "Receiver": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+   "Amount": "0x4c4b40",
+   "Id": "0x",
+   "URI": "",
+   "Currency": {
+    "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "Delegated": true,
+    "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "ProtocolName": "erc20",
+    "Name": "USD Coin",
+    "Symbol": "USDC",
+    "Decimals": 6,
+    "HasURI": false,
+    "Fungible": true,
+    "AssetId": "",
+    "BalanceSlotIndex": 10,
+    "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44"
+   },
+   "Success": true,
+   "Data": "0x",
+   "Index": 0,
+   "TransactionHeader": {
+    "Index": 1,
+    "Hash": "0x233228f0ddaba12f01ef20e54ca1242e218903dee3a682b096ade53760658d68",
+    "Gas": 77348,
+    "Value": "0x",
+    "Data": "0x",
+    "Nonce": 5,
+    "ChainId": "0x01",
+    "Cost": "0x2e3acec3db40",
+    "GasFeeCap": "0x272b7c50",
+    "GasPrice": "0x272b7c50",
+    "GasTipCap": "0x272b7c50",
+    "Protected": true,
+    "Type": 0,
+    "To": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+    "From": "0x2e0bacc6e11ab86ce3e810187a822acdad985187",
+    "ToCode": {
+     "Hash": "0x27fed69438cf2a1e69f053e52d5ee6f9637963c44da6035fb9241063240c799e",
+     "Size": 8628,
+     "Suicided": false
     },
-    "Header": {
-        "Hash": "0x2888ec8816c9062e562630d0206cc7aac695f992eb5d82c226a311f88def7694",
-        "ParentHash": "0x484c388f5c0515ec3ad3fe039179e22a2814446cdc1b18e39c1c2331dedf0484",
-        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-        "Root": "0x0d6c311058cb6b247e4115cee9d29940a3bc32121c306006657db0721f1ee4bf",
-        "TxHash": "0x724d6ba77a9b61a2ec9475a9638e38d1955c9aa0dd04e391d07dde058c053493",
-        "ReceiptHash": "0xa28a0c124e6e2bff97bbc7ac8288c7867eff4851fe7e9ab3ea5a81d43a967270",
-        "MixDigest": "0x76376228c9dc855066776b81a30f10fe73b161989b97e29cee39c37635a62edb",
-        "Coinbase": "0xdadb0d80178819f2319190d340ce9a924f783711",
-        "Bloom": "0xdfedf77f73d9fafdf37f123efa41dfe5f75f7af3f4f67b5ef187b5977d02feb71efdfbbff6fccfbbb6dfff4dbfb6cbbfb3f79ffdffabfcf0d7bfe7d7f97fbbffffc7fcfbf7d4bffffce7ef5db95bfba6b5fffef7d0dfaff845b5fed7b1b766ff5cac7fde96feebb0bdfeffbff7b3eddab33dca3b7fdf1e6f3ca6fddffb7efef877fdaffd5f3dcb6bd4dafbeebbf77e5ffdd3dfbdffaebfdf7eadc9f7fffeb7fb97def9ff77afb6f64e7bddf6fbfdf77fbfdfdf77bafb6bbb277f7f393ffb7ffbfff3fcb7735d7ff96dff5f777e78fbfd2eedff6bdefe9cdc3d6afdefb9f6efcff7f7ffd3fff7ddc137fff2f9ededbf5ed5efdde85fffffdffefbfef777dbfffa",
-        "Extra": "0x4275696c6465724e65742028466c617368626f747329",
-        "Nonce": 0,
-        "Difficulty": "0x",
-        "Number": 23940041,
-        "GasLimit": 60000000,
-        "GasUsed": 32375901,
-        "Time": 1764855599,
-        "BaseFee": 41699338
+    "AccessList": [],
+    "Time": 1787723198175421615
+   },
+   "TransactionSignature": {
+    "R": "0xf2858f34071caed32d1ab9adb6fd8c4b85fb0be6c5123e700f0d5323b99a727d",
+    "V": "0x25",
+    "S": "0x528c00c3b7f2862478425b4b3b281ee4fbf7bdab2772a636504a52f0866fdd61"
+   },
+   "AmountInUSD": 4.998898983001709
+  }
+ ],
+ "TransactionBalances": [
+  {
+   "TransactionIndex": 1,
+   "TransactionHeader": {
+    "Index": 1,
+    "Hash": "0x233228f0ddaba12f01ef20e54ca1242e218903dee3a682b096ade53760658d68",
+    "Gas": 77348,
+    "Value": "0x",
+    "Data": "0xe80179520000000000000000000000002e0bacc6e11ab86ce3e810187a822acdad985187000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000000004c4b40c642a3906d159fd56fde9a54a0f5cd797d3d63d685f8d18e5ad4fb03b077a577",
+    "Nonce": 5,
+    "ChainId": "0x01",
+    "Cost": "0x2e3acec3db40",
+    "GasFeeCap": "0x272b7c50",
+    "GasPrice": "0x272b7c50",
+    "GasTipCap": "0x272b7c50",
+    "Protected": true,
+    "Type": 0,
+    "To": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+    "From": "0x2e0bacc6e11ab86ce3e810187a822acdad985187",
+    "ToCode": {
+     "Hash": "0x27fed69438cf2a1e69f053e52d5ee6f9637963c44da6035fb9241063240c799e",
+     "Size": 8628,
+     "Suicided": false
     },
-    "TransactionBalances": [
-        {
-            "TransactionIndex": 0,
-            "TransactionHeader": {
-                "Index": 0,
-                "Hash": "0x2ca871883fb4390107c7ea05a02ca1b9ce3fca463ab8af28f35f7f7a5005dcf8",
-                "Gas": 858144,
-                "Value": "0x26e153774000",
-                "Data": "0x7048515500000000000000000000000000000000000000000000000000000000000076800000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000007595000000000000000000000000000000000000000000000000000000000079b29d00000000000000000000000000000000000000000000000000000247098a6b04",
-                "Nonce": 393164,
-                "ChainId": "0x01",
-                "Cost": "0x72622d502220",
-                "GasFeeCap": "0x05c42251",
-                "GasPrice": "0x05c42251",
-                "GasTipCap": "0x02c109a5",
-                "Protected": true,
-                "Type": 2,
-                "To": "0x6b8ad17795d89b283e6d0362a87a403f3544bb9d",
-                "From": "0xe37f7c80ced04c4f243c0fd04a5510d663cb88b5",
-                "ToCode": {
-                    "Hash": "0x65051f231328d22325126b9957779ea084d21120cadaf07b6abe3a3503d9394b",
-                    "Size": 14718,
-                    "Suicided": false
-                },
-                "Time": 1764855603319468348
-            },
-            "TransactionSignature": {
-                "R": "0x8e84c3d7e6e4b3d074afaf053cdf378bdd8a1ac6e2ef16eb465f7e1540e6ab7f",
-                "V": "0x",
-                "S": "0x412fec0982444637821a41b278c59c7b5c420c4d1620e059a7aad0835c787f2b"
-            },
-            "TokenBalances": [
-                {
-                    "Address": "0xe37f7c80ced04c4f243c0fd04a5510d663cb88b5",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 7947089987077894119,
-                    "PostBalance": 7947047237868072935,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0x6b8ad17795d89b283e6d0362a87a403f3544bb9d",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 2252336302159257,
-                    "PostBalance": 2295085511980441,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0x6b8ad17795d89b283e6d0362a87a403f3544bb9d",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 2295085511980441,
-                    "PostBalance": 2252336302159257,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0x1a44076050125825900e736c501f859c50fe728c",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PostBalance": 42749209821184,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0x1a44076050125825900e736c501f859c50fe728c",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 42749209821184,
-                    "PostBalance": 9865202266427,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0xbb2ea70c9e858123480642cf96acbcce1372dce1",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 21054842939689046896,
-                    "PostBalance": 21054875823696601653,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0x1a44076050125825900e736c501f859c50fe728c",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 9865202266427,
-                    "PostBalance": "0x",
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                },
-                {
-                    "Address": "0xe37f7c80ced04c4f243c0fd04a5510d663cb88b5",
-                    "Currency": {
-                        "SmartContract": "0x",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "",
-                        "Name": "Ethereum",
-                        "Symbol": "ETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 0
-                    },
-                    "PreBalance": 7947047237868072935,
-                    "PostBalance": 7947057103070339362,
-                    "BalanceChangeReasonCode": 10,
-                    "TotalSupply": "0x"
-                }
-            ]
-        }
-    ]
+    "AccessList": [],
+    "Time": 1787723198175421615
+   },
+   "TransactionSignature": {
+    "R": "0xf2858f34071caed32d1ab9adb6fd8c4b85fb0be6c5123e700f0d5323b99a727d",
+    "V": "0x25",
+    "S": "0x528c00c3b7f2862478425b4b3b281ee4fbf7bdab2772a636504a52f0866fdd61"
+   },
+   "TokenBalances": [
+    {
+     "Address": "0x2e0bacc6e11ab86ce3e810187a822acdad985187",
+     "Currency": {
+      "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "Delegated": true,
+      "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "ProtocolName": "erc20",
+      "Name": "USD Coin",
+      "Symbol": "USDC",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 10,
+      "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44"
+     },
+     "PreBalance": "0x0000000000000000000000000000000000000000000000000000000005f5e100",
+     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000005a995c0",
+     "BalanceChangeReasonCode": 0,
+     "TokenOwnership": {
+      "Id": "0x",
+      "Owns": false,
+      "Uri": ""
+     },
+     "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44",
+     "PreBalanceInUSD": 99.97798156738281,
+     "PostBalanceInUSD": 94.97908020019531,
+     "TotalSupplyInUSD": 50579554304.0
+    },
+    {
+     "Address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+     "Currency": {
+      "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "Delegated": true,
+      "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "ProtocolName": "erc20",
+      "Name": "USD Coin",
+      "Symbol": "USDC",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 10,
+      "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44"
+     },
+     "PreBalance": "0x0000000000000000000000000000000000000000000000000000000530f407e1",
+     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000531405321",
+     "BalanceChangeReasonCode": 0,
+     "TokenOwnership": {
+      "Id": "0x",
+      "Owns": false,
+      "Uri": ""
+     },
+     "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44",
+     "PreBalanceInUSD": 22291.2265625,
+     "PostBalanceInUSD": 22296.224609375,
+     "TotalSupplyInUSD": 50579554304.0
+    }
+   ]
+  }
+ ]
 }

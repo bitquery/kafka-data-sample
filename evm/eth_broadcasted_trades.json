@@ -1,0 +1,216 @@
+{
+ "Chain": {
+  "ChainId": "0x01",
+  "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ },
+ "Header": {
+  "Hash": "0x9ece9184922e390f74c3f3bacfce7c16c8e099949ef3216e2db0fa9020e3f7cc",
+  "ParentHash": "0x551d2c786d4c985672beb4642b3762530497ac864d961fa78206b4d3ca8255a9",
+  "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  "Root": "0xbf6b2109086e236b7b7442221730ac7ec02202b3afb2c662ecf7b00e772cd295",
+  "TxHash": "0x0f95b3bb73520d7cfe54f24cedf1d1ba4acf4da670a42b91a19928f0c476e7b8",
+  "ReceiptHash": "0x6ae34898210d815f388dbd5c719512c2757717edeaf508a234ecefd94035cf6d",
+  "MixDigest": "0x59f952f9ade4b5dabf15899f1d1f84ea9e6e8a7d5d324aa1c7f04c1b213ebf68",
+  "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+  "Bloom": "0x99764edf68b21ab998c3aefdc2cf6379fffc6e43f1367181f4377319ab07d9bac18bf5eaaa6a5fac90977f8346fa5d14b3aacab68da26db9c8e73be315a6aab1b7148b8465d5c32cdf606b4f355b03624ecef5979d4f83b85d40e526cb26adeb7cff76c9ffee35a5a50bf5f9d4d2fea3262b8dadf6c3269a66d4dd3f027f0bafe1ebfe58196f993bc84de33b3fca747fd2131f55e345d2ed7f7f18eef5b9dbe10f57987c1ff32b5c9bf05bd896ef0e5eb9ca49f8a9fd2b1b2ff2df9eec6c61ffac87ede25aeb2adfe5cd35b2e9f66ddd558eff76a23923f499ff67bed192fa8eb43df4f3bbb371bc3a69b5bfe7f33dd5fdafbc4172fc5fc432d11d5f1174b84b",
+  "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
+  "Nonce": 0,
+  "Difficulty": "0x",
+  "Number": "0x018a3f4f",
+  "GasLimit": 60000000,
+  "GasUsed": 20781763,
+  "Time": 1787723267,
+  "BaseFee": "0x026c7318"
+ },
+ "Trades": [
+  {
+   "TransactionIndex": 0,
+   "CallIndex": 16,
+   "LogIndex": 0,
+   "HasLog": true,
+   "Dex": {
+    "SmartContract": "0x1445f32d1a74872ba41f3d8cf4022e9996120b31",
+    "Delegated": false,
+    "DelegatedTo": "0x1445f32d1a74872ba41f3d8cf4022e9996120b31",
+    "OwnerAddress": "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865",
+    "FeeRecipient": "0x",
+    "ProtocolName": "pancake_swap_v3",
+    "ProtocolFamily": "PancakeSwap",
+    "ProtocolVersion": "3",
+    "Pair": {
+     "SmartContract": "0x",
+     "Delegated": false,
+     "DelegatedTo": "0x",
+     "ProtocolName": "",
+     "Name": "",
+     "Symbol": "",
+     "Decimals": 0,
+     "HasURI": false,
+     "Fungible": false,
+     "AssetId": "",
+     "BalanceSlotIndex": 0,
+     "TotalSupply": "0x"
+    },
+    "Currencies": [
+     {
+      "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "Delegated": true,
+      "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "ProtocolName": "erc20",
+      "Name": "USD Coin",
+      "Symbol": "USDC",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 10,
+      "TotalSupply": "0x00000000000000000000000000000000000000000000000000b80f2d00129b7e"
+     },
+     {
+      "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "Delegated": false,
+      "DelegatedTo": "0x",
+      "ProtocolName": "erc20",
+      "Name": "Wrapped Ether",
+      "Symbol": "WETH",
+      "Decimals": 18,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 4,
+      "TotalSupply": "0x000000000000000000000000000000000000000000022b472eeccb6d9e9102a5"
+     }
+    ],
+    "UnderlyingCurrencies": []
+   },
+   "Buy": {
+    "Seller": "0xd7ca08ec1aee9cce8a8eda9365343ef197674e1a",
+    "Buyer": "0x1445f32d1a74872ba41f3d8cf4022e9996120b31",
+    "OrderId": "0x",
+    "Assets": [
+     {
+      "Currency": {
+       "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+       "Delegated": true,
+       "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+       "ProtocolName": "erc20",
+       "Name": "USD Coin",
+       "Symbol": "USDC",
+       "Decimals": 6,
+       "HasURI": false,
+       "Fungible": true,
+       "AssetId": "",
+       "BalanceSlotIndex": 10,
+       "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3ba58a5e050cb"
+      },
+      "Amount": "0x0508bb83",
+      "Id": "0x",
+      "URI": "",
+      "Data": "0x",
+      "AmountInUSD": 84.43974304199219
+     }
+    ]
+   },
+   "Sell": {
+    "Seller": "0x1445f32d1a74872ba41f3d8cf4022e9996120b31",
+    "Buyer": "0xd7ca08ec1aee9cce8a8eda9365343ef197674e1a",
+    "OrderId": "0x",
+    "Assets": [
+     {
+      "Currency": {
+       "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+       "Delegated": false,
+       "DelegatedTo": "0x",
+       "ProtocolName": "erc20",
+       "Name": "Wrapped Ether",
+       "Symbol": "WETH",
+       "Decimals": 18,
+       "HasURI": false,
+       "Fungible": true,
+       "AssetId": "",
+       "BalanceSlotIndex": 4,
+       "TotalSupply": "0x00000000000000000000000000000000000000000001aa7c6dc8b850196f1f9c"
+      },
+      "Amount": "0x79c8d896cd785b",
+      "Id": "0x",
+      "URI": "",
+      "Data": "0x",
+      "AmountInUSD": 84.408447265625
+     }
+    ]
+   },
+   "Sender": "0xd7ca08ec1aee9cce8a8eda9365343ef197674e1a",
+   "Success": true,
+   "Fees": [
+    {
+     "Currency": {
+      "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "Delegated": true,
+      "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "ProtocolName": "erc20",
+      "Name": "USD Coin",
+      "Symbol": "USDC",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 10,
+      "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3ba58a5e050cb"
+     },
+     "Amount": "0x0ae3",
+     "Id": "0x",
+     "Payer": "0xd7ca08ec1aee9cce8a8eda9365343ef197674e1a",
+     "Recipient": "0x",
+     "AmountInUSD": 0.00278638512827456
+    }
+   ],
+   "Index": 0,
+   "TransactionHeader": {
+    "Index": 0,
+    "Hash": "0x7c091b1b291aa4f5883474be4cb94aefa3d4b8fd883b5d6cef9fe223f0ff8cf9",
+    "Gas": 721354,
+    "Value": "0x",
+    "Data": "0x",
+    "Nonce": 81840,
+    "ChainId": "0x01",
+    "Cost": "0x282f23ff2e20",
+    "GasFeeCap": "0x03a699d0",
+    "GasPrice": "0x03a699d0",
+    "GasTipCap": "0x03a699d0",
+    "Protected": true,
+    "Type": 2,
+    "To": "0xd7ca08ec1aee9cce8a8eda9365343ef197674e1a",
+    "From": "0xcf57bfbc6e4acda88147634148ab17cbbe875ee4",
+    "ToCode": {
+     "Hash": "0x54e4428cc49adefcd8b70a01ba1175f69954c4ebdb4c922f4d7f82958fb2c663",
+     "Size": 796,
+     "Suicided": false
+    },
+    "AccessList": [],
+    "Time": 1787723271964250900
+   },
+   "TransactionSignature": {
+    "R": "0x91053db2fdcedba3f21c4c9ce1939226f75b90461f0df881090c3d4fac37692d",
+    "V": "0x01",
+    "S": "0x6c1e4ca09181f37ad07d46ef7056fb9c29daca98b5fcb5fb19642c752b162ce8"
+   },
+   "PoolId": "0x",
+   "TransactionFee": {
+    "SenderFee": "0x13c7b59af110",
+    "PriorityFeePerGas": "0x013a26b8",
+    "EffectiveGasPrice": "0x03a699d0",
+    "GasRefund": 366277,
+    "Burnt": "0x0d219fb14778",
+    "Savings": "0x",
+    "MinerReward": "0x06a615e9a998",
+    "SenderFeeInUSD": 0.05355284363031387,
+    "PriorityFeePerGasInUSD": 5.0695874165285204e-08,
+    "EffectiveGasPriceInUSD": 1.5082036952662747e-07,
+    "BurntInUSD": 0.03555190563201904,
+    "SavingsInUSD": 0.0,
+    "MinerRewardInUSD": 0.01800093799829483
+   },
+   "TransactionFeeInUSD": 0.05355284363031387
+  }
+ ]
+}

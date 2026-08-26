@@ -1,256 +1,342 @@
 {
-    "Chain": {
-        "ChainId": "0x01",
-        "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551 blob: (target: 6, max: 9, fraction: 5007716)\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ "Chain": {
+  "ChainId": "0x01",
+  "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+ },
+ "Header": {
+  "Hash": "0x913fb8f93a40698df6a27a0fdd93ca1f4df5ec101f04c21d14b342bc07674a24",
+  "ParentHash": "0x27964e458da4e96980b3c78d2ee4d54c9bdd5043cb425d46797aa639f1e7ad4a",
+  "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  "Root": "0x0e33f3d972779cf5c0caaf3172d788af7239f3b5046e6a8c185cf4d852cce755",
+  "TxHash": "0x905d6f8a2f9168ad9ff841842ac8cff57531123ad423c7e6be13873d4c6ea777",
+  "ReceiptHash": "0xe7c1873db57b9ed40d159f0ce408e62294993d2141e2412697db89b6436025bd",
+  "MixDigest": "0x9c8c92086b714c094bd96c93412f097fe1327e02e84010565e622b4526335418",
+  "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+  "Bloom": "0x55fffecf6fef7efbffdebf9fcfe9bfff97fda7dfff7ebafcffdff7bffffbdeffdefbf5fde67c93a5cfb7bfdf17fe7ff7fffec7f7bf4aebfe15b73f77e3bf5eb37b7fdfbfeffffbfffaebfffbfdf97ffb7efdbdd7b9fcfffd3ff75dfffea5ddffffbeff7bfeffdf7fffbdffffffe9ffc3fbdbdf7afff9befeffeb7edfb5df9fffdbfbbebefb48d92df9ffa77ff7eadfffefbdfdf36b57efcafdfbf7f7fffefeff3fdcbdeff6fbffefffff77cfbfdfad7fdfdedef779ef5fdcffffffbfbc77ffffff7fdf7effbfdf5ff7edfffbf77dffff958dbdf7cfbdff7dffffb7dfb6bfefcfa57ffced7fffe79fdff36fbfeffbbffbffbfff8b77ffff6576aeef7f7567ffff",
+  "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
+  "Nonce": 0,
+  "Difficulty": "0x",
+  "Number": "0x018a3f36",
+  "GasLimit": 60000000,
+  "GasUsed": 59960867,
+  "Time": 1787722967,
+  "BaseFee": "0x02484f49"
+ },
+ "Trades": [
+  {
+   "TransactionIndex": 109,
+   "CallIndex": 50,
+   "LogIndex": 0,
+   "HasLog": true,
+   "Dex": {
+    "SmartContract": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "Delegated": false,
+    "DelegatedTo": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "OwnerAddress": "0x",
+    "FeeRecipient": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "ProtocolName": "uniswap_v4",
+    "ProtocolFamily": "Uniswap",
+    "ProtocolVersion": "4",
+    "Pair": {
+     "SmartContract": "0x",
+     "Delegated": false,
+     "DelegatedTo": "0x",
+     "ProtocolName": "",
+     "Name": "",
+     "Symbol": "",
+     "Decimals": 0,
+     "HasURI": false,
+     "Fungible": false,
+     "AssetId": "",
+     "BalanceSlotIndex": 0,
+     "TotalSupply": "0x"
     },
-    "Header": {
-        "Hash": "0x48ce3a989b73820c777bb621bd8225ea97a1e9beaaac41455cb6057a44706639",
-        "ParentHash": "0x1d07db44ce0f65fa5d828d010ccfafc787e6c1b1336411de8654edeb7d51607c",
-        "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-        "Root": "0xe3b850546b3c7937f82baa5a4450a4a495a00d58bb5a08dd8f385e09186b80c2",
-        "TxHash": "0x87582027517ca6af655ac7bf956ca754ff1aa151c9fe85ce8bafde461cbd8b5a",
-        "ReceiptHash": "0x245500ffe39c2fad8241bfef1a2e557119770fa3f71263ace1e8815bf2a34784",
-        "MixDigest": "0x3b020bc62587dafd4565b1179e2858b06e9a0183201065852c00486914612b0e",
-        "Coinbase": "0xdadb0d80178819f2319190d340ce9a924f783711",
-        "Bloom": "0xfe6bd2ef5d9bdf77befddb3febfff5ffdf7fdf7d7ff9e7757fbf5efffdbf37ff15f585fbeeddf4aee7dd7ffff7fbff3f77cf57d4affef7ddf9d5a4ffe7ebbffdb5fffa7bb7ff79fb6dff6ffeffeba7ff757b6ef7dff7ff66dff7f7fbdffabfdebdeb9fcf7feff653de5d7fe6fd7dbbcdffdfddfffffc1fdfdef6b77f725ffefefffbbdbfbbf7f7e8fffff7f2fddfdbe7fdf5ded7e3fff1ee5fff97fefdfdf5e7efdf9fff3bdf7fff06fefafcf78fbef9fffff8ff6dbfdbffbbfd753f5bdfff76ed7f7fefff93fbffbbedec5df5dcfdf47fef6fff85bcfdffdfd777db7b3deff3f6d2fdffcff6f7ffef67a97efbff7fffa5de770ddff63ffbffbdf7fadefffdfd",
-        "Extra": "0x4275696c6465724e657420284e65746865726d696e6429",
-        "Nonce": 0,
-        "Difficulty": "0x",
-        "Number": 24468342,
-        "GasLimit": 60000000,
-        "GasUsed": 23529295,
-        "Time": 1771232375,
-        "BaseFee": 35071452
-    },
-    "Trades": [
-        {
-            "TransactionIndex": 4,
-            "CallIndex": 1,
-            "LogIndex": 0,
-            "HasLog": true,
-            "Dex": {
-                "SmartContract": "0x14424eeecbff345b38187d0b8b749e56faa68539",
-                "Delegated": false,
-                "DelegatedTo": "0x14424eeecbff345b38187d0b8b749e56faa68539",
-                "OwnerAddress": "0x1f98431c8ad98523631ae4a59f267346ea31f984",
-                "FeeRecipient": "0x",
-                "ProtocolName": "uniswap_v3",
-                "ProtocolFamily": "Uniswap",
-                "ProtocolVersion": "3",
-                "Currencies": [
-                    {
-                        "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "erc20_deposable",
-                        "Name": "Wrapped Ether",
-                        "Symbol": "WETH",
-                        "Decimals": 18,
-                        "HasURI": false,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 4
-                    },
-                    {
-                        "SmartContract": "0xe41d2489571d322189246dafa5ebde1f4699f498",
-                        "Delegated": false,
-                        "DelegatedTo": "0x",
-                        "ProtocolName": "erc20",
-                        "Name": "0x Protocol Token",
-                        "Symbol": "ZRX",
-                        "Decimals": 18,
-                        "HasURI": true,
-                        "Fungible": true,
-                        "AssetId": "",
-                        "BalanceSlotIndex": 1
-                    }
-                ]
-            },
-            "Buy": {
-                "Seller": "0xc46fcd651bd6ac11255886feabdcebd58b870c86",
-                "Buyer": "0x14424eeecbff345b38187d0b8b749e56faa68539",
-                "OrderId": "0x",
-                "Assets": [
-                    {
-                        "Currency": {
-                            "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-                            "Delegated": false,
-                            "DelegatedTo": "0x",
-                            "ProtocolName": "erc20_deposable",
-                            "Name": "Wrapped Ether",
-                            "Symbol": "WETH",
-                            "Decimals": 18,
-                            "HasURI": false,
-                            "Fungible": true,
-                            "AssetId": "",
-                            "BalanceSlotIndex": 4
-                        },
-                        "Amount": "0x02a1cca1d3b3adc0",
-                        "Id": "0x",
-                        "URI": "",
-                        "Data": "0x"
-                    }
-                ]
-            },
-            "Sell": {
-                "Seller": "0x14424eeecbff345b38187d0b8b749e56faa68539",
-                "Buyer": "0xc46fcd651bd6ac11255886feabdcebd58b870c86",
-                "OrderId": "0x",
-                "Assets": [
-                    {
-                        "Currency": {
-                            "SmartContract": "0xe41d2489571d322189246dafa5ebde1f4699f498",
-                            "Delegated": false,
-                            "DelegatedTo": "0x",
-                            "ProtocolName": "erc20",
-                            "Name": "0x Protocol Token",
-                            "Symbol": "ZRX",
-                            "Decimals": 18,
-                            "HasURI": true,
-                            "Fungible": true,
-                            "AssetId": "",
-                            "BalanceSlotIndex": 1
-                        },
-                        "Amount": "0xb5ecdf658e4bd60569",
-                        "Id": "0x",
-                        "URI": "",
-                        "Data": "0x"
-                    }
-                ]
-            },
-            "Sender": "0xc46fcd651bd6ac11255886feabdcebd58b870c86",
-            "Success": true,
-            "Index": 0,
-            "TransactionHeader": {
-                "Index": 4,
-                "Hash": "0xd2f1f7825eadad0b310a3809c922249ef597eae076681c475ef4d0a58d896550",
-                "Gas": 612506,
-                "Value": "0x",
-                "Data": "0x742a7783010143dfc508a7040eaffdc7668aacff562003b0471100000000000000000002a1cca1d3b3adc00000000000000abe65b193792b46a48e0214424eeecbff345b38187d0b8b749e56faa6853900000000000000000000000000000000000000000601000014c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20a00042424856bc30000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000340000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000003060c0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000001e000000000000000000000000000000000000000000000000000000000000002400000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000c83aecc790e8a4453e5dd3b0b4b3680501a7a7000000000000000000000000e41d2489571d322189246dafa5ebde1f4699f498000000000000000000000000000000000000000000000000000000000000271000000000000000000000000000000000000000000000000000000000000000c8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000b5ecdf658e4bd605690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040000000000000000000000000e41d2489571d322189246dafa5ebde1f4699f4980000000000000000000000000000000000000000000000b5ecdf658e4bd60569000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000c83aecc790e8a4453e5dd3b0b4b3680501a7a7000000000000000000000000000000000000000000000abe65b193792b46a48e",
-                "Nonce": 709406,
-                "ChainId": "0x01",
-                "Cost": "0x06103602d08836",
-                "GasFeeCap": "0xa614c607",
-                "GasPrice": "0xa614c607",
-                "GasTipCap": "0xa3fda02b",
-                "Protected": true,
-                "Type": 2,
-                "To": "0xc46fcd651bd6ac11255886feabdcebd58b870c86",
-                "From": "0x315d2ee4fccda0def532ef4108ff57204f8d9eba",
-                "ToCode": {
-                    "Hash": "0x8fc348dae5255f9a4974c5cdd8c1b206a02aa495c73a9c2f63358d23b6d590b7",
-                    "Size": 20527,
-                    "Suicided": false
-                },
-                "AccessList": [
-                    {
-                        "Address": "0x06dd71dab27c1a3e0b172d53735f00bf1a66eb79",
-                        "StorageKeys": [
-                            "0xab11716c16e0b17e63e86824d48cf7b7bb7480259a882a34bc7464e991c639ab",
-                            "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
-                            "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
-                            "0x8a8759c099ebe9aa09097c822bb47e97553037d9bd688bbbdaffdf49f6ebc6ef"
-                        ]
-                    },
-                    {
-                        "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
-                        "StorageKeys": [
-                            "0xd506bcc0bfc6458ad3fa7e4b595823ed947e7dd6d1b1ee060e217dde93454f78",
-                            "0xd506bcc0bfc6458ad3fa7e4b595823ed947e7dd6d1b1ee060e217dde93454f77",
-                            "0x5e5ccb6a487fccb24c3cc4dc4b91040eccceb167382f4f61e6458bacb47b6da6",
-                            "0xd506bcc0bfc6458ad3fa7e4b595823ed947e7dd6d1b1ee060e217dde93454f75"
-                        ]
-                    },
-                    {
-                        "Address": "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7",
-                        "StorageKeys": [
-                            "0xfe897993f51ce904022c92d2fa3efa53e6c127e0da789cac65346d94ea8c85de",
-                            "0xaabb6dfb65848fbdc98ad5e95cef4d1b1aee9928448d6b856f4520c2083e92f5",
-                            "0x00000000000000000000000000000000000000000000000000000000000000a1",
-                            "0x00000000000000000000000000000000000000000000000000000000000000a0",
-                            "0x11fd237061433ba9f221f703bed587e7636b11fbe3815abba27443968931d654"
-                        ]
-                    },
-                    {
-                        "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-                        "StorageKeys": [
-                            "0xd02c569bbda56c9cd5e9ead70849972dc24b0aef8478f8e03e7108fa0ff99599",
-                            "0xf8cdf86d8526da8caa641242421cf5b4865100a0193593918299fb675c54efcb"
-                        ]
-                    },
-                    {
-                        "Address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
-                        "StorageKeys": [
-                            "0xf649533a0aaf3742a205ec348b357a740086e5adccaf5feaa3ccf583e5ee229e"
-                        ]
-                    },
-                    {
-                        "Address": "0x1820a4b7618bde71dce8cdc73aab6c95905fad24",
-                        "StorageKeys": [
-                            "0xd3218d63afa9da9cb32c176c7e7a6f74d112e2f58d2db60a250bfc456e6a8df7",
-                            "0x70c533f76dd7d0aa505969ed90478bf86549bbe90dd19f68975db6e3bba4e7e9",
-                            "0x41fd398a8168c25201acac6b55ce5758445e63f130d0fa23c4d8e2b765ba0585",
-                            "0x7b3f1bb0565e1d214805695e920e24a73c5f47b214a4c332c59c72188b5bdda1"
-                        ]
-                    },
-                    {
-                        "Address": "0xc04a10fd5e6513242558f47331568abd6185a310",
-                        "StorageKeys": [
-                            "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
-                            "0x3638fbff41f5510f532a3ef443b0259a9e7727872ee54b2b924ec89aaf932b79",
-                            "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103"
-                        ]
-                    },
-                    {
-                        "Address": "0x538d2b8cc2335c9495a6bfc9a57eb8e9c389d5f1"
-                    },
-                    {
-                        "Address": "0x2db9ccb342003421544faba8cdf670ab922de5d3"
-                    },
-                    {
-                        "Address": "0x14424eeecbff345b38187d0b8b749e56faa68539",
-                        "StorageKeys": [
-                            "0x0000000000000000000000000000000000000000000000000000000000000000",
-                            "0x0000000000000000000000000000000000000000000000000000000000000004",
-                            "0x0000000000000000000000000000000000000000000000000000000000000001",
-                            "0x697b2bd7bb2984c4e0dc14c79c987d37818484a62958b9c45a0e8b962f20650f",
-                            "0x000000000000000000000000000000000000000000000000000000000000004d",
-                            "0x000000000000000000000000000000000000000000000000000000000000004e",
-                            "0x0000000000000000000000000000000000000000000000000000000000000003"
-                        ]
-                    },
-                    {
-                        "Address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
-                        "StorageKeys": [
-                            "0xeb35797a475b62be3e8b4feab7c3aa5ae4720676d169d7aa465535d0a96f6473",
-                            "0xfe897993f51ce904022c92d2fa3efa53e6c127e0da789cac65346d94ea8c85de",
-                            "0x11fd237061433ba9f221f703bed587e7636b11fbe3815abba27443968931d654",
-                            "0x1adf6ef6fd88c0cf587cffd6b3394b205e1baae053636f5d7a0c2aa39275d4cf"
-                        ]
-                    },
-                    {
-                        "Address": "0x4ee5f270572285776814e32952446e9b7ee15c86",
-                        "StorageKeys": [
-                            "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
-                            "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
-                            "0x0000000000000000000000000000000000000000000000000000000000000099"
-                        ]
-                    },
-                    {
-                        "Address": "0x1d085cd2f8b5b64923fbee60ee399d5069b6e735"
-                    },
-                    {
-                        "Address": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af"
-                    }
-                ],
-                "Time": 1771232375000000000
-            },
-            "TransactionSignature": {
-                "R": "0xaf4433021796f1f2cda2fd8b6f236cd59bfaf0549de258c05a21e96206178cce",
-                "V": "0x01",
-                "S": "0x71e7eba2d057926f20363a3e0a2c42210dfc9fa6913cd9c583178f0c94debb48"
-            },
-            "PoolId": "0x"
-        }
+    "Currencies": [],
+    "UnderlyingCurrencies": []
+   },
+   "Buy": {
+    "Seller": "0x4d4e14fbdf6bb02b6e036f86f120f00abe41c791",
+    "Buyer": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "OrderId": "0x",
+    "Assets": [
+     {
+      "Currency": {
+       "SmartContract": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+       "Delegated": true,
+       "DelegatedTo": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+       "ProtocolName": "erc20",
+       "Name": "Eigen",
+       "Symbol": "EIGEN",
+       "Decimals": 18,
+       "HasURI": false,
+       "Fungible": true,
+       "AssetId": "",
+       "BalanceSlotIndex": 0,
+       "TotalSupply": "0x000000000000000000000000000000000000000005ededeb25c89e0fe3ddc1d8"
+      },
+      "Amount": "0x0159565e457d7cb456",
+      "Id": "0x",
+      "URI": "",
+      "Data": "0x",
+      "AmountInUSD": 5.195277690887451
+     }
     ]
+   },
+   "Sell": {
+    "Seller": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "Buyer": "0x4d4e14fbdf6bb02b6e036f86f120f00abe41c791",
+    "OrderId": "0x",
+    "Assets": [
+     {
+      "Currency": {
+       "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+       "Delegated": true,
+       "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+       "ProtocolName": "erc20",
+       "Name": "USD Coin",
+       "Symbol": "USDC",
+       "Decimals": 6,
+       "HasURI": false,
+       "Fungible": true,
+       "AssetId": "",
+       "BalanceSlotIndex": 10,
+       "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bc1591429d9c"
+      },
+      "Amount": "0x4f5e01",
+      "Id": "0x",
+      "URI": "",
+      "Data": "0x",
+      "AmountInUSD": 5.200415134429932
+     }
+    ]
+   },
+   "Sender": "0x4d4e14fbdf6bb02b6e036f86f120f00abe41c791",
+   "Success": true,
+   "Fees": [
+    {
+     "Currency": {
+      "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "Delegated": true,
+      "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "ProtocolName": "erc20",
+      "Name": "USD Coin",
+      "Symbol": "USDC",
+      "Decimals": 6,
+      "HasURI": false,
+      "Fungible": true,
+      "AssetId": "",
+      "BalanceSlotIndex": 10,
+      "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bc1591429d9c"
+     },
+     "Amount": "0x4717",
+     "Id": "0x",
+     "Payer": "0x4d4e14fbdf6bb02b6e036f86f120f00abe41c791",
+     "Recipient": "0x000000000004444c5dc75cb358380d2e3de08a90",
+     "AmountInUSD": 0.01819552294909954
+    }
+   ],
+   "Index": 0,
+   "TransactionHeader": {
+    "Index": 109,
+    "Hash": "0x773fadb0a1881084727d93077c5e898f235f168b4fadd461638d7ed23717bc44",
+    "Gas": 1222027,
+    "Value": "0x",
+    "Data": "0x",
+    "Nonce": 2278,
+    "ChainId": "0x01",
+    "Cost": "0x69d70943a20e",
+    "GasFeeCap": "0x05ad13ea",
+    "GasPrice": "0x05ad13ea",
+    "GasTipCap": "0x03262a63",
+    "Protected": true,
+    "Type": 2,
+    "To": "0xb222da0f9c22ad2addcb0b0d6b150f398e44157a",
+    "From": "0x388a501588f2f1d6c6f61d99a7375409b130068b",
+    "ToCode": {
+     "Hash": "0x93dd0a7789d67d75d537cd90e5ccf8f919593cb652f6a7a5f8d6cf7e3769bfd8",
+     "Size": 23,
+     "Suicided": false
+    },
+    "AccessList": [
+     {
+      "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "StorageKeys": [
+       "0x448ab482789a3aa0e847b2e476359dfd936608925c7fe189ecc1f228330a694e",
+       "0x448ab482789a3aa0e847b2e476359dfd936608925c7fe189ecc1f228330a6950",
+       "0x448ab482789a3aa0e847b2e476359dfd936608925c7fe189ecc1f228330a6951",
+       "0x5a272a4754bb50f34385c4e7112ed9787ba9d900730ae88034fd8c61cce627fb",
+       "0x84893e0f271e5f8233d24aa85ba38e0d2ed8f0fc8f608c286ccee51e6c35dd6e",
+       "0x8deab2830ca25ff2c4acda8a734fc13f33278909aef5c53cd6684a7cc2e3cb49",
+       "0x8deab2830ca25ff2c4acda8a734fc13f33278909aef5c53cd6684a7cc2e3cb4a",
+       "0x8deab2830ca25ff2c4acda8a734fc13f33278909aef5c53cd6684a7cc2e3cb4c",
+       "0x8e69f8b348bb10169e73c68e316a0e62309b608ce7be933d1ccf8eb20af95f3b",
+       "0xa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb49",
+       "0xcd23b5eb30f31dc6470955ee8f9d2215187beeee8dad6f5c75718160ec23015f",
+       "0xd2e06f913c1681415d053a0ac2b4a67c9d7768dec2f5ea21824a43864c084532",
+       "0xdfde6a6e6f1eeb7b7debfd900588a777bdcd250b282e8731bc7458135683d2a9",
+       "0xdfde6a6e6f1eeb7b7debfd900588a777bdcd250b282e8731bc7458135683d2ab",
+       "0xdfde6a6e6f1eeb7b7debfd900588a777bdcd250b282e8731bc7458135683d2ac"
+      ]
+     },
+     {
+      "Address": "0x247cc97fdc4858a5550e74be01a2e96daff5178f",
+      "StorageKeys": [
+       "0x50ab7ae34d6b55e8614e138bc2576417362acd37a268ae1da34e826b3a1dcd0b"
+      ]
+     },
+     {
+      "Address": "0x2c4a81e257381f87f5a5c4bd525116466d972e50",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x2c4c28ddbdac9c5e7055b4c863b72ea0149d8afe",
+      "StorageKeys": [
+       "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+       "0x50ab7ae34d6b55e8614e138bc2576417362acd37a268ae1da34e826b3a1dcd0b"
+      ]
+     },
+     {
+      "Address": "0x309abcaefa19ca6d34f0d8ff4a4103317c138657",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x344518934533ec82b49ea533b196dce5cfa64411",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x43506849d7c04f9138d1a2050bbf3a0c054402dd",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x4d4e14fbdf6bb02b6e036f86f120f00abe41c791",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x60bf78233f48ec42ee3f101b9a05ec7878728006",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x61cf575dc3e3778b9789b473b3060eaa3e3e2e4f",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000001",
+       "0x184ad541821532dd755811bba435ef9f972a081ce958f47d68d1142e30f1b4da"
+      ]
+     },
+     {
+      "Address": "0x97cffb4f0006b2c5b81decea277eee159705faa1",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0x9e7ae8bdba9aa346739792d219a808884996db67",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000001",
+       "0x10d6a54a4754c8869d6886b5f5d7fbfa5b4522237ea5c60d11bc4e7a1ff9390b",
+       "0x3c2304a4bd8ffa93cccd3b8e4c28dbcd5c94236b1a7b40e3dc80ba6953b4cc7a",
+       "0x7050c9e0f4ca769c69bd3a8ef740bc37934f8e2c036e5a723fd8ee048ed3f8c3",
+       "0xfc4596ab5abf62cc91fde0566e9e2268f16761a1e68e673ea1fe48f62f751396"
+      ]
+     },
+     {
+      "Address": "0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91",
+      "StorageKeys": [
+       "0x1c63dbe6b71790380dff6e4a10577ffb836840d7147970e77b21afda38a8ad7f",
+       "0x1f64665e0ba33089195c5f15d890b1767ee03f7b69bddd4580d58cadf21e9a5e",
+       "0x2f796bfe53fad3c5c5434b806d04c2b789f8dd3471880eb3d10734e915287c18",
+       "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+       "0x6f4423e30f74191399adff1219832d4af5aa67505b2821ba279d6835497f76ff",
+       "0x717c6048be880b767a272c90264933f547a2181e4cb6c7c35de37357665cfb3c",
+       "0x9fafbc84c08d546c16f4da4d30c2bcaf751ddaa640b76e0ea0d9b5def3d2e1f2",
+       "0xa6708260bf3d0bd3bf8998ef6cc430767f7b80b6451d527f66c4c45dfde48211",
+       "0xf023a9028a93bc0746373a2df7e7014fd879299026d745f58ac80c0539ec0a9a"
+      ]
+     },
+     {
+      "Address": "0xba1333333333a1ba1108e8412f11850a5c319ba9",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000007",
+       "0x1193f59b5d85e09c2fe9558608cd4da32a6a311a5c4d47ee5aada88eac880b4f",
+       "0x33fe5b9903478480ab4b8fee0c12f5ae2ecc56f2488dfff3b0f56ce9bc402216",
+       "0x36250acec3c031f52e2c91910bd4da60bfad2dde355dd85ab4e1a6fddf289157",
+       "0x5cc08dfcef394bb3e1501dd9c602b313a910bc96e6e3b9f14c10c5608560cb26",
+       "0x6cfcd941b41955313e253f0d3d50d04dcb6839bf5f5aca9ed206e43a095651e1",
+       "0x782f280742ca3e992fe951a9a1961b68cc87d4defa1f745f7759e8854abb2a84",
+       "0xa56eb8f7c857eaa8ec3b513c6418f6ba0dc408e61f91d55586839d2854e1022d",
+       "0xa56eb8f7c857eaa8ec3b513c6418f6ba0dc408e61f91d55586839d2854e1022e",
+       "0xcbdb408d3ba8737339b0e2624ab1517e9dc8c6610d74f8f51fde1daec3f35706",
+       "0xd87def71fb596bc8abb113c50d02e6465c7018575763fea2690dc0246df4c78a",
+       "0xebc880359968f98f63e9dd889b1515b0c65f5eddae89169615e1955810f1633a"
+      ]
+     },
+     {
+      "Address": "0xbda917a67c7d9ae67da92c4ea87e10e5d6c11b54",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "StorageKeys": [
+       "0x8e485ef046749f65faa7aa167bdfe2d6d40cf685615648f709078e0cb9978a8a",
+       "0xc8c8ff55eac8b0ba0532f98f6f2e3985a7ad36d871da3f085475faadbe6d907d"
+      ]
+     },
+     {
+      "Address": "0xc92e8bdf79f0507f65a392b0ab4667716bfe0110",
+      "StorageKeys": []
+     },
+     {
+      "Address": "0xec53bf9167f50cdeb3ae105f56099aaab9061f83",
+      "StorageKeys": [
+       "0x0000000000000000000000000000000000000000000000000000000000000099",
+       "0x000000000000000000000000000000000000000000000000000000000000009a",
+       "0x0000000000000000000000000000000000000000000000000000000000000132",
+       "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+       "0x3ae6b0160cbf776b18fa3616cad936ef29403544c253354d69f68702721c0971",
+       "0x5fee6ca5063570d366ef1dba532fda8f86af031839f215963b16d1a7765b6d85",
+       "0x69175362666677917bea39c0ebd8a6151d28d5a32c4afd5a3692f39af7eafb2d",
+       "0x6dd5395a5ca9b66348c5fdeb57473aa25fb9500523c0b2cd17e8b8b47e00c269",
+       "0x7ff079fd301e87e55622170d1a706ceda659ed1b7953e8125740b6d4783d8e97",
+       "0x819a6db42d65acfafc4b64863bb5465101729e69f00aebc6019efdcd91408713",
+       "0x977cb50667275bbb9137b15b2bf349a468bc0aeb20dd839aba13b19eea718faf",
+       "0xa88a9989c785760c38d53050022c591eba507e92a93c5c1d67a5355a5c7f4b41",
+       "0xa9519da776c6acdb0fa1c626b330c0f5b01da363dc49fdc4cfc8b01e07097caa",
+       "0xb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d6103",
+       "0xc3040b0d43aef056fc5fd6b0fbd9ab82685f915a3e419c3b773b91fb997bed00",
+       "0xdf506f79d7830912deb9eb9865b4ebba4a99b6fe05cc4c59dee4abc33de0a9b8",
+       "0xecb0b6f1102eedd2f755164c3d918b41c54e433577ecb714fa7a9f4dc250fc49"
+      ]
+     }
+    ],
+    "Time": 1787722967000000000
+   },
+   "TransactionSignature": {
+    "R": "0xc97602acb24615f6dc8b79594e5176287d0acda87fed5361631f7e1b2864b2d1",
+    "V": "0x",
+    "S": "0x204ee16b7418765c433fe5612386a347f1493cc1e09d6e7dc65cd6ec1418835f"
+   },
+   "PoolId": "0x8a28923fefe72d7924ac6f5cc35a08db07b24e378cbc9735c34da8aca2a68db0",
+   "TransactionFee": {
+    "SenderFee": "0x3bec814e3fc8",
+    "PriorityFeePerGas": "0x03262a63",
+    "EffectiveGasPrice": "0x056e79ac",
+    "GasRefund": 498997,
+    "Burnt": "0x192e6ee7ea86",
+    "Savings": "0x02b2aa83c0d4",
+    "MinerReward": "0x22be12665542",
+    "SenderFeeInUSD": 0.16226531565189362,
+    "PriorityFeePerGasInUSD": 1.3011589317102334e-07,
+    "EffectiveGasPriceInUSD": 2.244240420168353e-07,
+    "BurntInUSD": 0.06818761676549911,
+    "SavingsInUSD": 0.007305570878088474,
+    "MinerRewardInUSD": 0.0940776988863945
+   },
+   "TransactionFeeInUSD": 0.16226531565189362
+  }
+ ]
 }
