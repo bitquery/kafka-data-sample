@@ -16,11 +16,11 @@
   "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
   "Nonce": 0,
   "Difficulty": "0x",
-  "Number": "0x018a3f61",
+  "Number": 25837409,
   "GasLimit": 60000000,
   "GasUsed": 20314942,
   "Time": 1787723483,
-  "BaseFee": "0x026b4f21"
+  "BaseFee": 40587041
  },
  "Transactions": [
   {
@@ -35642,7 +35642,7 @@
        "Name": "NovaReseveToken"
       },
       "Address": "0x028a473712c10ad7775fa97da5d56a5e71ecc269",
-      "PostBalance": "0x000000000000000000000000000000000000000000000000a421e36a13b0b312",
+      "PostBalance": 11826984141188018962,
       "TokenOwnership": {
        "Id": "0x",
        "Owns": false,
@@ -35659,7 +35659,7 @@
        "Name": "NovaReseveToken"
       },
       "Address": "0x0000000000000000000000000000000000000000",
-      "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "PostBalance": 0,
       "TokenOwnership": {
        "Id": "0x",
        "Owns": false,
@@ -35676,7 +35676,7 @@
        "Name": "NovaReseveToken"
       },
       "Address": "0x456c22514b949246e5f2373ebae2cbbb62aebf62",
-      "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "PostBalance": 0,
       "TokenOwnership": {
        "Id": "0x",
        "Owns": false,
@@ -35693,7 +35693,7 @@
        "Name": "NovaMeMe"
       },
       "Address": "0x028a473712c10ad7775fa97da5d56a5e71ecc269",
-      "PostBalance": "0x00000000000000000000000000000000000000000000013d5d404ee7b99f7b78",
+      "PostBalance": 5854337328767123291000,
       "TokenOwnership": {
        "Id": "0x",
        "Owns": false,
@@ -35710,7 +35710,7 @@
        "Name": "NovaMeMe"
       },
       "Address": "0x0000000000000000000000000000000000000000",
-      "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "PostBalance": 0,
       "TokenOwnership": {
        "Id": "0x",
        "Owns": false,
@@ -35721,26 +35721,26 @@
     "NativeBalanceUpdates": [
      {
       "Address": "0x028a473712c10ad7775fa97da5d56a5e71ecc269",
-      "PreBalance": "0x205aeb9870d6d4",
-      "PostBalance": "0x1ffff887f696d4",
+      "PreBalance": 9107167176087252,
+      "PostBalance": 9007167176087252,
       "BalanceChangeReasonCode": 10
      },
      {
       "Address": "0x456c22514b949246e5f2373ebae2cbbb62aebf62",
-      "PreBalance": "0x",
-      "PostBalance": "0x5af3107a4000",
+      "PreBalance": 0,
+      "PostBalance": 100000000000000,
       "BalanceChangeReasonCode": 10
      },
      {
       "Address": "0x456c22514b949246e5f2373ebae2cbbb62aebf62",
-      "PreBalance": "0x5af3107a4000",
-      "PostBalance": "0x",
+      "PreBalance": 100000000000000,
+      "PostBalance": 0,
       "BalanceChangeReasonCode": 10
      },
      {
       "Address": "0x4a56783012b3886bc026c4dcc53fe29d06f9ee0d",
-      "PreBalance": "0x0582c858984ec000",
-      "PostBalance": "0x0583234ba8c90000",
+      "PreBalance": 397100000000000000,
+      "PostBalance": 397200000000000000,
       "BalanceChangeReasonCode": 10
      }
     ],

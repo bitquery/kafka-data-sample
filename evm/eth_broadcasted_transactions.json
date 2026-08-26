@@ -16,11 +16,11 @@
   "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
   "Nonce": 0,
   "Difficulty": "0x",
-  "Number": "0x018a3f44",
+  "Number": 25837380,
   "GasLimit": 60000000,
   "GasUsed": 26097617,
   "Time": 1787723135,
-  "BaseFee": "0x02877b64"
+  "BaseFee": 42433380
  },
  "Transactions": [
   {
@@ -15158,7 +15158,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x2afa300c82e642fc84b71de615250530564453c7",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000c25",
+     "PostBalance": 3109,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15175,7 +15175,7 @@
       "Name": "USD Coin"
      },
      "Address": "0xcb3d2a42022741b06f9b38459e3dd1ee9a64d129",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "PostBalance": 0,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15192,7 +15192,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x8c4f68b691bdc29dece2c4e569a6cff3f042676f",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000030c1c2ab",
+     "PostBalance": 818004651,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15209,7 +15209,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x6d3ace38280bcd5abf063bb3f941bd3af06df546",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15226,7 +15226,7 @@
       "Name": "ChainLink Token"
      },
      "Address": "0xfad57d2039c21811c8f2b5d5b65308aa99d31559",
-     "PostBalance": "0x000000000000000000000000000000000000000000000989dcba9e55cb197c7c",
+     "PostBalance": 45044407483050344676476,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15243,7 +15243,7 @@
       "Name": "ChainLink Token"
      },
      "Address": "0xcb3d2a42022741b06f9b38459e3dd1ee9a64d129",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "PostBalance": 0,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15260,7 +15260,7 @@
       "Name": "USD Coin"
      },
      "Address": "0xfad57d2039c21811c8f2b5d5b65308aa99d31559",
-     "PostBalance": "0x00000000000000000000000000000000000000000000000000000046ba49ddfb",
+     "PostBalance": 303773113851,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15277,7 +15277,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x0a869fe705ecc3986a4d9a77f305fc1667d18d6b",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15294,7 +15294,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15311,7 +15311,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x00000000000014aa86c5d3c41765bb24e11bd701",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000016b1b3a99cd",
+     "PostBalance": 1559529953741,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15328,7 +15328,7 @@
       "Name": "Uniswap v4 Positions NFT"
      },
      "Address": "0x0000000000000000000000000000000000000000",
-     "PostBalance": "0x",
+     "PostBalance": 0,
      "TokenOwnership": {
       "Id": "0x000000000000000000000000000000000000000000000000000000000005dbff",
       "Owns": false,
@@ -15345,7 +15345,7 @@
       "Name": "Uniswap v4 Positions NFT"
      },
      "Address": "0x2afa300c82e642fc84b71de615250530564453c7",
-     "PostBalance": "0x000000000000000000000000000000000000000000000000000000000000009d",
+     "PostBalance": 157,
      "TokenOwnership": {
       "Id": "0x000000000000000000000000000000000000000000000000000000000005dbff",
       "Owns": true,
@@ -15362,7 +15362,7 @@
       "Name": "ChainLink Token"
      },
      "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
-     "PostBalance": "0x00000000000000000000000000000000000000000000bb9dfd04dbdec2abd76b",
+     "PostBalance": 885996903055137352439659,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15373,74 +15373,74 @@
    "NativeBalanceUpdates": [
     {
      "Address": "0x00000000000014aa86c5d3c41765bb24e11bd701",
-     "PreBalance": "0x127bd68e77e0be688c",
-     "PostBalance": "0x127bccecc2cc5c4cff",
+     "PreBalance": 340964869683975973004,
+     "PostBalance": 340962158610082450687,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
-     "PreBalance": "0x01",
-     "PostBalance": "0x09a1b514621b8e",
+     "PreBalance": 1,
+     "PostBalance": 2711073893522318,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
-     "PreBalance": "0x09a1b514621b8e",
-     "PostBalance": "0x01",
+     "PreBalance": 2711073893522318,
+     "PostBalance": 1,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x70270c228c5b4279d1578799926873aa72446ccd",
-     "PreBalance": "0x417273afb913cb",
-     "PostBalance": "0x4b1428c41b2f58",
+     "PreBalance": 18421714681140171,
+     "PostBalance": 21132788574662488,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x70270c228c5b4279d1578799926873aa72446ccd",
-     "PreBalance": "0x4b1428c41b2f58",
-     "PostBalance": "0x417273afb913cb",
+     "PreBalance": 21132788574662488,
+     "PostBalance": 18421714681140171,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0xcb3d2a42022741b06f9b38459e3dd1ee9a64d129",
-     "PreBalance": "0x",
-     "PostBalance": "0x09a1b514621b8d",
+     "PreBalance": 0,
+     "PostBalance": 2711073893522317,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0xcb3d2a42022741b06f9b38459e3dd1ee9a64d129",
-     "PreBalance": "0x09a1b514621b8d",
-     "PostBalance": "0x",
+     "PreBalance": 2711073893522317,
+     "PostBalance": 0,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
-     "PreBalance": "0x",
-     "PostBalance": "0x09a1b514621b8d",
+     "PreBalance": 0,
+     "PostBalance": 2711073893522317,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
-     "PreBalance": "0x09a1b514621b8d",
-     "PostBalance": "0xf378d48451",
+     "PreBalance": 2711073893522317,
+     "PostBalance": 1045704246353,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
-     "PreBalance": "0x09913c403d2ec6370bab",
-     "PostBalance": "0x09913c49ddf061c4a2e7",
+     "PreBalance": 45180417773826580351915,
+     "PostBalance": 45180420483854769627879,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
-     "PreBalance": "0xf378d48451",
-     "PostBalance": "0x",
+     "PreBalance": 1045704246353,
+     "PostBalance": 0,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x2afa300c82e642fc84b71de615250530564453c7",
-     "PreBalance": "0x2bf50cdaaa48",
-     "PostBalance": "0x2ce885af2e99",
+     "PreBalance": 48331482638920,
+     "PostBalance": 49377186885273,
      "BalanceChangeReasonCode": 10
     }
    ],

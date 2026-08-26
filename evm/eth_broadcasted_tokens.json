@@ -16,11 +16,11 @@
   "Extra": "0xd983011103846765746889676f312e32352e3130856c696e7578",
   "Nonce": 0,
   "Difficulty": "0x",
-  "Number": "0x018a3f49",
+  "Number": 25837385,
   "GasLimit": 60000000,
   "GasUsed": 5342844,
   "Time": 1787723195,
-  "BaseFee": "0x028a50c7"
+  "BaseFee": 42619079
  },
  "Transfers": [
   {
@@ -29,7 +29,7 @@
    "LogIndex": 0,
    "Sender": "0x2e0bacc6e11ab86ce3e810187a822acdad985187",
    "Receiver": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
-   "Amount": "0x4c4b40",
+   "Amount": 5000000,
    "Id": "0x",
    "URI": "",
    "Currency": {
@@ -130,8 +130,8 @@
       "BalanceSlotIndex": 10,
       "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44"
      },
-     "PreBalance": "0x0000000000000000000000000000000000000000000000000000000005f5e100",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000005a995c0",
+     "PreBalance": 100000000,
+     "PostBalance": 95000000,
      "BalanceChangeReasonCode": 0,
      "TokenOwnership": {
       "Id": "0x",
@@ -159,8 +159,8 @@
       "BalanceSlotIndex": 10,
       "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bbf7a9ddfd44"
      },
-     "PreBalance": "0x0000000000000000000000000000000000000000000000000000000530f407e1",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000531405321",
+     "PreBalance": 22296135649,
+     "PostBalance": 22301135649,
      "BalanceChangeReasonCode": 0,
      "TokenOwnership": {
       "Id": "0x",

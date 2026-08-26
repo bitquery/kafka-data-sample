@@ -16,11 +16,11 @@
   "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
   "Nonce": 0,
   "Difficulty": "0x",
-  "Number": "0x018a3f21",
+  "Number": 25837345,
   "GasLimit": 59941351,
   "GasUsed": 23182693,
   "Time": 1787722715,
-  "BaseFee": "0x027e4200"
+  "BaseFee": 41828864
  },
  "Transactions": [
   {
@@ -15195,7 +15195,7 @@
       "Name": "USD Coin"
      },
      "Address": "0xd7fe12dae3712e7d84ed2cbc6202f58b418c9ef5",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000026de41d4",
+     "PostBalance": 652100052,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15212,7 +15212,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15229,7 +15229,7 @@
       "Name": "1INCH Token"
      },
      "Address": "0x357e4a478007f5f8d0e5a6f41f29f58f2f7037b0",
-     "PostBalance": "0x000000000000000000000000000000000000000000000cb13a6a79eb39cbfe49",
+     "PostBalance": 59937680806335258295881,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15246,7 +15246,7 @@
       "Name": "1INCH Token"
      },
      "Address": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
-     "PostBalance": "0x00000000000000000000000000000000000000000000002f1be70980b9be111c",
+     "PostBalance": 869007557671469846812,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15263,7 +15263,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x5e9d829566e4ae453cfa8d29d62b1af483a0b534",
-     "PostBalance": "0x000000000000000000000000000000000000000000000000000000003a681660",
+     "PostBalance": 979900000,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15280,7 +15280,7 @@
       "Name": "USD Coin"
      },
      "Address": "0x8063d4faf54bf8c898dc6ddc689c76ab12b4614a",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000012e8e2f3",
+     "PostBalance": 317252339,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15297,7 +15297,7 @@
       "Name": "Uniswap"
      },
      "Address": "0x5e9d829566e4ae453cfa8d29d62b1af483a0b534",
-     "PostBalance": "0x00000000000000000000000000000000000000000000005180bac033b3772c0f",
+     "PostBalance": 1503462207681283435535,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15314,7 +15314,7 @@
       "Name": "Uniswap"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x00000000000000000000000000000000000000000000000000000150cc941a39",
+     "PostBalance": 1446541269561,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15331,7 +15331,7 @@
       "Name": "Uniswap"
      },
      "Address": "0xbeb0009aca35087ce7ccf11637e24dd1aad3bf2a",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "PostBalance": 0,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15348,7 +15348,7 @@
       "Name": "Uniswap"
      },
      "Address": "0xe8736af1926e9d8f5a6602fbbb0893b26436d710",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000c9f85df6f96d1f29db",
+     "PostBalance": 3725692290860998142427,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15365,7 +15365,7 @@
       "Name": "Tether USD"
      },
      "Address": "0xe8736af1926e9d8f5a6602fbbb0893b26436d710",
-     "PostBalance": "0x00000000000000000000000000000000000000000000000000000032e00fd4e3",
+     "PostBalance": 218507498723,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15382,7 +15382,7 @@
       "Name": "Tether USD"
      },
      "Address": "0xbeb0009aca35087ce7ccf11637e24dd1aad3bf2a",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "PostBalance": 0,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15399,7 +15399,7 @@
       "Name": "Tether USD"
      },
      "Address": "0x76e8d5c2fcb95dcd8e72e86022be76eab02c2160",
-     "PostBalance": "0x000000000000000000000000000000000000000000000000000000002a28405f",
+     "PostBalance": 707280991,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15416,7 +15416,7 @@
       "Name": "Tether USD"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15433,7 +15433,7 @@
       "Name": "Tether USD"
      },
      "Address": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000095640651",
+     "PostBalance": 2506360401,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15450,7 +15450,7 @@
       "Name": "1INCH Token"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15467,7 +15467,7 @@
       "Name": "1INCH Token"
      },
      "Address": "0x45907f4835e6fd7a7339bba8fe4d2c6d0fb92183",
-     "PostBalance": "0x00000000000000000000000000000000000000000000043d381966fbcda19d90",
+     "PostBalance": 20018759695347077979536,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15484,7 +15484,7 @@
       "Name": "1INCH Token"
      },
      "Address": "0x8063d4faf54bf8c898dc6ddc689c76ab12b4614a",
-     "PostBalance": "0x0000000000000000000000000000000000000000000004121ec77ade42833116",
+     "PostBalance": 19223725201241873264918,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15501,7 +15501,7 @@
       "Name": "Aave Token"
      },
      "Address": "0x45907f4835e6fd7a7339bba8fe4d2c6d0fb92183",
-     "PostBalance": "0x000000000000000000000000000000000000000000000001708ab222121c8345",
+     "PostBalance": 26556234012146041669,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15518,7 +15518,7 @@
       "Name": "Aave Token"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000d0f587bb6",
+     "PostBalance": 56092031926,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15535,7 +15535,7 @@
       "Name": "Aave Token"
      },
      "Address": "0xe8736af1926e9d8f5a6602fbbb0893b26436d710",
-     "PostBalance": "0x00000000000000000000000000000000000000000000000b382feaefaee58939",
+     "PostBalance": 206962897715986794809,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15552,7 +15552,7 @@
       "Name": "Wrapped Ether"
      },
      "Address": "0xe8736af1926e9d8f5a6602fbbb0893b26436d710",
-     "PostBalance": "0x000000000000000000000000000000000000000000000014b2215af730faf0d1",
+     "PostBalance": 381770521904898830545,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15569,7 +15569,7 @@
       "Name": "Wrapped Ether"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15586,7 +15586,7 @@
       "Name": "Wrapped Ether"
      },
      "Address": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
-     "PostBalance": "0x00000000000000000000000000000000000000000000000000000022ecb25c00",
+     "PostBalance": 150000000000,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15603,7 +15603,7 @@
       "Name": "Wrapped BTC"
      },
      "Address": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
-     "PostBalance": "0x000000000000000000000000000000000000000000000000000000007470c23a",
+     "PostBalance": 1953546810,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15620,7 +15620,7 @@
       "Name": "Wrapped BTC"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "PostBalance": 1,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15637,7 +15637,7 @@
       "Name": "TricryptoUSDC"
      },
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000000000",
+     "PostBalance": 0,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15654,7 +15654,7 @@
       "Name": "Wrapped BTC"
      },
      "Address": "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000560b1c8a1",
+     "PostBalance": 23097100449,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15671,7 +15671,7 @@
       "Name": "Wrapped Ether"
      },
      "Address": "0x4585fe77225b41b697c938b018e2ac67ac5a20c0",
-     "PostBalance": "0x0000000000000000000000000000000000000000000001a4e589cb2b01fd5bd6",
+     "PostBalance": 7764172485450083949526,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15688,7 +15688,7 @@
       "Name": "Wrapped BTC"
      },
      "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000a2608b65d",
+     "PostBalance": 43587778141,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15705,7 +15705,7 @@
       "Name": "Wrapped BTC"
      },
      "Address": "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f",
-     "PostBalance": "0x0000000000000000000000000000000000000000000000000000000000017142",
+     "PostBalance": 94530,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15722,7 +15722,7 @@
       "Name": "Wrapped BTC"
      },
      "Address": "0x357e4a478007f5f8d0e5a6f41f29f58f2f7037b0",
-     "PostBalance": "0x000000000000000000000000000000000000000000000000000000000027790f",
+     "PostBalance": 2586895,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15739,7 +15739,7 @@
       "Name": "Tether USD"
      },
      "Address": "0xd7fe12dae3712e7d84ed2cbc6202f58b418c9ef5",
-     "PostBalance": "0x00000000000000000000000000000000000000000000000000000000171561e5",
+     "PostBalance": 387277285,
      "TokenOwnership": {
       "Id": "0x",
       "Owns": false,
@@ -15750,56 +15750,56 @@
    "NativeBalanceUpdates": [
     {
      "Address": "0x5c3593481cba011737e36ded62f1797c9f6afce1",
-     "PreBalance": "0x296b132df2828952",
-     "PostBalance": "0x296c3f38277c3832",
+     "PreBalance": 2984500266126182738,
+     "PostBalance": 2984830163452966962,
      "BalanceChangeReasonCode": 7
     },
     {
      "Address": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-     "PreBalance": "0x770180c03ea6aa43",
-     "PostBalance": "0x7702533a0ce04733",
+     "PreBalance": 8575276728663321155,
+     "PostBalance": 8575508149256079155,
      "BalanceChangeReasonCode": 5
     },
     {
      "Address": "0x7b49bc3ebbdf7322f31c6449320382bbec3be1b6",
-     "PreBalance": "0x378bb99cc2b15818",
-     "PostBalance": "0x3786e09601ab9b98",
+     "PreBalance": 4002496776781256728,
+     "PostBalance": 4001132253843004312,
      "BalanceChangeReasonCode": 6
     },
     {
      "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-     "PreBalance": "0x01aa7b5a74e966e41bdda6",
-     "PostBalance": "0x01aa7b56031e47d2f65a3b",
+     "PreBalance": 2014003589314723970801062,
+     "PostBalance": 2014003269054341158689339,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x7f86bf177dd4f3494b841a37e810a34dd56c829b",
-     "PreBalance": "0x21edd650d481fd3ddd",
-     "PostBalance": "0x21f2481bf39322c148",
+     "PreBalance": 625880528738064350685,
+     "PostBalance": 626200789120876462408,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-     "PreBalance": "0x01aa7b56031e47d2f65a3b",
-     "PostBalance": "0x01aa7b54e6ab800eacf960",
+     "PreBalance": 2014003269054341158689339,
+     "PostBalance": 2014003188989245455661408,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PreBalance": "0x01",
-     "PostBalance": "0x011c72c7c44960dc",
+     "PreBalance": 1,
+     "PostBalance": 80065095703027932,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x111116053f09d34a7eae8102887004445176ca11",
-     "PreBalance": "0x011c72c7c44960dc",
-     "PostBalance": "0x01",
+     "PreBalance": 80065095703027932,
+     "PostBalance": 1,
      "BalanceChangeReasonCode": 10
     },
     {
      "Address": "0x000000000004444c5dc75cb358380d2e3de08a90",
-     "PreBalance": "0x098f9680e9f2fcb546ca",
-     "PostBalance": "0x098f979d5cbac0fea7a5",
+     "PreBalance": 45150027673499812054730,
+     "PostBalance": 45150107738595515082661,
      "BalanceChangeReasonCode": 10
     }
    ],

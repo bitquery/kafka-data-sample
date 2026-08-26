@@ -16,11 +16,11 @@
   "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
   "Nonce": 0,
   "Difficulty": "0x",
-  "Number": "0x018a3f36",
+  "Number": 25837366,
   "GasLimit": 60000000,
   "GasUsed": 59960867,
   "Time": 1787722967,
-  "BaseFee": "0x02484f49"
+  "BaseFee": 38293321
  },
  "Trades": [
   {
@@ -74,7 +74,7 @@
        "BalanceSlotIndex": 0,
        "TotalSupply": "0x000000000000000000000000000000000000000005ededeb25c89e0fe3ddc1d8"
       },
-      "Amount": "0x0159565e457d7cb456",
+      "Amount": 24884180443633333334,
       "Id": "0x",
       "URI": "",
       "Data": "0x",
@@ -102,7 +102,7 @@
        "BalanceSlotIndex": 10,
        "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bc1591429d9c"
       },
-      "Amount": "0x4f5e01",
+      "Amount": 5201409,
       "Id": "0x",
       "URI": "",
       "Data": "0x",
@@ -128,7 +128,7 @@
       "BalanceSlotIndex": 10,
       "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3bc1591429d9c"
      },
-     "Amount": "0x4717",
+     "Amount": 18199,
      "Id": "0x",
      "Payer": "0x4d4e14fbdf6bb02b6e036f86f120f00abe41c791",
      "Recipient": "0x000000000004444c5dc75cb358380d2e3de08a90",

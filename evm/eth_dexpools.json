@@ -16,11 +16,11 @@
   "Extra": "0x457572656b612028657572656b616275696c6465722e78797a29",
   "Nonce": 0,
   "Difficulty": "0x",
-  "Number": "0x018a3f3b",
+  "Number": 25837371,
   "GasLimit": 60000000,
   "GasUsed": 52471705,
   "Time": 1787723027,
-  "BaseFee": "0x0269bd48"
+  "BaseFee": 40484168
  },
  "PoolEvents": [
   {
