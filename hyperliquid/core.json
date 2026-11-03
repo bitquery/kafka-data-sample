@@ -1,176 +1,274 @@
 [
   {
-    "BlockNumber": "1115768482",
-    "BlockTime": "1787137929002574687",
+    "BlockNumber": "1207511417",
+    "BlockTime": "1793702679860267960",
     "Trades": [
       {
         "Trader": {
-          "Address": "0x1dc67adaf9f163c5b1a95043addbdfa1af58e512",
-          "Signer": "0x9783d615363743a4755f8a7ab5f6effbddfb76ff",
+          "Address": "0x4e60e3a4a32d63d245aa4e4ce304b4254b088f95",
+          "Signer": "0x0ef3125b3862c89de7e13d3c45bee31cf49c70a2",
+          "Vault": "0x4e60e3a4a32d63d245aa4e4ce304b4254b088f95",
           "Broadcaster": "0xc9ba414780c1b75e9806e3469300993fd2bfa883",
-          "SignedAt": "1787137848172"
+          "SignedAt": "1793702659359"
         },
         "Market": {
-          "Symbol": "BTC",
+          "Symbol": "GALA",
           "Kind": "perp",
           "Protocol": "hypercore",
-          "CoinRaw": "BTC",
+          "CoinRaw": "GALA",
           "IsPerp": true,
-          "MaxLeverage": 40
+          "MaxLeverage": 3
         },
         "Execution": {
           "Side": "Buy",
           "Direction": "Close Short",
-          "Price": "64482.0",
-          "Size": "0.00035",
-          "Oid": "519684544161",
-          "Cloid": "0x0000b05006448200000001a019901e0a",
-          "Tid": "217195352410970",
-          "Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-          "EventTime": "1787137929002"
+          "Price": "0.001656",
+          "Size": "18148.0",
+          "Oid": "593246775537",
+          "Cloid": "0xab070000000000005d00000000000000",
+          "Tid": "502806364179934",
+          "Hash": "0x3b9a7f03b9933f293d140447f9297901bc0096e954965dfbdf632a5678971913",
+          "EventTime": "1793702679860",
+          "Index": 1,
+          "IsAggressor": false
         },
         "Fees": {
-          "Fee": "0.002166",
-          "FeeToken": "USDC"
+          "Fee": "-0.0003",
+          "FeeToken": "USDC",
+          "BuilderFee": "",
+          "DeployerFee": "",
+          "PriorityGas": ""
         },
         "Position": {
           "Side": "Short",
-          "SizeBefore": "-0.02177",
-          "RealizedPnl": "-0.001435",
-          "Leverage": 40,
-          "IsCross": true
+          "Size": "-356991",
+          "SizeBefore": "-375139.0",
+          "EntryPrice": "0.00165",
+          "RealizedPnl": "-0.108888",
+          "Leverage": 3,
+          "IsCross": true,
+          "Funding": "",
+          "Closed": false
         },
-        "IsTwap": true
+        "MarkPx": "",
+        "Builder": "",
+        "IsTwap": false,
+        "TwapId": "0"
       }
     ]
   },
   {
-    "BlockNumber": "1115768487",
-    "BlockTime": "1787137929339232951",
-    "BookUpdates": [
+    "BlockNumber": "1207511417",
+    "BlockTime": "1793702679860267960",
+    "Orders": [
       {
         "Trader": {
-          "Address": "0xa382fa9f4bb1dd4e3120cf0507a67384ad1ef1f7"
+          "Address": "0x4e60e3a4a32d63d245aa4e4ce304b4254b088f95",
+          "Signer": "0x1776cde953816ba99dd837937a292cbfbb7bef42",
+          "Vault": "0x4e60e3a4a32d63d245aa4e4ce304b4254b088f95",
+          "Broadcaster": "0xc9ba414780c1b75e9806e3469300993fd2bfa883",
+          "SignedAt": "1793702679627"
         },
         "Market": {
-          "Symbol": "HYPE",
+          "Symbol": "IMX",
           "Kind": "perp",
           "Protocol": "hypercore",
-          "CoinRaw": "HYPE",
+          "CoinRaw": "IMX",
+          "IsPerp": true,
+          "MaxLeverage": 5
+        },
+        "Side": "Buy",
+        "Status": "open",
+        "OrderType": "Limit",
+        "Tif": "Alo",
+        "LimitPx": "0.11968",
+        "Size": "3342.2",
+        "OrigSz": "3342.2",
+        "TriggerPx": "0.0",
+        "TriggerCondition": "N/A",
+        "Position": {
+          "Leverage": 5,
+          "IsCross": true,
+          "Side": "",
+          "Size": "",
+          "SizeBefore": "",
+          "EntryPrice": "",
+          "RealizedPnl": "",
+          "Funding": "",
+          "Closed": false
+        },
+        "Oid": "593246924561",
+        "Cloid": "0x933f0000000000005400000000000000",
+        "Hash": "0x1586cece8cda940d17000447f92979011000e6b427ddb2dfb94f7a214bde6df7",
+        "PlacedTime": "1793702679860",
+        "EventTime": "1793702679860267960",
+        "Index": 32,
+        "IsReject": false,
+        "ReduceOnly": false,
+        "IsTrigger": false,
+        "IsPositionTpsl": false,
+        "ParentOid": "0",
+        "Leg": 0,
+        "Builder": "",
+        "BuilderFee": 0
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1207511203",
+    "BlockTime": "1793702664740860724",
+    "Twaps": [
+      {
+        "Trader": {
+          "Address": "0xfd4f218b62f35eb5140d43e9e37ec6e1557ad852",
+          "Signer": "0x4b82312f57d41c29eb0821cf932223c35d410c90",
+          "Broadcaster": "0xc9ba414780c1b75e9806e3469300993fd2bfa883",
+          "SignedAt": "1793702664189",
+          "Vault": ""
+        },
+        "Market": {
+          "Symbol": "DOGE",
+          "Kind": "perp",
+          "Protocol": "hypercore",
+          "CoinRaw": "DOGE",
           "IsPerp": true,
           "MaxLeverage": 10
         },
-        "Oid": "519685244341",
-        "Side": "Buy",
-        "Px": "58.709",
-        "Kind": "new",
-        "Size": "30.36",
-        "Position": {
-          "Leverage": 10,
-          "IsCross": true
+        "TwapId": "2509986",
+        "Order": {
+          "Side": "Buy",
+          "Size": "2000.0",
+          "ReduceOnly": false,
+          "Randomize": false
+        },
+        "Interval": {
+          "StartTime": "1793702664740",
+          "DurationMinutes": 5,
+          "EventTime": "1793702664740860724"
+        },
+        "State": {
+          "Status": "activated",
+          "ExecutedSize": "0.0",
+          "ExecutedNotional": "0.0",
+          "StatusError": ""
         }
       }
     ]
   },
   {
-    "BlockNumber": "1115768487",
-    "BlockTime": "1787137929339232951",
-    "Orders": [
+    "BlockNumber": "1207511417",
+    "BlockTime": "1793702679860267960",
+    "BookUpdates": [
       {
         "Trader": {
-          "Address": "0x78dce96236804d6958bf3c4598cf5efbc371629c"
+          "Address": "0x4e60e3a4a32d63d245aa4e4ce304b4254b088f95",
+          "Signer": "0x0ef3125b3862c89de7e13d3c45bee31cf49c70a2",
+          "Vault": "0x4e60e3a4a32d63d245aa4e4ce304b4254b088f95",
+          "Broadcaster": "0xc9ba414780c1b75e9806e3469300993fd2bfa883",
+          "SignedAt": "1793702659359"
         },
         "Market": {
-          "Symbol": "BTC",
+          "Symbol": "GALA",
           "Kind": "perp",
           "Protocol": "hypercore",
-          "CoinRaw": "BTC",
+          "CoinRaw": "GALA",
           "IsPerp": true,
-          "MaxLeverage": 40
+          "MaxLeverage": 3
         },
-        "Side": "Sell",
-        "Status": "badAloPxRejected",
-        "IsReject": true,
-        "OrderType": "Limit",
-        "Tif": "Alo",
-        "LimitPx": "64471.0",
-        "Size": "0.25841",
-        "OrigSz": "0.25841",
-        "TriggerPx": "0.0",
-        "TriggerCondition": "N/A",
+        "Oid": "593246775537",
+        "Side": "Buy",
+        "Px": "0.001656",
+        "Kind": "update",
+        "Size": "223398.0",
+        "SizeBefore": "241546.0",
         "Position": {
-          "Leverage": 23,
-          "IsCross": true
+          "Leverage": 3,
+          "IsCross": true,
+          "Side": "",
+          "Size": "",
+          "SizeBefore": "",
+          "EntryPrice": "",
+          "RealizedPnl": "",
+          "Funding": "",
+          "Closed": false
         },
-        "Oid": "519685244329",
-        "Cloid": "0xac9cacb38678bd699886abbad9da1509",
-        "PlacedTime": "1787137929339",
-        "EventTime": "1787137929339232951"
+        "Index": 677
       }
     ]
   },
   {
-    "BlockNumber": "1115768483",
-    "BlockTime": "1787137929061042959",
-    "SignedActions": [
-      {
-        "Consensus": {
-          "Round": "1414949973",
-          "ParentRound": "1414949972",
-          "Proposer": "SpAOkmawDj1TEOCbtJUguA8r1Bc=",
-          "HardforkVersion": 100
-        },
-        "Bundle": {
-          "Hash": "E/1vxLIObhe+JrQ5ub4DwzIARlzL3udjWnTW0HlON0g=",
-          "Broadcaster": "ybpBR4DBt16YBuNGkwCZP9K/qIM=",
-          "BroadcasterNonce": "1787137907988"
-        },
-        "User": "Ajo9BYAg+3bMqY8Bs8SMiTiiI1U=",
-        "Signer": "SfVKsXI8ruvzmtR28wrC+5lU3aM=",
-        "ActionType": "cancel",
-        "Nonce": "1787137928803",
-        "Status": "ok",
-        "Action": "eyJ0eXBlIjoiY2FuY2VsIiwiY2FuY2VscyI6W3siYSI6MjAzLCJvIjo1MTk2ODUyMTU3MDJ9XSwiZiI6dHJ1ZX0=",
-        "Response": "eyJ0eXBlIjoiY2FuY2VsIiwiZGF0YSI6eyJzdGF0dXNlcyI6WyJzdWNjZXNzIl19fQ=="
-      }
-    ]
-  },
-  {
-    "BlockNumber": "1115768487",
-    "BlockTime": "1787137929339232951",
-    "LeverageChanges": [
-      {
-        "Trader": {
-          "Address": "0x2ca784d169a88c6ef0e2cbcce1ed28712ad53561"
-        },
-        "Market": {
-          "Symbol": "ETH",
-          "Kind": "perp",
-          "Protocol": "hypercore",
-          "CoinRaw": "ETH",
-          "IsPerp": true,
-          "MaxLeverage": 25
-        },
-        "Leverage": 7,
-        "IsCross": true
-      }
-    ]
-  },
-  {
-    "BlockNumber": "1115768480",
-    "BlockTime": "1787137928872081556",
+    "BlockNumber": "1207511338",
+    "BlockTime": "1793702673825794290",
     "Prices": [
       {
         "Market": {
-          "Symbol": "AAOI",
+          "Symbol": "AAPL",
+          "Kind": "hip3",
+          "Protocol": "mkts",
+          "CoinRaw": "mkts:AAPL",
+          "IsPerp": true,
+          "MaxLeverage": 15
+        },
+        "Price": "292.11",
+        "Kind": "mark",
+        "UpdateClass": "Normal",
+        "DailyPx": "292.11",
+        "UpdateTime": "1793702673825794290"
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1207511408",
+    "BlockTime": "1793702679136760370",
+    "LeverageChanges": [
+      {
+        "Trader": {
+          "Address": "0xaddb7796e0a31db619acc3ff09f2e84dbd2c545e",
+          "Signer": "",
+          "Vault": "",
+          "Broadcaster": "",
+          "SignedAt": "0"
+        },
+        "Market": {
+          "Symbol": "LYTE",
           "Kind": "hip3",
           "Protocol": "xyz",
-          "CoinRaw": "xyz:AAOI",
-          "IsPerp": true
+          "CoinRaw": "xyz:LYTE",
+          "IsPerp": true,
+          "MaxLeverage": 10
         },
-        "Price": "132.45",
-        "Kind": "markInput",
-        "UpdateClass": "Normal"
+        "Leverage": 5,
+        "IsCross": false
+      }
+    ]
+  },
+  {
+    "BlockNumber": "1207511417",
+    "BlockTime": "1793702679860267960",
+    "SignedActions": [
+      {
+        "Consensus": {
+          "Round": "1512295290",
+          "ParentRound": "1512295289",
+          "Proposer": "il299psoK/Lo+58p/TSJH3nF39Q=",
+          "HardforkVersion": 110
+        },
+        "Bundle": {
+          "Hash": "GTllfBsIAbwnbikMRado+wuee3xMgouvrOUKZnsF3UU=",
+          "Broadcaster": "/7tN/JRV8N8ulz16Nx2K2ZQmSqY=",
+          "BroadcasterNonce": "1793702646120",
+          "Index": 1,
+          "ActionIndex": 1
+        },
+        "User": "McqDlc+DfeCLJNo/Zg53dh37l0s=",
+        "Signer": "rrm6E1FIMj3JvLjf7XfalOzspqg=",
+        "VaultAddress": "McqDlc+DfeCLJNo/Zg53dh37l0s=",
+        "ActionType": "order",
+        "Nonce": "1793702427306",
+        "Status": "ok",
+        "Action": "eyJ0eXBlIjoib3JkZXIiLCJvcmRlcnMiOlt7ImEiOjEwMywiYiI6dHJ1ZSwicCI6IjAuMDA2NjUiLCJzIjoiMjcyMDkuMSIsInIiOmZhbHNlLCJ0Ijp7ImxpbWl0Ijp7InRpZiI6IkFsbyJ9fX0seyJhIjoxMDMsImIiOnRydWUsInAiOiIwLjAwNjY0IiwicyI6IjEwNDY3MCIsInIiOmZhbHNlLCJ0Ijp7ImxpbWl0Ijp7InRpZiI6IkFsbyJ9fX0seyJhIjoxMDksImIiOnRydWUsInAiOiIwLjAxNDc5IiwicyI6Ijg3NzAuMSIsInIiOmZhbHNlLCJ0Ijp7ImxpbWl0Ijp7InRpZiI6IkFsbyJ9fX0seyJhIjoxMDksImIiOmZhbHNlLCJwIjoiMC4wMTQ4MiIsInMiOiIxNDA1Ny42IiwiciI6ZmFsc2UsInQiOnsibGltaXQiOnsidGlmIjoiQWxvIn19fSx7ImEiOjEwOSwiYiI6ZmFsc2UsInAiOiIwLjAxNDgzIiwicyI6IjQ5NzcxLjQiLCJyIjpmYWxzZSwidCI6eyJsaW1pdCI6eyJ0aWYiOiJBbG8ifX19LHsiYSI6MTE2LCJiIjp0cnVlLCJwIjoiMjIzLjA4IiwicyI6IjMuNDM1IiwiciI6ZmFsc2UsInQiOnsibGltaXQiOnsidGlmIjoiQWxvIn19fSx7ImEiOjI3LCJiIjp0cnVlLCJwIjoiMC42MTUyIiwicyI6IjI3My41OSIsInIiOmZhbHNlLCJ0Ijp7ImxpbWl0Ijp7InRpZiI6IkFsbyJ9fX0seyJhIjoyNywiYiI6dHJ1ZSwicCI6IjAuNjE1IiwicyI6IjEwODkuOTMiLCJyIjpmYWxzZSwidCI6eyJsaW1pdCI6eyJ0aWYiOiJBbG8ifX19LHsiYSI6MjgsImIiOnRydWUsInAiOiIxMjguMTciLCJzIjoiMS40NiIsInIiOmZhbHNlLCJ0Ijp7ImxpbWl0Ijp7InRpZiI6IkFsbyJ9fX0seyJhIjoyOCwiYiI6dHJ1ZSwicCI6IjEyOC4xNCIsInMiOiI0Ljk3IiwiciI6ZmFsc2UsInQiOnsibGltaXQiOnsidGlmIjoiQWxvIn19fSx7ImEiOjI4LCJiIjpmYWxzZSwicCI6IjEyOC4yNSIsInMiOiIxLjYzIiwiciI6ZmFsc2UsInQiOnsibGltaXQiOnsidGlmIjoiQWxvIn19fSx7ImEiOjEwNCwiYiI6ZmFsc2UsInAiOiIwLjA1NjkzIiwicyI6IjI0MDQuMyIsInIiOmZhbHNlLCJ0Ijp7ImxpbWl0Ijp7InRpZiI6IkFsbyJ9fX1dLCJncm91cGluZyI6Im5hIn0=",
+        "Response": "eyJ0eXBlIjoib3JkZXIiLCJkYXRhIjp7InN0YXR1c2VzIjpbeyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTM3fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTM4fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTM5fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQwfX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQxfX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQyfX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQzfX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQ0fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQ1fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQ2fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQ3fX0seyJyZXN0aW5nIjp7Im9pZCI6NTkzMjQ2OTI0OTQ4fX1dfX0=",
+        "ExpiresAfter": "0"
       }
     ]
   }
