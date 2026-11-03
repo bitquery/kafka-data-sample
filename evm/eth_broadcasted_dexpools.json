@@ -1,291 +1,310 @@
 {
- "Chain": {
-  "ChainId": "0x01",
-  "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
- },
- "Header": {
-  "Hash": "0x8571b1cf314fc2af2ac8ffcacbe6c335886939718c3e314adbe7e4ea16e4bc3c",
-  "ParentHash": "0xb65557bcc75d4e6a16d0b9f90d370da579e191d5a862395f7afa02c269faa15a",
-  "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
-  "Root": "0x59ed713188ea4f2bb46d1e60eb13e49f52d8b3365492cf61364146ea7432fe80",
-  "TxHash": "0x7e5e7c0a39eafea18d7c6ca21524ebcf7cdeb585ac3760845805f183433d1f40",
-  "ReceiptHash": "0x5cf743ee237f85ea66603963f361e119bbd9472a7289dc74491c85f49159b78a",
-  "MixDigest": "0x58a8f98ff3fc8cfd86522bcceb18ed196211458299c6b740b9a5275344f3db28",
-  "Coinbase": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
-  "Bloom": "0x7ffbdf7f75f7fffffedf79ffff7d9fffbfddbedddd7efe34f7fffffeff7ed7bbfffff5dffedfe927fbbfffffcf7efddf9ffffafcfebfeffdfff3bffee6ff7ea7debefffbedfed7faffabfbeff75bb6fdfbffbffffcffdebf3f777d7ffef4ff5b5ff7ffff9ffcffde8dffbfffdd7bfdf767ffcf7ffcf75fdf9ffff4bd7bff9e7d7ff7efffdbefdffcfbfbb76d17bf67dffffbecf7fbfff7cbecfd9dffecfc7fffefd7ff7ff7ff7effdeffdfebff77befeedfffd7ff6fbff7edddfffff7fdedff6ffef7eafffebafe3dfff3f7bdf7f7eff576dfef7ffef77bdffffbdffdf1fbfe7fbffeffffff7fbddc77fffefaf5f7fefffbfcf73b5b77df7bfdcf6f7ff6bf7fd",
-  "Extra": "0x546974616e2028746974616e6275696c6465722e78797a29",
-  "Nonce": 0,
-  "Difficulty": "0x",
-  "Number": 25837402,
-  "GasLimit": 60000000,
-  "GasUsed": 59897325,
-  "Time": 1787723399,
-  "BaseFee": 36745129
- },
- "PoolEvents": [
-  {
-   "TransactionHeader": {
-    "Index": 0,
-    "Hash": "0xf9eda10d54bc18200bfb1206d956002b34722068d58da4d77bca6e70398fe229",
-    "Gas": 444508,
-    "Value": "0x",
-    "Data": "0x",
-    "Nonce": 1179,
+  "Chain": {
     "ChainId": "0x01",
-    "Cost": "0x8022b5e9a71c",
-    "GasFeeCap": "0x12e443d1",
-    "GasPrice": "0x12e443d1",
-    "GasTipCap": "0x041b66f2",
-    "Protected": true,
-    "Type": 2,
-    "To": "0x8cc5c24a1666d3214340050315b82b2b6b0d9027",
-    "From": "0xd81048ceec0f12dfd4ba91e21a86a921ba1b6c14",
-    "ToCode": {
-     "Hash": "0x45631c7e1f6141489f287b5bd7994e1f296c1b53cf95f152ab5e7c43711fb651",
-     "Size": 18056,
-     "Suicided": false
-    },
-    "AccessList": [],
-    "Time": 1787723409556880941
-   },
-   "TransactionSignature": {
-    "R": "0xd5777c19ce3bc70a49650b6fbd7dcad87a02cd3f2ed829f82aca10d337f886c8",
-    "V": "0x01",
-    "S": "0x211e3ea2bfe3db0291c9ece6b5110c641f2c42e29ae135eeafa1fa187a12dd76"
-   },
-   "CallIndex": 5,
-   "LogIndex": 1,
-   "HasLog": true,
-   "Dex": {
-    "SmartContract": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
-    "Delegated": false,
-    "DelegatedTo": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
-    "OwnerAddress": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
-    "FeeRecipient": "0x",
-    "ProtocolName": "uniswap_v2",
-    "ProtocolFamily": "Uniswap",
-    "ProtocolVersion": "2",
-    "Pair": {
-     "SmartContract": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
-     "Delegated": false,
-     "DelegatedTo": "0x",
-     "ProtocolName": "erc20",
-     "Name": "Uniswap V2",
-     "Symbol": "UNI-V2",
-     "Decimals": 18,
-     "HasURI": false,
-     "Fungible": true,
-     "AssetId": "",
-     "BalanceSlotIndex": 2,
-     "TotalSupply": "0x"
-    },
-    "Currencies": [
-     {
-      "SmartContract": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
-      "Delegated": false,
-      "DelegatedTo": "0x",
-      "ProtocolName": "erc20",
-      "Name": "Radicle",
-      "Symbol": "RAD",
-      "Decimals": 18,
-      "HasURI": false,
-      "Fungible": true,
-      "AssetId": "",
-      "BalanceSlotIndex": 3,
-      "TotalSupply": "0x00000000000000000000000000000000000000000052b785e252a04e65500000"
-     },
-     {
-      "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "Delegated": true,
-      "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-      "ProtocolName": "erc20",
-      "Name": "USD Coin",
-      "Symbol": "USDC",
-      "Decimals": 6,
-      "HasURI": false,
-      "Fungible": true,
-      "AssetId": "",
-      "BalanceSlotIndex": 10,
-      "TotalSupply": "0x00000000000000000000000000000000000000000000000000b80f687979b0b5"
-     }
-    ],
-    "UnderlyingCurrencies": []
-   },
-   "Liquidity": {
-    "AmountCurrencyA": 4128860.5,
-    "AmountCurrencyB": 972508.0625,
-    "AmountCurrencyAInUSD": 963391.1875,
-    "AmountCurrencyBInUSD": 972289.375
-   },
-   "PoolPriceTable": {
-    "AtoBPrices": [
-     {
-      "SlippageBasisPoints": 0,
-      "MaxAmountIn": 0.0,
-      "MinAmountOut": 0.0,
-      "Price": 0.23553910851478577,
-      "MaxAmountInInUSD": 0.0,
-      "MinAmountOutInUSD": 0.0
-     },
-     {
-      "SlippageBasisPoints": 10,
-      "MaxAmountIn": 2077.376953125,
-      "MinAmountOut": 484.67333984375,
-      "Price": 0.23401230573654175,
-      "MaxAmountInInUSD": 484.7164611816406,
-      "MinAmountOutInUSD": 484.5643310546875
-     },
-     {
-      "SlippageBasisPoints": 50,
-      "MaxAmountIn": 10418.177734375,
-      "MinAmountOut": 2416.0595703125,
-      "Price": 0.23260587453842163,
-      "MaxAmountInInUSD": 2430.884033203125,
-      "MinAmountOutInUSD": 2415.51611328125
-     },
-     {
-      "SlippageBasisPoints": 100,
-      "MaxAmountIn": 20923.52734375,
-      "MinAmountOut": 4811.38623046875,
-      "Price": 0.23064292967319489,
-      "MaxAmountInInUSD": 4882.10791015625,
-      "MinAmountOutInUSD": 4810.30419921875
-     },
-     {
-      "SlippageBasisPoints": 200,
-      "MaxAmountIn": 42166.50390625,
-      "MinAmountOut": 9549.3916015625,
-      "Price": 0.22715012729167938,
-      "MaxAmountInInUSD": 9838.7529296875,
-      "MinAmountOutInUSD": 9547.244140625
-     },
-     {
-      "SlippageBasisPoints": 500,
-      "MaxAmountIn": 107960.28125,
-      "MinAmountOut": 23307.046875,
-      "Price": 0.21653497219085693,
-      "MaxAmountInInUSD": 25190.48046875,
-      "MinAmountOutInUSD": 23301.8046875
-     },
-     {
-      "SlippageBasisPoints": 1000,
-      "MaxAmountIn": 224796.6875,
-      "MinAmountOut": 44740.64453125,
-      "Price": 0.19962604343891144,
-      "MaxAmountInInUSD": 52452.0390625,
-      "MinAmountOutInUSD": 44730.58203125
-     }
-    ],
-    "BtoAPrices": [
-     {
-      "SlippageBasisPoints": 0,
-      "MaxAmountIn": 0.0,
-      "MinAmountOut": 0.0,
-      "Price": 4.245579719543457,
-      "MaxAmountInInUSD": 0.0,
-      "MinAmountOutInUSD": 0.0
-     },
-     {
-      "SlippageBasisPoints": 10,
-      "MaxAmountIn": 488.8143005371094,
-      "MinAmountOut": 2055.6630859375,
-      "Price": 4.2180609703063965,
-      "MaxAmountInInUSD": 488.7043762207031,
-      "MinAmountOutInUSD": 479.6499328613281
-     },
-     {
-      "SlippageBasisPoints": 50,
-      "MaxAmountIn": 2441.63427734375,
-      "MinAmountOut": 10206.4765625,
-      "Price": 4.192760944366455,
-      "MaxAmountInInUSD": 2441.085205078125,
-      "MinAmountOutInUSD": 2381.487548828125
-     },
-     {
-      "SlippageBasisPoints": 100,
-      "MaxAmountIn": 4879.14794921875,
-      "MinAmountOut": 20224.369140625,
-      "Price": 4.157534122467041,
-      "MaxAmountInInUSD": 4878.05078125,
-      "MinAmountOutInUSD": 4718.97265625
-     },
-     {
-      "SlippageBasisPoints": 200,
-      "MaxAmountIn": 9734.201171875,
-      "MinAmountOut": 39743.79296875,
-      "Price": 4.095187664031982,
-      "MaxAmountInInUSD": 9732.01171875,
-      "MinAmountOutInUSD": 9273.458984375
-     },
-     {
-      "SlippageBasisPoints": 500,
-      "MaxAmountIn": 24172.736328125,
-      "MinAmountOut": 94181.703125,
-      "Price": 3.90791916847229,
-      "MaxAmountInInUSD": 24167.30078125,
-      "MinAmountOutInUSD": 21975.51171875
-     },
-     {
-      "SlippageBasisPoints": 1000,
-      "MaxAmountIn": 47776.46484375,
-      "MinAmountOut": 172259.3125,
-      "Price": 3.6163759231567383,
-      "MaxAmountInInUSD": 47765.71875,
-      "MinAmountOutInUSD": 40193.4375
-     }
-    ],
-    "AtoBPrice": 0.23553910851478577,
-    "BtoAPrice": 4.245579719543457,
-    "AtoBPriceInUSD": 0.23548613488674164,
-    "BtoAPriceInUSD": 0.9906253814697266
-   },
-   "Pool": {
-    "SmartContract": "0x8c1c499b1796d7f3c2521ac37186b52de024e58c",
-    "CurrencyA": {
-     "SmartContract": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
-     "Delegated": false,
-     "DelegatedTo": "0x",
-     "ProtocolName": "erc20",
-     "Name": "Radicle",
-     "Symbol": "RAD",
-     "Decimals": 18,
-     "HasURI": false,
-     "Fungible": true,
-     "AssetId": "",
-     "BalanceSlotIndex": 3,
-     "TotalSupply": "0x00000000000000000000000000000000000000000052b785e252a04e65500000"
-    },
-    "CurrencyB": {
-     "SmartContract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-     "Delegated": true,
-     "DelegatedTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-     "ProtocolName": "erc20",
-     "Name": "USD Coin",
-     "Symbol": "USDC",
-     "Decimals": 6,
-     "HasURI": false,
-     "Fungible": true,
-     "AssetId": "",
-     "BalanceSlotIndex": 10,
-     "TotalSupply": "0x00000000000000000000000000000000000000000000000000b3ba5e3e2849a0"
-    },
-    "Pair": {
-     "SmartContract": "0x",
-     "Delegated": false,
-     "DelegatedTo": "0x",
-     "ProtocolName": "",
-     "Name": "",
-     "Symbol": "",
-     "Decimals": 0,
-     "HasURI": false,
-     "Fungible": false,
-     "AssetId": "",
-     "BalanceSlotIndex": 0,
-     "TotalSupply": "0x"
-    },
-    "PoolId": "0x"
-   },
-   "TransactionIndex": 0
+    "Config": "Chain ID:  1 (mainnet)\nConsensus: Beacon (proof-of-stake), merged from Ethash (proof-of-work)\n\nPre-Merge hard forks (block based):\n - Homestead:                   #1150000 \n - DAO Fork:                    #1920000 \n - Tangerine Whistle (EIP 150): #2463000 \n - Spurious Dragon/1 (EIP 155): #2675000 \n - Spurious Dragon/2 (EIP 158): #2675000 \n - Byzantium:                   #4370000 \n - Constantinople:              #7280000 \n - Petersburg:                  #7280000 \n - Istanbul:                    #9069000 \n - Muir Glacier:                #9200000 \n - Berlin:                      #12244000\n - London:                      #12965000\n - Arrow Glacier:               #13773000\n - Gray Glacier:                #15050000\n\nMerge configured:\n - Total terminal difficulty:  58750000000000000000000\n\nPost-Merge hard forks (timestamp based):\n - Shanghai:                    @1681338455\n - Cancun:                      @1710338135 blob: (target: 3, max: 6, fraction: 3338477)\n - Prague:                      @1746612311 blob: (target: 6, max: 9, fraction: 5007716)\n - Osaka:                       @1764798551\n - BPO1:                        @1765290071 blob: (target: 10, max: 15, fraction: 8346193)\n - BPO2:                        @1767747671 blob: (target: 14, max: 21, fraction: 11684671)\n\nAll fork specifications can be found at https://ethereum.github.io/execution-specs/src/ethereum/forks/\n"
+  },
+  "Header": {
+    "Hash": "0x2ab00e18fc580b62eea98e4ea35aa355c0b55f8dccc71b43f7ae22adf51683c5",
+    "ParentHash": "0xd49e50a6fbf668cf005898fc71a0369ba64b5f754776bf3b7b1a389520d3eb41",
+    "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "Root": "0xfd732113817db2a8897c57322c0c520114a7acdfebfa80d755817abe85253fae",
+    "TxHash": "0xd38a9f2049cef5097ac202640e752912cddd84b32456b3cb5209c9707669470b",
+    "ReceiptHash": "0x4a569036f9a1f24ef65e2e93b5ee154cc836cb772f0181b5a46bbf4ef7c895d4",
+    "MixDigest": "0x79a504eadc9874776cb1ae6fd8ac6d92d048a8d701e0b5f23373fc6205719594",
+    "Coinbase": "0x396343362be2a4da1ce0c1c210945346fb82aa49",
+    "Bloom": "0x45fd37dd4df0fcbabcba1b55d7b7dd8c7575e4f237fe8ab1ba3dd570f4d0fde7cd5eabdfaf2f5bbea9509ffbc53a1d1cf7ffc36ecf076bc43efba28acefcbbb376cf97768ef240bf6ee3ef59fc7115a65767ea17574d962e34f46ffa9f1f5fad94f962c8e2f9dfd2bdddaac11bbf7ecfddfbbaaa70d427ccd6e96edf7829fa0985ff6f3df98dd0ffeab99dff7d624f4fdae4ebf167d3d7ddeabbf7dff5ba3dbfd6ed5377e1577c6eeff9effe3b7fe72e3d3c46ee327a3a1dd9f74e2f4e9bfef7998f5fbe77f83cfd4fadb5ddef5adb5719a63cff337d2b5a71efa32ff037f5ef76b73de16490a54de46c26b1dfc39fe9ef5f551ccbdbfc6fdb3c9baf0e8a568f",
+    "Extra": "0xe29ca82051756173617220287175617361722e77696e2920e29ca8",
+    "Nonce": 0,
+    "Difficulty": "0x",
+    "Number": 26333692,
+    "GasLimit": 60000000,
+    "GasUsed": 19060734,
+    "Time": 1793701895,
+    "BaseFee": 84242718
+  },
+  "PoolEvents": [
+    {
+      "TransactionHeader": {
+        "Index": 12,
+        "Hash": "0xc10a5a3f43d871b11e20bff8a0f30bdeaf8d2ae5968214f2211f371c6cd190b3",
+        "Gas": 224945,
+        "Value": "0x5af3107a4000",
+        "Data": "0x",
+        "Nonce": 3,
+        "ChainId": "0x01",
+        "Cost": "0x5b27703e8e40",
+        "GasFeeCap": "0x0f4240",
+        "GasPrice": "0x0f4240",
+        "GasTipCap": "0x0f4240",
+        "Protected": true,
+        "Type": 2,
+        "To": "0xdef171fe48cf0115b1d80b88dc8eab59176fee57",
+        "From": "0xd96a7152ba16d472e63523853303518cf7083a97",
+        "ToCode": {
+          "Hash": "0x976bab804d35c430baf7a9b4bcdaf52d48325cd0aed86c201546be02e208dc0c",
+          "Size": 9978,
+          "Suicided": false
+        },
+        "AccessList": [],
+        "Time": 1793701906612197079
+      },
+      "TransactionSignature": {
+        "R": "0x80782603ace7e8a5ec58c537b458078896b4b26b44f24d56615c7a1090563b6c",
+        "V": "0x",
+        "S": "0x78c7a15cc113e138da4c4bf33d769eab32ac371f3e6306a4f9ad1cb7d5b1d96e"
+      },
+      "CallIndex": 5,
+      "LogIndex": 1,
+      "HasLog": true,
+      "Dex": {
+        "SmartContract": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+        "Delegated": false,
+        "DelegatedTo": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+        "OwnerAddress": "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f",
+        "FeeRecipient": "0x",
+        "ProtocolName": "uniswap_v2",
+        "ProtocolFamily": "Uniswap",
+        "ProtocolVersion": "2",
+        "Pair": {
+          "SmartContract": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+          "Delegated": false,
+          "DelegatedTo": "0x",
+          "ProtocolName": "erc20",
+          "Name": "Uniswap V2",
+          "Symbol": "UNI-V2",
+          "Decimals": 18,
+          "HasURI": false,
+          "Fungible": true,
+          "AssetId": "",
+          "BalanceSlotIndex": 2,
+          "TotalSupply": "0x00000000000000000000000000000000000000000000000000a96d3c8e7dee8c"
+        },
+        "Currencies": [
+          {
+            "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "Delegated": false,
+            "DelegatedTo": "0x",
+            "ProtocolName": "erc20_deposable",
+            "Name": "Wrapped Ether",
+            "Symbol": "WETH",
+            "Decimals": 18,
+            "HasURI": false,
+            "Fungible": true,
+            "AssetId": "",
+            "BalanceSlotIndex": 4,
+            "TotalSupply": "0x00000000000000000000000000000000000000000001ceaa95e307867a7e406b"
+          },
+          {
+            "SmartContract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+            "Delegated": false,
+            "DelegatedTo": "0x",
+            "ProtocolName": "erc20",
+            "Name": "Tether USD",
+            "Symbol": "USDT",
+            "Decimals": 6,
+            "HasURI": false,
+            "Fungible": true,
+            "AssetId": "",
+            "BalanceSlotIndex": 3,
+            "TotalSupply": "0x0000000000000000000000000000000000000000000000000139b6c6e4044e7c"
+          }
+        ],
+        "UnderlyingCurrencies": []
+      },
+      "Liquidity": {
+        "AmountCurrencyA": 3078.191162109375,
+        "AmountCurrencyB": 6970035.0,
+        "AmountCurrencyAInUSD": 6970116.5,
+        "AmountCurrencyBInUSD": 6958918.0
+      },
+      "PoolPriceTable": {
+        "AtoBPrices": [
+          {
+            "SlippageBasisPoints": 0,
+            "MaxAmountIn": 0.0,
+            "MinAmountOut": 0.0,
+            "Price": 2264.328369140625,
+            "MaxAmountInInUSD": 0.0,
+            "MinAmountOutInUSD": 0.0
+          },
+          {
+            "SlippageBasisPoints": 10,
+            "MaxAmountIn": 1.5487476587295532,
+            "MinAmountOut": 3473.688720703125,
+            "Price": 2249.650634765625,
+            "MaxAmountInInUSD": 3506.9140625,
+            "MinAmountOutInUSD": 3468.1484375
+          },
+          {
+            "SlippageBasisPoints": 50,
+            "MaxAmountIn": 7.767068862915039,
+            "MinAmountOut": 17316.072265625,
+            "Price": 2236.130126953125,
+            "MaxAmountInInUSD": 17587.3984375,
+            "MinAmountOutInUSD": 17288.453125
+          },
+          {
+            "SlippageBasisPoints": 100,
+            "MaxAmountIn": 15.599126815795898,
+            "MinAmountOut": 34483.55078125,
+            "Price": 2217.259521484375,
+            "MaxAmountInInUSD": 35321.95703125,
+            "MinAmountOutInUSD": 34428.55078125
+          },
+          {
+            "SlippageBasisPoints": 200,
+            "MaxAmountIn": 31.436410903930664,
+            "MinAmountOut": 68441.1796875,
+            "Price": 2183.681884765625,
+            "MaxAmountInInUSD": 71183.1875,
+            "MinAmountOutInUSD": 68332.015625
+          },
+          {
+            "SlippageBasisPoints": 500,
+            "MaxAmountIn": 80.48767852783203,
+            "MinAmountOut": 167043.28125,
+            "Price": 2081.63427734375,
+            "MaxAmountInInUSD": 182252.65625,
+            "MinAmountOutInUSD": 166776.859375
+          },
+          {
+            "SlippageBasisPoints": 1000,
+            "MaxAmountIn": 167.5927734375,
+            "MinAmountOut": 320659.40625,
+            "Price": 1919.0821533203125,
+            "MaxAmountInInUSD": 379489.5,
+            "MinAmountOutInUSD": 320147.96875
+          }
+        ],
+        "BtoAPrices": [
+          {
+            "SlippageBasisPoints": 0,
+            "MaxAmountIn": 0.0,
+            "MinAmountOut": 0.0,
+            "Price": 0.00044163205893710256,
+            "MaxAmountInInUSD": 0.0,
+            "MinAmountOutInUSD": 0.0
+          },
+          {
+            "SlippageBasisPoints": 10,
+            "MaxAmountIn": 3503.3671875,
+            "MinAmountOut": 1.5325593948364258,
+            "Price": 0.0004387695516925305,
+            "MaxAmountInInUSD": 3497.779541015625,
+            "MinAmountOutInUSD": 3470.258056640625
+          },
+          {
+            "SlippageBasisPoints": 50,
+            "MaxAmountIn": 17499.3671875,
+            "MinAmountOut": 7.609239101409912,
+            "Price": 0.00043613777961581945,
+            "MaxAmountInInUSD": 17471.45703125,
+            "MinAmountOutInUSD": 17230.015625
+          },
+          {
+            "SlippageBasisPoints": 100,
+            "MaxAmountIn": 34969.20703125,
+            "MinAmountOut": 15.077882766723633,
+            "Price": 0.00043247343273833394,
+            "MaxAmountInInUSD": 34913.43359375,
+            "MinAmountOutInUSD": 34141.67578125
+          },
+          {
+            "SlippageBasisPoints": 200,
+            "MaxAmountIn": 69765.71875,
+            "MinAmountOut": 29.630207061767578,
+            "Price": 0.0004259880806785077,
+            "MaxAmountInInUSD": 69654.4453125,
+            "MinAmountOutInUSD": 67093.296875
+          },
+          {
+            "SlippageBasisPoints": 500,
+            "MaxAmountIn": 173247.734375,
+            "MinAmountOut": 70.21532440185547,
+            "Price": 0.0004065081011503935,
+            "MaxAmountInInUSD": 172971.40625,
+            "MinAmountOutInUSD": 158992.40625
+          },
+          {
+            "SlippageBasisPoints": 1000,
+            "MaxAmountIn": 342417.34375,
+            "MinAmountOut": 128.424560546875,
+            "Price": 0.0003761812695302069,
+            "MaxAmountInInUSD": 341871.1875,
+            "MinAmountOutInUSD": 290798.75
+          }
+        ],
+        "AtoBPrice": 2264.328369140625,
+        "BtoAPrice": 0.00044163205893710256,
+        "AtoBPriceInUSD": 2260.716796875,
+        "BtoAPriceInUSD": 1.000011682510376
+      },
+      "Pool": {
+        "SmartContract": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+        "CurrencyA": {
+          "SmartContract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "Delegated": false,
+          "DelegatedTo": "0x",
+          "ProtocolName": "erc20_deposable",
+          "Name": "Wrapped Ether",
+          "Symbol": "WETH",
+          "Decimals": 18,
+          "HasURI": false,
+          "Fungible": true,
+          "AssetId": "",
+          "BalanceSlotIndex": 4,
+          "TotalSupply": "0x00000000000000000000000000000000000000000001b86cf86154c923c44eb5"
+        },
+        "CurrencyB": {
+          "SmartContract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "Delegated": false,
+          "DelegatedTo": "0x",
+          "ProtocolName": "erc20",
+          "Name": "Tether USD",
+          "Symbol": "USDT",
+          "Decimals": 6,
+          "HasURI": false,
+          "Fungible": true,
+          "AssetId": "",
+          "BalanceSlotIndex": 3,
+          "TotalSupply": "0x000000000000000000000000000000000000000000000000012b7d4112159f98"
+        },
+        "Pair": {
+          "SmartContract": "0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+          "Delegated": false,
+          "DelegatedTo": "0x",
+          "ProtocolName": "erc20",
+          "Name": "Uniswap V2",
+          "Symbol": "UNI-V2",
+          "Decimals": 18,
+          "HasURI": false,
+          "Fungible": true,
+          "AssetId": "",
+          "BalanceSlotIndex": 2,
+          "TotalSupply": "0x00000000000000000000000000000000000000000000000000a96d3c8e7dee8c"
+        },
+        "PoolId": "0x"
+      },
+      "TransactionIndex": 7
+    }
+  ],
+  "L1Header": {
+    "Hash": "0x2ab00e18fc580b62eea98e4ea35aa355c0b55f8dccc71b43f7ae22adf51683c5",
+    "ParentHash": "0xd49e50a6fbf668cf005898fc71a0369ba64b5f754776bf3b7b1a389520d3eb41",
+    "UncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "Root": "0xfd732113817db2a8897c57322c0c520114a7acdfebfa80d755817abe85253fae",
+    "TxHash": "0xd38a9f2049cef5097ac202640e752912cddd84b32456b3cb5209c9707669470b",
+    "ReceiptHash": "0x4a569036f9a1f24ef65e2e93b5ee154cc836cb772f0181b5a46bbf4ef7c895d4",
+    "MixDigest": "0x79a504eadc9874776cb1ae6fd8ac6d92d048a8d701e0b5f23373fc6205719594",
+    "Coinbase": "0x396343362be2a4da1ce0c1c210945346fb82aa49",
+    "Bloom": "0x45fd37dd4df0fcbabcba1b55d7b7dd8c7575e4f237fe8ab1ba3dd570f4d0fde7cd5eabdfaf2f5bbea9509ffbc53a1d1cf7ffc36ecf076bc43efba28acefcbbb376cf97768ef240bf6ee3ef59fc7115a65767ea17574d962e34f46ffa9f1f5fad94f962c8e2f9dfd2bdddaac11bbf7ecfddfbbaaa70d427ccd6e96edf7829fa0985ff6f3df98dd0ffeab99dff7d624f4fdae4ebf167d3d7ddeabbf7dff5ba3dbfd6ed5377e1577c6eeff9effe3b7fe72e3d3c46ee327a3a1dd9f74e2f4e9bfef7998f5fbe77f83cfd4fadb5ddef5adb5719a63cff337d2b5a71efa32ff037f5ef76b73de16490a54de46c26b1dfc39fe9ef5f551ccbdbfc6fdb3c9baf0e8a568f",
+    "Extra": "0xe29ca82051756173617220287175617361722e77696e2920e29ca8",
+    "Nonce": 0,
+    "Difficulty": "0x",
+    "Number": "0x0191d1fc",
+    "GasLimit": 60000000,
+    "GasUsed": 19060734,
+    "Time": 1793701895,
+    "BaseFee": "0x0505711e"
   }
- ]
 }
